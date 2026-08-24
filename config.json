@@ -1,0 +1,947 @@
+{
+  "cycle_terms": [
+    "Summer 2027",
+    "Winter 2027",
+    "Spring 2027",
+    "Fall 2026"
+  ],
+  "undergrad_only": true,
+  "us_only": true,
+  "new_window_hours": 48,
+  "enrich_limit_per_run": 15,
+  "app": {
+    "schedule_hours": 24,
+    "mac_notifications": true,
+    "ntfy_topic": "",
+    "discord_webhook_url": ""
+  },
+  "watchlist_groups": {
+    "quant": [
+      "Citadel",
+      "Citadel Securities",
+      "Jane Street",
+      "Hudson River Trading"
+    ],
+    "tech": [
+      "Anthropic",
+      "Google",
+      "Amazon",
+      "Meta",
+      "Apple",
+      "Microsoft",
+      "NVIDIA",
+      "OpenAI",
+      "Y Combinator",
+      "Databricks",
+      "Major League Hacking"
+    ]
+  },
+  "tech_title_keywords": [
+    "software",
+    "\\bswe\\b",
+    "\\bsde\\b",
+    "engineer",
+    "developer",
+    "machine learning",
+    "\\bml\\b",
+    "\\bai\\b",
+    "research",
+    "scien",
+    "data",
+    "quant",
+    "algorithm",
+    "infrastructure",
+    "systems",
+    "security",
+    "student researcher",
+    "\\bstep\\b",
+    "explore",
+    "university",
+    "ignite",
+    "pathways",
+    "fellow",
+    "program",
+    "platform",
+    "compiler",
+    "robotics",
+    "optimization",
+    "statistic",
+    "math",
+    "economist",
+    "analyst"
+  ],
+  "tech_exclude_patterns": [
+    "hardware",
+    "mechanical",
+    "electrical",
+    "silicon",
+    "asic",
+    "\\brtl\\b",
+    "verification",
+    "validation",
+    "manufactur",
+    "supply chain",
+    "operations",
+    "program manager",
+    "product manager",
+    "product design",
+    "\\bux\\b|\\bui design",
+    "sales",
+    "marketing",
+    "legal",
+    "\\bfinance\\b",
+    "accounting",
+    "recruit",
+    "\\bhr\\b",
+    "communications",
+    "logistics",
+    "technician",
+    "physical design",
+    "analog",
+    "circuit",
+    "fpga",
+    "firmware",
+    "solar",
+    "battery",
+    "vehicle",
+    "service engineering",
+    "energy",
+    "construction",
+    "facilities",
+    "environmental",
+    "health",
+    "safety",
+    "quality engineer",
+    "test engineer",
+    "industrial",
+    "materials",
+    "chemical",
+    "procurement",
+    "real estate",
+    "retail",
+    "customer",
+    "military veteran",
+    "electronic design",
+    "\\bcell\\b",
+    "product management",
+    "people analytics",
+    "charging",
+    "diagnostic",
+    "reliability",
+    "radio frequency",
+    "site controller",
+    "residential",
+    "commercial ui",
+    "mobile app",
+    "it apps",
+    "service engineering",
+    "data capture"
+  ],
+  "company_aliases": {
+    "Hudson River Trading": [
+      "HRT",
+      "Hudson River Trading (HRT)"
+    ],
+    "Susquehanna International Group": [
+      "Susquehanna International Group (SIG)",
+      "SIG",
+      "Susquehanna"
+    ],
+    "Jane Street": [
+      "Jane Street Capital"
+    ],
+    "Citadel Securities": [
+      "Citadel Securities LLC"
+    ],
+    "Google": [
+      "Google LLC",
+      "Google DeepMind",
+      "DeepMind"
+    ],
+    "Amazon": [
+      "Amazon.com",
+      "Amazon Web Services",
+      "AWS"
+    ],
+    "D. E. Shaw": [
+      "DE Shaw",
+      "D.E. Shaw",
+      "The D. E. Shaw Group",
+      "D. E. Shaw & Co."
+    ],
+    "Two Sigma": [
+      "Two Sigma Investments"
+    ],
+    "Jump Trading": [
+      "Jump"
+    ],
+    "IMC Trading": [
+      "IMC"
+    ],
+    "Optiver": [
+      "Optiver US"
+    ],
+    "Aquatic Capital Management": [
+      "Aquatic"
+    ],
+    "Five Rings": [
+      "Five Rings Capital"
+    ],
+    "Chicago Trading Company": [
+      "CTC"
+    ],
+    "TransMarket Group": [
+      "TransMarketGroup",
+      "TMG"
+    ],
+    "Walleye Capital": [
+      "Quantic",
+      "Walleye"
+    ],
+    "Meta": [
+      "Meta Platforms",
+      "Facebook",
+      "Meta AI",
+      "FAIR",
+      "Meta Reality Labs"
+    ],
+    "Microsoft": [
+      "Microsoft Corporation",
+      "Microsoft Research",
+      "MSFT"
+    ],
+    "NVIDIA": [
+      "Nvidia",
+      "NVIDIA Corporation"
+    ],
+    "Apple": [
+      "Apple Inc.",
+      "Apple Inc"
+    ],
+    "OpenAI": [
+      "Open AI"
+    ],
+    "Y Combinator": [
+      "YC",
+      "Y Combinator (YC)",
+      "YCombinator"
+    ],
+    "Major League Hacking": [
+      "MLH"
+    ]
+  },
+  "watch_title_keywords": [
+    "quant",
+    "research",
+    "scien",
+    "trad",
+    "engineer",
+    "software",
+    "developer",
+    "machine learning",
+    "\\bml\\b",
+    "\\bai\\b",
+    "data",
+    "math",
+    "strateg",
+    "analyst",
+    "technolog",
+    "student"
+  ],
+  "exclude_title_patterns": [
+    "marketing",
+    "recruit",
+    "\\bhr\\b",
+    "human resources",
+    "legal",
+    "communications",
+    "graphic design",
+    "military veteran",
+    "\\bmba\\b",
+    "accounting",
+    "compliance",
+    "facilities",
+    "events?\\b",
+    "brand",
+    "\\bux\\b",
+    "\\btax\\b",
+    "\\bsales\\b(?!.*trading)"
+  ],
+  "collapse_by_title": [
+    "Amazon",
+    "Google"
+  ],
+  "sources": {
+    "nufintech": {
+      "enabled": true,
+      "zip_url": "https://codeload.github.com/northwesternfintech/2027QuantInternships/zip/refs/heads/main",
+      "term": "Summer 2027"
+    },
+    "simplify": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+      "quant_category": "Quant"
+    },
+    "speedyapply": {
+      "enabled": true,
+      "lists": {
+        "swe": "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md",
+        "ai": "https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md"
+      }
+    },
+    "greenhouse": {
+      "enabled": true,
+      "boards": {
+        "Jane Street": "janestreet",
+        "Hudson River Trading": "wehrtyou",
+        "Anthropic": "anthropic",
+        "Point72": "point72",
+        "DRW": "drweng",
+        "Five Rings": "fiveringsllc",
+        "IMC Trading": "imc",
+        "Optiver": "optiverprivate",
+        "Flow Traders": "flowtraders",
+        "DV Trading": "dvtrading",
+        "Virtu Financial": "virtu",
+        "Radix Trading": "radixuniversity",
+        "PDT Partners": "pdtpartners",
+        "Chicago Trading Company": "chicagotradingcampus",
+        "Aquatic Capital Management": "aquaticcapitalmanagement",
+        "Geneva Trading": "genevatrading",
+        "Walleye Capital": "walleyecapital-external-students",
+        "Maven Securities": "mavensecuritiesholdingltd",
+        "Databricks": "databricks"
+      }
+    },
+    "janestreet": {
+      "enabled": false,
+      "url": "https://www.janestreet.com/jobs/main.json",
+      "position_url": "https://www.janestreet.com/join-jane-street/position/{id}/"
+    },
+    "amazon": {
+      "enabled": true,
+      "url": "https://www.amazon.jobs/en/search.json",
+      "queries": [
+        "quantitative intern",
+        "research scientist intern",
+        "applied scientist intern",
+        "software development engineer intern"
+      ],
+      "countries": [
+        "US"
+      ]
+    },
+    "pages": {
+      "enabled": true,
+      "pages": [
+        {
+          "company": "Citadel",
+          "url": "https://www.citadel.com/careers/open-opportunities/students/internships/",
+          "link_pattern": "citadel\\.com/careers/details/"
+        },
+        {
+          "company": "Citadel Securities",
+          "url": "https://www.citadelsecurities.com/careers/open-opportunities/students/internships/",
+          "link_pattern": "citadelsecurities\\.com/careers/details/"
+        },
+        {
+          "company": "Google",
+          "url": "https://www.google.com/about/careers/applications/jobs/results?employment_type=INTERN&q=%22Associate%20Software%20Developer%20Intern%22",
+          "link_pattern": "google\\.com/about/careers/applications/jobs/results/\\d+"
+        },
+        {
+          "company": "Google",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN&q=%22research%22",
+          "link_pattern": "google\\.com/about/careers/applications/jobs/results/\\d+"
+        },
+        {
+          "company": "Google",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN&q=%22quantitative%22",
+          "link_pattern": "google\\.com/about/careers/applications/jobs/results/\\d+"
+        },
+        {
+          "company": "Y Combinator",
+          "url": "https://www.workatastartup.com/jobs?jobType=intern&role=eng",
+          "link_pattern": "workatastartup\\.com/jobs/\\d+",
+          "location": "",
+          "term": null
+        },
+        {
+          "company": "Meta",
+          "url": "https://www.metacareers.com/jobs?q=intern",
+          "link_pattern": "metacareers\\.com/jobs/\\d+"
+        }
+      ]
+    },
+    "events": {
+      "enabled": true,
+      "pages": [
+        {
+          "company": "Jane Street",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+          "link_pattern": "janestreet\\.com/join-jane-street/programs-and-events/[a-z0-9-]+/?$",
+          "require_keyword": false
+        },
+        {
+          "company": "Citadel",
+          "url": "https://www.citadel.com/careers/programs-and-events/",
+          "link_pattern": "citadel\\.com/careers/programs-and-events/[a-z0-9-]+/?$",
+          "require_keyword": false
+        },
+        {
+          "company": "Citadel Securities",
+          "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
+          "link_pattern": "citadelsecurities\\.com/careers/programs-and-events/[a-z0-9-]+/?$",
+          "require_keyword": false
+        },
+        {
+          "company": "Hudson River Trading",
+          "url": "https://www.hudsonrivertrading.com/student-opportunities/",
+          "link_pattern": "hudsonrivertrading\\.com|greenhouse\\.io|lnkd\\.in",
+          "require_keyword": true
+        },
+        {
+          "company": "Google",
+          "url": "https://research.google/programs-and-events/student-engagement/",
+          "link_pattern": "research\\.google/|google\\.com",
+          "require_keyword": true
+        },
+        {
+          "company": "Google",
+          "url": "https://buildyourfuture.withgoogle.com/programs",
+          "link_pattern": "withgoogle\\.com/programs/[a-z0-9-]+",
+          "require_keyword": false
+        },
+        {
+          "company": "Anthropic",
+          "url": "https://claude.com/programs/campus",
+          "link_pattern": "claude\\.com|anthropic\\.com|forms\\.|typeform|airtable",
+          "require_keyword": true
+        },
+        {
+          "company": "Amazon",
+          "url": "https://www.amazon.jobs/en/business_categories/student-programs",
+          "link_pattern": "amazon\\.jobs/content/en/career-programs/",
+          "require_keyword": true
+        },
+        {
+          "company": "Y Combinator",
+          "url": "https://ycombinator.com/apply",
+          "self": true,
+          "title": "Apply to Y Combinator (current batch)",
+          "type": "program",
+          "note": "YC's standard deal is $500k for 7%; four batches a year (Winter, Spring, Summer, Fall). The on-time deadline for the open batch is read from this page each run."
+        },
+        {
+          "company": "Y Combinator",
+          "url": "https://www.ycombinator.com/internships",
+          "self": true,
+          "title": "YC Internship Cohort — internships at YC startups",
+          "type": "program",
+          "note": "Apply once to intern at YC companies and join a student cohort with closed-door founder talks."
+        },
+        {
+          "company": "Meta",
+          "url": "https://www.metacareers.com/careerprograms/pathways/metauniversity",
+          "self": true,
+          "title": "Meta University (engineering)",
+          "type": "program",
+          "note": "Paid ten-week summer internship (May–Aug) for first- and second-years from underrepresented communities; training then project work with a Meta mentor. Applications usually open Nov–Jan."
+        },
+        {
+          "company": "Microsoft",
+          "url": "https://careers.microsoft.com/v2/global/en/students",
+          "link_pattern": "careers\\.microsoft\\.com|microsoft\\.com/",
+          "require_keyword": true
+        },
+        {
+          "company": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+          "link_pattern": "nvidia\\.com|myworkdayjobs\\.com",
+          "require_keyword": true
+        },
+        {
+          "company": "Major League Hacking",
+          "url": "https://fellowship.mlh.io/",
+          "self": true,
+          "title": "MLH Fellowship",
+          "type": "fellowship",
+          "note": "Dates below are read from the fellowship page each run."
+        }
+      ],
+      "seeded": [
+        {
+          "company": "Jane Street",
+          "title": "BRIDGE",
+          "type": "insight",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/bridge/",
+          "eligibility": "first- and second-year university students",
+          "note": "Day-long program on how the business works: Strategy & Product track (New York) or Institutional Sales & Trading (London offers both). Apply to the office nearest you."
+        },
+        {
+          "company": "Jane Street",
+          "title": "Jane Street Immersion Program (JSIP)",
+          "type": "fellowship",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/",
+          "eligibility": "first- and second-year undergrads who experienced barriers to opportunity in computer science",
+          "note": "Multi-week summer software-engineering program in NYC; housing, travel and meals covered, plus a $12,500 scholarship per Fellow. Last cycle's deadline was Feb 8; second-years are read on a rolling basis, first-years in February."
+        },
+        {
+          "company": "Jane Street",
+          "title": "First-Year Trading and Technology Program (FTTP)",
+          "type": "insight",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/fttp/",
+          "eligibility": "first-year undergrads planning a STEM major",
+          "note": "A few days of classes and a team mock-trading game in the office; travel, accommodation and a daily stipend covered. No sponsorship requirements."
+        },
+        {
+          "company": "Jane Street",
+          "title": "SEE",
+          "type": "insight",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/see/",
+          "eligibility": "university students",
+          "note": "Listed on Jane Street's programs page; open it for this year's track and eligibility."
+        },
+        {
+          "company": "Jane Street",
+          "title": "INSIGHT",
+          "type": "insight",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/",
+          "eligibility": "undergrad & grad; women, transgender, gender-expansive students",
+          "note": "Multi-day program in trading, software engineering, or strategy & product tracks. Apply to the office nearest you; travel covered."
+        },
+        {
+          "company": "Jane Street",
+          "title": "IN FOCUS",
+          "type": "insight",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/in-focus/",
+          "eligibility": "undergrad & grad students who faced barriers to advanced STEM opportunities",
+          "note": "Few-day program with classes and mock trading across trading, SWE, and strategy & product tracks."
+        },
+        {
+          "company": "Jane Street",
+          "title": "FOCUS",
+          "type": "insight",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/focus/",
+          "eligibility": "first-year students who faced barriers to advanced STEM opportunities",
+          "note": "Multi-day introduction to Jane Street for first-years; no finance background needed."
+        },
+        {
+          "company": "Jane Street",
+          "title": "Electronic Trading Challenge (ETC)",
+          "type": "competition",
+          "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+          "eligibility": "university students, teams of 3–4",
+          "note": "Day-long programming contest in a simulated market, hosted at campuses through the fall; cash prizes. Sign-ups close about a week before each date."
+        },
+        {
+          "company": "Citadel",
+          "title": "Datathons (Women's Datathon, Summer Invitational, regional)",
+          "type": "datathon",
+          "url": "https://www.citadel.com/careers/programs-and-events/datathons/",
+          "eligibility": "undergrads at US/Canada universities graduating Dec 2027 – Jun 2029",
+          "note": "Run with Correlation One. Women's Datathon is in February in Miami (all expenses paid, $15k prizes); Summer Invitational follows. Invite via application."
+        },
+        {
+          "company": "Citadel",
+          "title": "Discover Citadel",
+          "type": "insight",
+          "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
+          "eligibility": "first- and second-year undergrads",
+          "note": "Two-day invitation-only event in New York (also London, Hong Kong, Singapore, Sydney) covering both Citadel and Citadel Securities."
+        },
+        {
+          "company": "Citadel",
+          "title": "Trading Invitational",
+          "type": "competition",
+          "url": "https://www.citadel.com/careers/programs-and-events/the-trading-invitational/",
+          "eligibility": "undergrads",
+          "note": "Apply to compete; put trading skills to the test on-site."
+        },
+        {
+          "company": "Citadel",
+          "title": "Fixed Income and Macro Central Bank Challenge",
+          "type": "competition",
+          "url": "https://www.citadel.com/careers/programs-and-events/",
+          "eligibility": "undergrads",
+          "note": "Listed on Citadel's programs page; open the page for this year's dates."
+        },
+        {
+          "company": "Citadel",
+          "title": "Terminal (Correlation One coding competition)",
+          "type": "competition",
+          "url": "https://www.citadel.com/careers/programs-and-events/",
+          "eligibility": "undergrads",
+          "note": "Tower-defense-style algorithm competition; winners get access to job opportunities."
+        },
+        {
+          "company": "Citadel",
+          "title": "Conference Travel Grant",
+          "type": "scholarship",
+          "url": "https://www.citadel.com/careers/programs-and-events/",
+          "eligibility": "students in STEM",
+          "note": "Grant to support rising STEM talent attending conferences."
+        },
+        {
+          "company": "Citadel Securities",
+          "title": "Datathons",
+          "type": "datathon",
+          "url": "https://www.citadelsecurities.com/careers/programs-and-events/datathons/",
+          "eligibility": "undergrads at US/Canada universities graduating Dec 2026 – Jun 2028",
+          "note": "Same Correlation One series as Citadel's; compete for prizes and an interview."
+        },
+        {
+          "company": "Citadel Securities",
+          "title": "Quant Invitational",
+          "type": "competition",
+          "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-citadel-securities-quant-invitational/",
+          "eligibility": "sophomore STEM students",
+          "note": "Invite-only 5-day research challenge in Miami, all expenses paid."
+        },
+        {
+          "company": "Citadel Securities",
+          "title": "Trading Invitational",
+          "type": "competition",
+          "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-trading-invitational/",
+          "eligibility": "undergrads",
+          "note": "Apply to compete."
+        },
+        {
+          "company": "Citadel Securities",
+          "title": "Ignite Women's Trading Program",
+          "type": "insight",
+          "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
+          "eligibility": "sophomore women in quantitative majors",
+          "note": "Invite-only week in New York in January: market-making overviews and trading exercises; travel and hotel covered. Past sign-ups ran through events.citadelsecurities.com/ignite."
+        },
+        {
+          "company": "Citadel Securities",
+          "title": "Discover Citadel Securities",
+          "type": "insight",
+          "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
+          "eligibility": "first- and second-year undergrads",
+          "note": "Invitation-only two-day event in New York, London, Hong Kong or Singapore."
+        },
+        {
+          "company": "Hudson River Trading",
+          "title": "Women in Trading and Technology Internship (WiTTI)",
+          "type": "insight",
+          "url": "https://www.hudsonrivertrading.com/student-opportunities/",
+          "eligibility": "sophomores (all identities welcome; built for women+ and nonbinary students)",
+          "note": "Paid 2–4 week winter program in NYC starting early January: Python/C++ projects, algo dev and SWE exposure. Last cycle's deadline was Oct 12; it's posted on HRT's job board when open."
+        },
+        {
+          "company": "Hudson River Trading",
+          "title": "Sophomore Internship",
+          "type": "program",
+          "url": "https://www.hudsonrivertrading.com/student-opportunities/",
+          "eligibility": "sophomores eligible for full-time roles in 2029",
+          "note": "Summer program for second-years; posts on HRT's job board and is picked up here automatically when live."
+        },
+        {
+          "company": "Hudson River Trading",
+          "title": "Inside HRT",
+          "type": "insight",
+          "url": "https://www.hudsonrivertrading.com/student-opportunities/",
+          "eligibility": "undergrads",
+          "note": "One-day event at the NYC office: workshops, mock interviews, talks by algo developers and engineers. Announced on HRT's LinkedIn."
+        },
+        {
+          "company": "Google",
+          "title": "Associate Software Developer Intern (ASDI) — formerly STEP",
+          "type": "program",
+          "url": "https://www.google.com/about/careers/applications/students",
+          "eligibility": "first- and second-year undergrads in CS or related fields",
+          "note": "Google renamed STEP to ASDI in 2025: a 12-week early-undergrad engineering internship with a mentor and a paired project. It's posted on Google Careers, historically Sep–Oct, and fills on a rolling basis; when it's live it appears in the internships list above as well. Search 'Associate Software Developer Intern' on the Students page."
+        },
+        {
+          "company": "Google",
+          "title": "Student Researcher Program",
+          "type": "research",
+          "url": "https://research.google/programs-and-events/student-engagement/",
+          "eligibility": "BS/MS/PhD students",
+          "note": "Part- or full-time research projects with Google researchers; reviewed on a rolling basis, closes when projects fill."
+        },
+        {
+          "company": "Google",
+          "title": "Google Summer of Code",
+          "type": "research",
+          "url": "https://summerofcode.withgoogle.com/",
+          "eligibility": "18+ students and beginners in open source",
+          "note": "Paid open-source projects with mentoring orgs; applications typically open in March."
+        },
+        {
+          "company": "Google",
+          "title": "Explore CSR",
+          "type": "research",
+          "url": "https://research.google/programs-and-events/student-engagement/",
+          "eligibility": "undergrads from underrepresented groups interested in CS research",
+          "note": "One-week virtual research exposure program listed on Google Research's student page."
+        },
+        {
+          "company": "Anthropic",
+          "title": "Claude Campus Program — Builder Club leads & Campus Ambassadors",
+          "type": "ambassador",
+          "url": "https://claude.com/programs/campus",
+          "eligibility": "current undergrads (and grads); US-focused cohorts",
+          "note": "Paid ~10-week cohorts each fall and spring: run a Claude Builder Club or lead outreach; API credits and Anthropic speakers. Fall applications historically open late summer."
+        },
+        {
+          "company": "Anthropic",
+          "title": "Anthropic Fellows Program",
+          "type": "fellowship",
+          "url": "https://job-boards.greenhouse.io/anthropic",
+          "eligibility": "early-career researchers and engineers; strong undergrads occasionally",
+          "note": "Full-time, paid AI safety research fellowship (about 4–6 months) with Anthropic mentors. Posted on Anthropic's job board and picked up here when open."
+        },
+        {
+          "company": "IMC Trading",
+          "title": "IMC Prosperity (global trading challenge)",
+          "type": "competition",
+          "url": "https://www.imc.com/us/",
+          "eligibility": "students, teams",
+          "note": "Multi-round algorithmic + manual trading game each spring with cash prizes; look for 'Prosperity' on IMC's site."
+        },
+        {
+          "company": "D. E. Shaw",
+          "title": "Fellowships: Discovery, Latitude, Momentum, Nexus",
+          "type": "fellowship",
+          "url": "https://www.deshaw.com/careers",
+          "eligibility": "early undergrads; some tracks for women and underrepresented groups",
+          "note": "Short paid programs in New York introducing the firm; listed under D. E. Shaw's careers site."
+        },
+        {
+          "company": "Optiver",
+          "title": "Ready Trader Go / trading challenges",
+          "type": "competition",
+          "url": "https://optiver.com/working-at-optiver/students/",
+          "eligibility": "students",
+          "note": "Optiver's student page lists its coding and trading competitions and insight days."
+        },
+        {
+          "company": "Susquehanna International Group",
+          "title": "SIG Discovery Day and sophomore programs",
+          "type": "insight",
+          "url": "https://sig.com/campus/",
+          "eligibility": "first- and second-years",
+          "note": "SIG's campus page lists discovery days and early-year programs (Bala Cynwyd, PA)."
+        },
+        {
+          "company": "Two Sigma",
+          "title": "Two Sigma student programs (Ignite, fellowships)",
+          "type": "program",
+          "url": "https://www.twosigma.com/careers/students/",
+          "eligibility": "undergrads",
+          "note": "Two Sigma's students page lists insight programs and fellowships for early undergrads."
+        },
+        {
+          "company": "Y Combinator",
+          "title": "Early Decision for Students",
+          "type": "program",
+          "url": "https://www.ycombinator.com/early-decision",
+          "eligibility": "current students who want to finish their degree first",
+          "note": "Apply to YC while in school; if accepted you're funded now and your spot is held for a batch after you graduate. Pick 'a batch after the current one' on the application."
+        },
+        {
+          "company": "Y Combinator",
+          "title": "Startup School (free online course)",
+          "type": "program",
+          "url": "https://www.startupschool.org/",
+          "eligibility": "anyone",
+          "note": "YC's self-paced course and founder-matching; no application, start any time."
+        },
+        {
+          "company": "Meta",
+          "title": "Meta Hacker Cup",
+          "type": "competition",
+          "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
+          "eligibility": "open to all",
+          "note": "Annual algorithmic programming contest; qualification round usually in September, finals later in the year."
+        },
+        {
+          "company": "Microsoft",
+          "title": "Explore Microsoft (first- and second-year internship)",
+          "type": "program",
+          "url": "https://careers.microsoft.com/v2/global/en/students",
+          "eligibility": "first- and second-year undergrads",
+          "note": "12-week rotational internship across PM, engineering and design for early undergrads; posted on Microsoft's careers site in the fall and picked up here when live."
+        },
+        {
+          "company": "Microsoft",
+          "title": "Imagine Cup",
+          "type": "competition",
+          "url": "https://imaginecup.microsoft.com/",
+          "eligibility": "students, teams",
+          "note": "Microsoft's global student startup/tech competition; registration usually opens in the fall."
+        },
+        {
+          "company": "Microsoft",
+          "title": "Microsoft Learn Student Ambassadors",
+          "type": "ambassador",
+          "url": "https://mvp.microsoft.com/en-US/studentambassadors",
+          "eligibility": "enrolled students",
+          "note": "Rolling applications; community-leadership program with events, Azure credits and training."
+        },
+        {
+          "company": "NVIDIA",
+          "title": "NVIDIA Ignite (12-week pre-internship, first/second-years)",
+          "type": "program",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+          "eligibility": "first- and second-year undergrads at US universities, historically underrepresented communities encouraged",
+          "note": "On-site in Santa Clara with travel and a housing stipend; software and hardware tracks. The 2026 edition took applications from mid-September to mid-October and was posted on NVIDIA's job board as 'NVIDIA 2026 Ignite Internships', so the next one is picked up automatically."
+        },
+        {
+          "company": "Apple",
+          "title": "Swift Student Challenge",
+          "type": "competition",
+          "url": "https://developer.apple.com/swift-student-challenge/",
+          "eligibility": "students 13+, including undergrads",
+          "note": "Build an app playground in Swift; winners get a year of Apple Developer Program membership and some are invited to WWDC. Submissions usually open in February."
+        },
+        {
+          "company": "Google",
+          "title": "BOLD Internship (non-technical, first/second-years)",
+          "type": "program",
+          "url": "https://www.google.com/about/careers/applications/students",
+          "eligibility": "first- and second-year undergrads",
+          "note": "Business-side counterpart to ASDI for first- and second-years; search 'BOLD' on Google's Students page when the season opens."
+        },
+        {
+          "company": "Major League Hacking",
+          "title": "MLH Fellowship",
+          "type": "fellowship",
+          "url": "https://fellowship.mlh.io/",
+          "eligibility": "students and early-career developers, remote",
+          "note": "12-week remote program with several tracks (software engineering, production engineering, site reliability); cohorts run a few times a year with rolling applications."
+        },
+        {
+          "company": "Major League Hacking",
+          "title": "MLH hackathon season",
+          "type": "hackathon",
+          "url": "https://mlh.io/seasons/2027/events",
+          "eligibility": "students",
+          "note": "Calendar of member hackathons across North America for the 2027 season; most are free with travel reimbursement at the larger ones."
+        },
+        {
+          "company": "Meta",
+          "title": "Meta University (engineering)",
+          "type": "program",
+          "url": "https://www.metacareers.com/careerprograms/pathways/metauniversity",
+          "eligibility": "first- and second-year undergrads at four-year universities in the US, Canada or Mexico; underrepresented communities encouraged",
+          "note": "Paid ten-week summer internship (May–August): a few weeks of technical training, then project work with a Meta engineer as mentor. Applications usually open November–January and include a coding challenge; first-years need one college CS course, second-years two."
+        },
+        {
+          "company": "Y Combinator",
+          "title": "Apply to Y Combinator (current batch)",
+          "type": "program",
+          "url": "https://ycombinator.com/apply",
+          "eligibility": "founders, including students",
+          "note": "YC funds four batches a year (Winter, Spring, Summer, Fall); standard deal is $500k. Fall 2026's on-time deadline was July 27; the next batch's deadline is read from this page each run."
+        },
+        {
+          "company": "Y Combinator",
+          "title": "YC Internship Cohort — internships at YC startups",
+          "type": "program",
+          "url": "https://www.ycombinator.com/internships",
+          "eligibility": "students",
+          "note": "One application to intern at YC companies, plus a student cohort with closed-door founder talks. The Summer 2026 round has closed; the page is re-read each run for the next one."
+        }
+      ]
+    },
+    "lever": {
+      "enabled": false,
+      "boards": {}
+    },
+    "ashby": {
+      "enabled": true,
+      "boards": {
+        "OpenAI": "openai"
+      }
+    },
+    "workday": {
+      "enabled": true,
+      "sites": {
+        "NVIDIA": {
+          "host": "nvidia.wd5.myworkdayjobs.com",
+          "tenant": "nvidia",
+          "site": "NVIDIAExternalCareerSite",
+          "queries": [
+            "intern",
+            "Ignite"
+          ]
+        }
+      }
+    },
+    "microsoft": {
+      "enabled": true,
+      "queries": [
+        "intern",
+        "explore intern",
+        "research intern"
+      ]
+    }
+  },
+  "manual_deadlines": [],
+  "quant_firms": [
+    "Two Sigma",
+    "Jump Trading",
+    "D. E. Shaw",
+    "Millennium",
+    "Point72",
+    "AQR",
+    "Bridgewater",
+    "Five Rings",
+    "Radix Trading",
+    "Akuna Capital",
+    "Belvedere Trading",
+    "Old Mission",
+    "Wolverine Trading",
+    "Group One Trading",
+    "Geneva Trading",
+    "TransMarket Group",
+    "XTX Markets",
+    "Qube Research & Technologies",
+    "G-Research",
+    "Man Group",
+    "Balyasny",
+    "Schonfeld",
+    "ExodusPoint",
+    "Verition",
+    "Cubist",
+    "Walleye Capital",
+    "Voloridge",
+    "PDT Partners",
+    "Virtu Financial",
+    "Flow Traders",
+    "Optiver",
+    "IMC Trading",
+    "Susquehanna International Group",
+    "DRW",
+    "Chicago Trading Company",
+    "Jane Street",
+    "Hudson River Trading",
+    "Citadel",
+    "Citadel Securities",
+    "Headlands Technologies",
+    "Trillium",
+    "Maven Securities",
+    "Quantbot Technologies",
+    "Aquatic Capital Management",
+    "Ansatz Capital",
+    "Arrowstreet Capital",
+    "Campbell & Company",
+    "Vatic Labs",
+    "PEAK6",
+    "Da Vinci",
+    "Valkyrie Trading",
+    "Tibra",
+    "Marshall Wace",
+    "Squarepoint Capital",
+    "WorldQuant",
+    "Seven Research",
+    "Tower Research Capital",
+    "Jain Global",
+    "AXQ Capital",
+    "Xantium"
+  ]
+}
