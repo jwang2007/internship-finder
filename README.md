@@ -16,7 +16,7 @@ sources ──► normalize ──► merge/dedupe ──► filter (undergrad, 
 | `simplify` | [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) `listings.json` | "Quant" category + every watchlist company; has degree and term fields |
 | `vansh` | [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) (Vansh & Ouckah community list) `listings.json` | same schema and filtering as `simplify`; overlapping postings merge, unique ones add |
 | `speedyapply` | [speedyapply/2027-SWE-College-Jobs](https://github.com/speedyapply/2027-SWE-College-Jobs) and [2027-AI-College-Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) READMEs | updated daily; adds hourly pay and posting age. Only the Quant section plus watchlist / quant-firm rows are taken |
-| `greenhouse` | public Greenhouse job-board API | Jane Street, HRT, Anthropic, Point72, DRW, IMC, Optiver, … posting text is included, so deadlines get extracted |
+| `greenhouse` | public Greenhouse job-board API | Jane Street (incl. their hidden `jshiddenevents` programs board — BRIDGE, WiSE, … with stated deadlines), HRT, Anthropic, Point72, DRW, IMC, Optiver, … posting text is included, so deadlines get extracted |
 | `amazon` | amazon.jobs search API | US intern roles matching research / science / quant / SDE |
 | `pages` | JS-rendered career pages read through [Jina Reader](https://r.jina.ai) | Citadel, Citadel Securities, Google. This is the same free backend Agent Reach routes "read web page" through — used directly, no agent needed |
 | `janestreet` | Jane Street's own feed | off by default; their Greenhouse board covers it |

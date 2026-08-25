@@ -417,6 +417,9 @@ def src_simplify(cfg, ctx, name="simplify"):
 def src_greenhouse(cfg, ctx):
     out = []
     for company, board in cfg["boards"].items():
+        forced_event = False
+        if isinstance(board, dict):  # {"token": ..., "company": ..., "kind": "event"} for program boards
+            company, forced_event, board = board.get("company", company), board.get("kind") == "event", board["token"]
         url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
         try:
             r = SESSION.get(url, timeout=60)
@@ -428,8 +431,8 @@ def src_greenhouse(cfg, ctx):
             continue
         for j in jobs:
             title = j.get("title") or ""
-            is_intern = bool(INTERN_RE.search(title))
-            is_event = not is_intern and bool(re.search(r"\b(fellow|fellowship|program|challenge|invitational|datathon|hackathon|scholar|academy|bootcamp)\b", title, re.I))
+            is_intern = not forced_event and bool(INTERN_RE.search(title))
+            is_event = forced_event or not is_intern and bool(re.search(r"\b(fellow|fellowship|program|challenge|invitational|datathon|hackathon|scholar|academy|bootcamp)\b", title, re.I))
             if not (is_intern or is_event):
                 continue
             posted = (j.get("first_published") or j.get("updated_at") or "")[:10] or None
@@ -981,6 +984,9 @@ def merge_all(items: list[dict]) -> list[dict]:
         cn = norm(company)
         if cn:  # "Jane Street FTTP" folds into "FTTP"
             ns |= {n[len(cn):].strip() for n in set(ns) if n.startswith(cn + " ")}
+        drop = r"\b(nyc|new york|london|hkg|hong ?kong|chicago|austin|singapore|amsterdam|boston|miami|" \
+               r"january|february|march|april|may|june|july|august|september|october|november|december|20\d\d)\b"
+        ns |= {re.sub(r"\s+", " ", re.sub(drop, " ", n)).strip() for n in set(ns)}  # "nyc bridge november 2026" -> "bridge"
         ns |= {" ".join(sorted(n.split())) for n in set(ns)}         # "Microsoft Explore" == "Explore Microsoft"
         return {n for n in ns if len(n) >= 3}
     events = [l for l in out if l["kind"] == "event"]
@@ -1053,7 +1059,7 @@ def enrich(items: list[dict], cache: dict, limit: int):
     """Fetch posting text for listings lacking a deadline (bounded per run, cached forever)."""
     done = 0
     log(f"looking for deadlines in up to {limit} postings (Greenhouse text already checked)…")
-    for l in items:
+    for l in sorted(items, key=lambda x: not (x["kind"] == "event" and x.get("watch"))):
         if l.get("deadline") or not l.get("url") or l.get("status") == "closed":
             continue
         c = cache.get(l["id"])
