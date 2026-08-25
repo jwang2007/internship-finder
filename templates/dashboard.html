@@ -374,7 +374,9 @@ function renderHeader() {
   $("#sources").innerHTML = Object.entries(DATA.sources).map(([name, s]) => {
     const st = s.ok === null ? `<span class="off">off</span>` : s.ok ? `<span class="ok">ok</span>` : `<span class="bad">failed</span>`;
     const nm = srcLink(name) ? `<a href="${esc(srcLink(name))}" target="_blank" rel="noopener"><b>${esc(name)}</b></a>` : `<b>${esc(name)}</b>`;
-    return `<div class="src">${nm} ${st} · ${s.count} listing${s.count === 1 ? "" : "s"}${s.secs != null ? ` · ${s.secs}s` : ""}${s.error && s.error !== "disabled" ? `<div class="err">${esc(s.error)}</div>` : ""}</div>`;
+    const subs = Object.entries(DATA.source_links || {}).filter(([k, u]) => k.startsWith(name + ":") && u !== srcLink(name))
+      .map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(k.split(":")[1])}</a>`).join(" · ");
+    return `<div class="src">${nm}${subs ? ` <span class="hint">+ ${subs}</span>` : ""} ${st} · ${s.count} listing${s.count === 1 ? "" : "s"}${s.secs != null ? ` · ${s.secs}s` : ""}${s.error && s.error !== "disabled" ? `<div class="err">${esc(s.error)}</div>` : ""}</div>`;
   }).join("");
   $("#foot").textContent = `Listings come from community-maintained lists and company job boards; confirm eligibility and dates on the posting itself. ${c.with_deadline} of ${c.total} postings publish a deadline.`;
 }
