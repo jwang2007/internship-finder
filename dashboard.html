@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quant intern finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #EEF1F4; --surface: #FFFFFF; --ink: #0F1B2D; --muted: #5B6B7F; --line: #D5DBE3;
+    --open: #0B6E4F; --soon: #9A6700; --urgent: #B3261E; --pin: #1F4E8C; --star: #B7791F;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); color: var(--ink); font: 15px/1.45 var(--sans); }
+  body { margin: 0; padding: 28px 20px 60px; max-width: 1040px; margin-inline: auto; }
+  a { color: inherit; }
+  button { font: inherit; color: inherit; }
+  h1 { font: 600 22px/1.1 var(--sans); letter-spacing: -0.01em; margin: 0; }
+  h2 { font: 600 18px/1.25 var(--sans); margin: 0 0 4px; }
+  .eyebrow { font: 500 11px/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  header { display: flex; flex-wrap: wrap; gap: 8px 28px; align-items: baseline; justify-content: space-between; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+  header .meta { font: 13px var(--mono); color: var(--muted); }
+  header .meta b { color: var(--ink); font-weight: 500; }
+
+  .toolbar { display: none; gap: 8px; margin-top: 14px; flex-wrap: wrap; align-items: center; }
+  body.app .toolbar { display: flex; }
+  .btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 7px 12px; font: 500 13px var(--sans); cursor: pointer; }
+  .btn.primary { background: var(--pin); border-color: var(--pin); color: #fff; }
+  .btn:disabled { opacity: .55; cursor: default; }
+  .btn.small { padding: 4px 9px; font-size: 12px; }
+  .btn.on { border-color: var(--pin); color: var(--pin); }
+  .toolbar .status { font: 12px var(--mono); color: var(--muted); }
+
+  section { margin-top: 26px; }
+  .sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-bottom: 10px; }
+  .sec-head .eyebrow { margin: 0; }
+  .sec-head .hint { font: 12px var(--mono); color: var(--muted); }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 12px; font: 500 13px var(--sans); cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+  .chip .n { font: 500 12px var(--mono); color: var(--muted); }
+  .chip.zero { color: var(--muted); }
+  .chip.zero .n { color: var(--urgent); }
+  .chip.active { border-color: var(--pin); background: var(--pin); color: #fff; }
+  .chip.active .n { color: #fff; opacity: .85; }
+  :is(.chip, button, input, select, textarea, .row):focus-visible { outline: 2px solid var(--pin); outline-offset: 2px; }
+
+  .controls { display: grid; grid-template-columns: 1fr auto auto auto; gap: 8px; }
+  .controls input, .controls select, dialog input, dialog select, dialog textarea { font: 14px var(--sans); padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); min-width: 0; }
+
+  .rows { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); overflow: hidden; }
+  .row { display: grid; grid-template-columns: 96px 1fr auto; gap: 0 16px; padding: 12px 14px; border-top: 1px solid var(--line); align-items: start; cursor: pointer; }
+  .row:first-child { border-top: 0; }
+  .row:hover { background: #F7F9FB; }
+  .gutter { font: 500 14px/1.2 var(--mono); }
+  .gutter .big { font-size: 15px; }
+  .gutter .small { display: block; font-size: 11px; color: var(--muted); margin-top: 3px; font-weight: 400; }
+  .gutter.urgent .big { color: var(--urgent); }
+  .gutter.soon .big { color: var(--soon); }
+  .gutter.passed .big { color: var(--muted); text-decoration: line-through; }
+  .main { min-width: 0; }
+  .company { font-weight: 600; }
+  .company.watch::before { content: "▸ "; color: var(--pin); }
+  .title { display: block; }
+  .sub { margin-top: 4px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font: 12px var(--mono); color: var(--muted); }
+  .badge { border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font: 500 11px var(--mono); color: var(--ink); background: var(--bg); }
+  .badge.new { border-color: var(--open); color: var(--open); background: #EAF5F0; }
+  .badge.star { border-color: var(--star); color: var(--star); background: #FBF3E4; }
+  .badge.applied { border-color: var(--pin); color: var(--pin); background: #EAF0F8; }
+  .badge.hidden { color: var(--muted); }
+  .badge.kind { border-color: #C9B7E8; color: #5B3E96; background: #F3EEFB; }
+  .chip .n em { font-style: normal; color: #5B3E96; }
+  .chip.active .n em { color: #fff; }
+  .note { margin-top: 6px; font: 12px/1.4 var(--sans); color: var(--muted); max-width: 70ch; }
+  .apply { font: 500 13px var(--sans); color: var(--pin); text-decoration: none; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; white-space: nowrap; }
+  .apply:hover { border-color: var(--pin); }
+  .empty { padding: 18px 14px; color: var(--muted); font: 13px var(--mono); }
+
+  .sources { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+  .src { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 10px 12px; font: 12px/1.4 var(--mono); }
+  .src b { font-weight: 600; }
+  .src .ok { color: var(--open); } .src .bad { color: var(--urgent); } .src .off { color: var(--muted); }
+  .src .err { color: var(--muted); word-break: break-word; }
+  footer { margin-top: 30px; color: var(--muted); font: 12px var(--mono); }
+
+  dialog { border: 1px solid var(--line); border-radius: 14px; padding: 0; width: min(640px, calc(100vw - 32px)); background: var(--surface); color: var(--ink); }
+  dialog::backdrop { background: rgba(15, 27, 45, .45); }
+  .dlg { padding: 22px 24px 20px; }
+  .dlg-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+  .x { border: 0; background: none; font-size: 20px; line-height: 1; cursor: pointer; color: var(--muted); padding: 2px 6px; }
+  .facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 14px 0; font: 13px var(--sans); }
+  .facts dt { color: var(--muted); font: 500 11px/1.8 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+  .facts dd { margin: 0; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+  .actions .spacer { flex: 1; }
+  .dlg textarea { width: 100%; min-height: 64px; resize: vertical; margin-top: 10px; font-family: var(--sans); }
+  .form { display: grid; gap: 12px; margin-top: 14px; }
+  .form label { display: grid; gap: 4px; font: 500 12px var(--mono); color: var(--muted); }
+  .form label.inline { grid-template-columns: auto 1fr; align-items: center; gap: 8px; font: 14px var(--sans); color: var(--ink); }
+  .form .help, .help { font: 12px var(--sans); color: var(--muted); }
+  pre.log { background: #0F1B2D; color: #D5DBE3; font: 12px/1.5 var(--mono); padding: 12px 14px; border-radius: 10px; max-height: 320px; overflow: auto; margin: 12px 0 0; white-space: pre-wrap; }
+
+  @media (max-width: 680px) {
+    body { padding: 20px 12px 48px; }
+    .controls { grid-template-columns: 1fr 1fr; }
+    .controls input { grid-column: 1 / -1; }
+    .row { grid-template-columns: 1fr; gap: 6px; }
+    .gutter { display: flex; gap: 10px; align-items: baseline; }
+    .gutter .small { margin: 0; }
+    .apply { justify-self: start; }
+    .facts { grid-template-columns: 1fr; gap: 2px; }
+  }
+  @media (prefers-reduced-motion: no-preference) { .row { transition: background .12s; } }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="eyebrow">Quant intern finder</div>
+    <h1 id="headline">Loading…</h1>
+  </div>
+  <div class="meta" id="meta"></div>
+</header>
+
+<div class="toolbar">
+  <button class="btn primary" id="run">Run search now</button>
+  <button class="btn" id="settings">Settings</button>
+  <span class="status" id="runstatus"></span>
+</div>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Quant</div></div>
+  <div class="chips" id="watch"></div>
+  <div class="sec-head" style="margin-top:14px"><div class="eyebrow">Tech</div></div>
+  <div class="chips" id="watch-tech"></div>
+</section>
+
+<section>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search company, title, location" aria-label="Search">
+    <select id="role" aria-label="Role or event type"><option value="">All roles &amp; types</option></select>
+    <select id="term" aria-label="Term"><option value="">All terms</option></select>
+    <select id="show" aria-label="Show">
+      <option value="active">Active</option>
+      <option value="new">New only</option>
+      <option value="starred">Starred</option>
+      <option value="applied">Applied</option>
+      <option value="hidden">Hidden</option>
+      <option value="all">Everything</option>
+    </select>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Deadline ladder</div><div class="hint" id="ladder-hint"></div></div>
+  <div class="rows" id="ladder"></div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Programs &amp; events · not internships, still worth applying to</div><div class="hint" id="events-hint"></div></div>
+  <div class="rows" id="events"></div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Rolling internships · no published deadline</div><div class="hint">sorted by date posted · most quant firms close when seats fill, so earlier is better</div></div>
+  <div class="rows" id="rolling"></div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Not currently open · expected to return</div><div class="hint" id="inactive-hint"></div></div>
+  <div class="rows" id="inactive"></div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Sources · last run</div><div class="hint">a failed source is skipped, not fatal</div></div>
+  <div class="sources" id="sources"></div>
+</section>
+
+<footer id="foot"></footer>
+
+<dialog id="detail"><div class="dlg" id="detail-body"></div></dialog>
+<dialog id="rundlg"><div class="dlg">
+  <div class="dlg-head"><h2>Searching…</h2><button class="x" data-close="rundlg" aria-label="Close">×</button></div>
+  <div class="help">Sources report as they finish. A full run takes a few minutes.</div>
+  <pre class="log" id="runlog"></pre>
+</div></dialog>
+<dialog id="settingsdlg"><div class="dlg">
+  <div class="dlg-head"><h2>Settings</h2><button class="x" data-close="settingsdlg" aria-label="Close">×</button></div>
+  <div class="form" id="settings-form"></div>
+  <div class="actions"><span class="spacer"></span><button class="btn" data-close="settingsdlg">Cancel</button><button class="btn primary" id="save-settings">Save</button></div>
+</div></dialog>
+
+<script>
+let DATA = /*__DATA__*/null;
+const APP = { mode: "static", status: null, config: null, marks: {}, lastSeenRun: null };
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const state = { watch: null, q: "", role: "", term: "", show: "active" };
+const DAY = 86400000;
+
+function daysUntil(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((new Date(y, m - 1, d) - t) / DAY);
+}
+function fmtDate(iso) {
+  if (!iso) return "";
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, { month: "short", day: "numeric" }) + (y !== new Date().getFullYear() ? ` ${y}` : "");
+}
+const levelLabel = (l) => ({ undergrad: "UG", phd: "PhD", masters: "MS", mba: "MBA" }[l] || "");
+const facetOf = (l) => l.kind === "event" ? `event:${l.event_type || "program"}` : l.role;
+const facetLabel = (f) => f.startsWith("event:") ? `◆ ${f.slice(6)}` : f.startsWith("who:") ? `for: ${f.slice(4)}` : f;
+const markOf = (l) => APP.marks[l.id] || {};
+const srcLink = (n) => (DATA && DATA.source_links || {})[n] || (DATA && DATA.source_links || {})[n.split(":")[0]];
+
+// ---- marks (star / applied / hidden / note): server in app mode, browser storage otherwise
+async function loadMarks() {
+  if (APP.mode === "app") { try { return await api("/api/marks"); } catch { return {}; } }
+  try { return JSON.parse(localStorage.getItem("qif-marks") || "{}"); } catch { return {}; }
+}
+async function saveMark(id, patch) {
+  const cur = { ...(APP.marks[id] || {}), ...patch };
+  if (!cur.state && !cur.note) delete APP.marks[id]; else APP.marks[id] = cur;
+  if (APP.mode === "app") {
+    await api("/api/marks", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id, mark: APP.marks[id] || null }) });
+  } else {
+    try { localStorage.setItem("qif-marks", JSON.stringify(APP.marks)); } catch {}
+  }
+  renderHeader(); render();
+}
+
+function matches(l) {
+  const st = markOf(l).state;
+  if (state.show === "active" && (st === "applied" || st === "hidden")) return false;
+  if (state.show === "new" && !(l.is_new && st !== "hidden")) return false;
+  if (["starred", "applied", "hidden"].includes(state.show) && st !== state.show) return false;
+  if (state.watch && l.watch !== state.watch) return false;
+  if (state.role && (state.role.startsWith("who:") ? !(l.audience || []).includes(state.role.slice(4)) : facetOf(l) !== state.role)) return false;
+  if (state.term && (l.term || "unknown") !== state.term) return false;
+  if (state.q) {
+    const hay = `${l.company} ${l.title} ${(l.locations || []).join(" ")} ${l.role}`.toLowerCase();
+    if (!state.q.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function badges(l) {
+  const st = markOf(l).state;
+  return [
+    l.is_new ? `<span class="badge new">NEW</span>` : "",
+    st === "starred" ? `<span class="badge star">★ starred</span>` : st === "applied" ? `<span class="badge applied">✓ applied</span>` : st === "hidden" ? `<span class="badge hidden">hidden</span>` : "",
+    l.kind === "event" ? `<span class="badge kind">◆ ${esc(l.event_type || "program")}</span>` : (l.role && l.role !== "Other" ? `<span class="badge">${esc(l.role)}</span>` : ""),
+    ...(l.kind === "event" ? (l.audience || []).map(a => `<span class="badge">for: ${esc(a)}</span>`) : []),
+    l.kind === "event" && l.seeded ? `<span class="badge">known program</span>` : "",
+    l.term ? `<span class="badge">${esc(l.term)}</span>` : "",
+    levelLabel(l.level) ? `<span class="badge">${levelLabel(l.level)}</span>` : "",
+    l.pay ? `<span class="badge">${esc(l.pay)}</span>` : "",
+    l.sponsorship && /no|does not/i.test(l.sponsorship) ? `<span class="badge">no sponsorship</span>` : "",
+    l.kind !== "event" && l.us === "unknown" && !(l.locations || []).length ? `<span class="badge">location not stated</span>` : "",
+  ].join("");
+}
+
+function row(l, mode) {
+  let gutter;
+  if (mode === "ladder") {
+    const n = daysUntil(l.deadline);
+    const cls = n < 0 ? "passed" : n <= 7 ? "urgent" : n <= 21 ? "soon" : "";
+    const big = n < 0 ? "past" : n === 0 ? "today" : n === 1 ? "in 1d" : `in ${n}d`;
+    gutter = `<div class="gutter ${cls}"><span class="big">${big}</span><span class="small">${fmtDate(l.deadline)}${l.deadline_source === "manual" ? " · manual" : ""}</span></div>`;
+  } else if (mode === "inactive") {
+    const up = l.status === "upcoming";
+    const small = l.deadline ? `${fmtDate(l.deadline)} · ${up ? "announced" : "last cycle"}` : (l.when || "dates TBA");
+    gutter = `<div class="gutter ${up ? "soon" : "passed"}"><span class="big">${up ? "soon" : "closed"}</span><span class="small">${small}</span></div>`;
+  } else if (l.kind === "event") {
+    gutter = `<div class="gutter"><span class="big">${esc(l.when || "dates TBA")}</span><span class="small">${l.when ? "when" : "see page"}</span></div>`;
+  } else {
+    gutter = `<div class="gutter"><span class="big">${l.date_posted ? fmtDate(l.date_posted) : "—"}</span><span class="small">${l.date_posted ? "posted" : "no date"}</span></div>`;
+  }
+  const locs = (l.locations || []).slice(0, 4).join(" · ");
+  const src = (l.sources || []).map(s => s.split(":")[0]).filter((s, i, a) => a.indexOf(s) === i).join(", ");
+  return `<div class="row" data-id="${esc(l.id)}" tabindex="0" role="button">${gutter}
+    <div class="main">
+      <span class="company ${l.watch ? "watch" : ""}">${esc(l.company)}</span> <span class="title">${esc(l.title)}</span>
+      <div class="sub">${badges(l)}${locs ? `<span>${esc(locs)}</span>` : ""}<span>via ${esc(src)}</span></div>
+    </div>
+    ${l.url ? `<a class="apply" href="${esc(l.url)}" target="_blank" rel="noopener" data-stop>${l.kind === "event" ? "Open page" : "Open posting"} ↗</a>` : "<span></span>"}
+  </div>`;
+}
+
+function openDetail(id) {
+  const l = DATA.listings.find(x => x.id === id); if (!l) return;
+  const m = markOf(l);
+  const dl = l.deadline ? `${fmtDate(l.deadline)} (${(n => n < 0 ? "passed" : n === 0 ? "today" : `in ${n} day${n === 1 ? "" : "s"}`)(daysUntil(l.deadline))})${l.deadline_source === "manual" ? " · entered manually" : " · stated in posting"}` : (l.kind === "event" ? "none found — dates are announced on the program page" : "none published — rolling");
+  const srcs = (l.sources || []).map(s => s.split(":")[0]).filter((s, i, a) => a.indexOf(s) === i).join(", ");
+  const btn = (st, label) => `<button class="btn small ${m.state === st ? "on" : ""}" data-mark="${st}">${label}</button>`;
+  $("#detail-body").innerHTML = `
+    <div class="dlg-head"><div><div class="eyebrow">${esc(l.company)}${l.watch ? ` · ${l.watch_group === "tech" ? "tech" : "quant"}` : ""}</div><h2>${esc(l.title)}</h2></div><button class="x" data-close="detail" aria-label="Close">×</button></div>
+    <div class="sub">${badges(l)}</div>
+    <dl class="facts">
+      <dt>Deadline</dt><dd>${esc(dl)}</dd>
+      ${l.kind === "event" ? `<dt>When</dt><dd>${esc(l.when || "not stated — check the page")}</dd><dt>Who</dt><dd>${esc(l.eligibility || "not stated")}</dd>` : ""}
+      <dt>Locations</dt><dd>${esc((l.locations || []).join(" · ") || "not listed")}</dd>
+      ${l.kind === "event" ? "" : `<dt>Term</dt><dd>${esc(l.term || "not stated")}</dd>
+      <dt>Level</dt><dd>${esc({ undergrad: "undergrad-eligible", phd: "PhD", masters: "Master's", mba: "MBA" }[l.level] || "not stated (assume open)")}</dd>`}
+      <dt>Posted</dt><dd>${esc(l.date_posted ? fmtDate(l.date_posted) : "unknown")} · first seen ${esc(new Date(l.first_seen).toLocaleDateString())}</dd>
+      <dt>Sources</dt><dd>${(l.sources || []).map(s => srcLink(s) ? `<a href="${esc(srcLink(s))}" target="_blank" rel="noopener">${esc(s)}</a>` : esc(s)).join(", ")}</dd>
+      ${l.pay ? `<dt>Pay</dt><dd>${esc(l.pay)} (as listed by speedyapply)</dd>` : ""}
+      ${l.sponsorship && l.sponsorship !== "Other" ? `<dt>Sponsorship</dt><dd>${esc(l.sponsorship)}</dd>` : ""}
+      ${l.note ? `<dt>${l.kind === "event" ? "About" : "Notes"}</dt><dd>${esc(l.note)}</dd>` : ""}
+    </dl>
+    <div class="actions">
+      ${btn("starred", "★ Star")}${btn("applied", "✓ Applied")}${btn("hidden", "Hide")}
+      <span class="spacer"></span>
+      ${l.url ? `<a class="apply" href="${esc(l.url)}" target="_blank" rel="noopener">Open posting ↗</a>` : ""}
+    </div>
+    <textarea id="note" placeholder="Your notes — contacts, OA date, what you submitted…">${esc(m.note || "")}</textarea>`;
+  const dlg = $("#detail");
+  dlg.querySelectorAll("[data-mark]").forEach(b => b.onclick = () => {
+    const st = b.dataset.mark;
+    saveMark(id, { state: m.state === st ? null : st }).then(() => openDetail(id));
+  });
+  $("#note").onchange = (e) => saveMark(id, { note: e.target.value.trim() || null });
+  if (!dlg.open) dlg.showModal();
+}
+
+function render() {
+  if (!DATA) return;
+  const all = DATA.listings.filter(matches);
+  const inact = l => (l.status && l.status !== "open") || l.deadline_passed;
+  const inactive = all.filter(inact).sort((a, b) =>
+    ((a.status === "upcoming") ? 0 : 1) - ((b.status === "upcoming") ? 0 : 1) ||
+    (a.status === "upcoming" ? (a.deadline || "9999").localeCompare(b.deadline || "9999")
+                             : (b.deadline || "").localeCompare(a.deadline || "")));
+  const act = all.filter(l => !inact(l));
+  const ladder = act.filter(l => l.deadline);
+  const events = act.filter(l => !l.deadline && l.kind === "event").sort((a, b) => (b.watch ? 1 : 0) - (a.watch ? 1 : 0) || a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
+  const rolling = act.filter(l => !l.deadline && l.kind !== "event");
+  $("#ladder").innerHTML = ladder.length ? ladder.map(l => row(l, "ladder")).join("") : `<div class="empty">No listings with a published deadline match. Most firms post rolling deadlines — see below.</div>`;
+  $("#events").innerHTML = events.length ? events.map(l => row(l, "event")).join("") : `<div class="empty">No programs or events match these filters.</div>`;
+  $("#rolling").innerHTML = rolling.length ? rolling.map(l => row(l, "rolling")).join("") : `<div class="empty">Nothing matches these filters.</div>`;
+  $("#inactive").innerHTML = inactive.length ? inactive.map(l => row(l, "inactive")).join("") : `<div class="empty">Nothing here — everything shown above is currently open.</div>`;
+  $("#inactive-hint").textContent = `${inactive.length} shown · "opens soon" first, then last cycle's programs, most recently closed on top · most reopen next cycle, ★ to watch`;
+  $("#ladder-hint").textContent = `${ladder.length} with deadline · ${events.length} programs · ${rolling.length} rolling · ${inactive.length} not open`;
+  $("#events-hint").textContent = `${events.length} shown · "known program" = recurring, dates come from the page · scraped ones show this year's dates when the page states them`;
+  document.querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c.dataset.w === state.watch));
+}
+
+function renderHeader() {
+  if (!DATA) return;
+  const c = DATA.counts;
+  const applied = DATA.listings.filter(l => markOf(l).state === "applied").length;
+  $("#headline").textContent = `${c.total} open internship${c.total === 1 ? "" : "s"} · ${c.events || 0} programs & events · ${c.new} new${applied ? ` · ${applied} applied` : ""}`;
+  const gen = new Date(DATA.generated_at);
+  let nextTxt;
+  if (APP.mode === "app" && APP.status && APP.status.next_run) {
+    const h = Math.max(0, (new Date(APP.status.next_run) - Date.now()) / 3600000);
+    nextTxt = `next automatic run in ~${h < 1 ? Math.round(h * 60) + "m" : Math.round(h) + "h"} (while this app is open)`;
+  } else {
+    const nextIn = Math.max(0, Math.round((gen.getTime() + DATA.schedule_hours * 3600000 - Date.now()) / 3600000));
+    nextTxt = `next run in ~${nextIn}h`;
+  }
+  $("#meta").innerHTML = `updated <b>${gen.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</b><br>${nextTxt} · undergrad quant &amp; tech opportunities for US students`;
+  const chip = (w) => `<button class="chip ${w.count ? "" : "zero"}" data-w="${esc(w.name)}" title="${esc(w.note || "")}">${esc(w.name)} <span class="n">${w.count}${w.events ? ` <em>+${w.events} ev</em>` : ""}</span></button>`;
+  $("#watch").innerHTML = DATA.watchlist.filter(w => (w.group || "quant") !== "tech").map(chip).join("");
+  $("#watch-tech").innerHTML = DATA.watchlist.filter(w => w.group === "tech").map(chip).join("");
+  const keep = (sel, vals, label = (v) => v) => { const cur = sel.value; sel.innerHTML = sel.options[0].outerHTML + vals.map(v => `<option value="${esc(v)}">${esc(label(v))}</option>`).join(""); sel.value = vals.includes(cur) ? cur : ""; };
+  const whoFacets = [...new Set(DATA.listings.flatMap(l => l.audience || []))].sort().map(a => `who:${a}`);
+  keep($("#role"), [...[...new Set(DATA.listings.map(facetOf))].sort(), ...whoFacets], facetLabel);
+  keep($("#term"), [...new Set(DATA.listings.map(l => l.term || "unknown"))].sort());
+  $("#sources").innerHTML = Object.entries(DATA.sources).map(([name, s]) => {
+    const st = s.ok === null ? `<span class="off">off</span>` : s.ok ? `<span class="ok">ok</span>` : `<span class="bad">failed</span>`;
+    const nm = srcLink(name) ? `<a href="${esc(srcLink(name))}" target="_blank" rel="noopener"><b>${esc(name)}</b></a>` : `<b>${esc(name)}</b>`;
+    return `<div class="src">${nm} ${st} · ${s.count} listing${s.count === 1 ? "" : "s"}${s.secs != null ? ` · ${s.secs}s` : ""}${s.error && s.error !== "disabled" ? `<div class="err">${esc(s.error)}</div>` : ""}</div>`;
+  }).join("");
+  $("#foot").textContent = `Listings come from community-maintained lists and company job boards; confirm eligibility and dates on the posting itself. ${c.with_deadline} of ${c.total} postings publish a deadline.`;
+}
+
+function wire() {
+  for (const id of ["#watch", "#watch-tech"]) $(id).addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; state.watch = state.watch === b.dataset.w ? null : b.dataset.w; render(); });
+  $("#q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
+  $("#role").addEventListener("change", e => { state.role = e.target.value; render(); });
+  $("#term").addEventListener("change", e => { state.term = e.target.value; render(); });
+  $("#show").addEventListener("change", e => { state.show = e.target.value; render(); });
+  document.body.addEventListener("click", e => {
+    if (e.target.closest("[data-stop]")) return;
+    const r = e.target.closest(".row"); if (r) openDetail(r.dataset.id);
+    const x = e.target.closest("[data-close]"); if (x) document.getElementById(x.dataset.close).close();
+  });
+  document.body.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.classList.contains("row")) openDetail(e.target.dataset.id); });
+  $("#run").addEventListener("click", startRun);
+  $("#settings").addEventListener("click", openSettings);
+  $("#save-settings").addEventListener("click", saveSettings);
+}
+
+// ---- app mode: talk to app.py
+async function api(path, opts) { const r = await fetch(path, { cache: "no-store", ...opts }); if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.json(); }
+async function refreshData() { try { DATA = await api("/api/data"); renderHeader(); render(); } catch {} }
+async function startRun() { await api("/api/run", { method: "POST" }); $("#runlog").textContent = ""; $("#rundlg").showModal(); pollStatus(true); }
+let polling = false;
+async function pollStatus(force) {
+  if (polling && !force) return; polling = true;
+  try {
+    for (;;) {
+      APP.status = await api("/api/status");
+      const s = APP.status;
+      $("#run").disabled = s.running; $("#run").textContent = s.running ? "Running…" : "Run search now";
+      $("#runstatus").textContent = s.running ? "searching…" : (s.last_result || "");
+      if ($("#rundlg").open) { const pre = $("#runlog"); pre.textContent = (s.log || []).join("\n"); pre.scrollTop = pre.scrollHeight; $("#rundlg h2").textContent = s.running ? "Searching…" : "Done"; }
+      if (!s.running) { if (s.last_finished && s.last_finished !== APP.lastSeenRun) { APP.lastSeenRun = s.last_finished; await refreshData(); } break; }
+      await new Promise(r => setTimeout(r, 1500));
+    }
+  } catch {} finally { polling = false; }
+  renderHeader();
+}
+async function openSettings() {
+  APP.config = await api("/api/config");
+  const c = APP.config, a = c.app || {};
+  $("#settings-form").innerHTML = `
+    <label>Quant watchlist (one company per line)<textarea id="s-watch" rows="4">${esc(((c.watchlist_groups || {}).quant || c.watchlist || []).join("\n"))}</textarea></label>
+    <label>Tech &amp; YC watchlist (one per line — only software / ML / research / data roles are shown for these)<textarea id="s-watch-tech" rows="5">${esc(((c.watchlist_groups || {}).tech || []).join("\n"))}</textarea></label>
+    <label>Terms to keep (comma-separated)<input id="s-terms" value="${esc((c.cycle_terms || []).join(", "))}"><span class="help">Listings whose term is known and not in this list are dropped. Remove Fall 2026 to hide off-cycle roles.</span></label>
+    <label class="inline"><input type="checkbox" id="s-ug" ${c.undergrad_only ? "checked" : ""}> Undergrad-eligible only (drops PhD / Master's / MBA titles)</label>
+    <label class="inline"><input type="checkbox" id="s-us" ${c.us_only ? "checked" : ""}> US locations only (drops listings whose every location is abroad; keeps unstated)</label>
+    <label>Run every (hours)<input id="s-hours" type="number" min="1" max="168" value="${a.schedule_hours ?? 12}"></label>
+    <label class="inline"><input type="checkbox" id="s-macnotify" ${a.mac_notifications !== false ? "checked" : ""}> Mac notification when new listings appear</label>
+    <label>ntfy topic (optional — phone push via the ntfy app)<input id="s-ntfy" value="${esc(a.ntfy_topic || "")}" placeholder="e.g. gj-quant-9f3k2"></label>
+    <label>Discord webhook URL (optional)<input id="s-discord" value="${esc(a.discord_webhook_url || "")}"></label>`;
+  $("#settingsdlg").showModal();
+}
+async function saveSettings() {
+  const c = APP.config;
+  const lines = (id) => $(id).value.split("\n").map(s => s.trim()).filter(Boolean);
+  c.watchlist_groups = { quant: lines("#s-watch"), tech: lines("#s-watch-tech") };
+  delete c.watchlist;
+  c.cycle_terms = $("#s-terms").value.split(",").map(s => s.trim()).filter(Boolean);
+  c.undergrad_only = $("#s-ug").checked;
+  c.us_only = $("#s-us").checked;
+  c.app = { ...(c.app || {}), schedule_hours: Math.max(1, parseInt($("#s-hours").value, 10) || 12), mac_notifications: $("#s-macnotify").checked, ntfy_topic: $("#s-ntfy").value.trim(), discord_webhook_url: $("#s-discord").value.trim() };
+  await api("/api/config", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(c) });
+  $("#settingsdlg").close();
+  APP.status = await api("/api/status");
+  renderHeader();
+}
+
+async function boot() {
+  try { const r = await fetch("/api/status", { cache: "no-store" }); if (r.ok) { APP.mode = "app"; APP.status = await r.json(); } } catch {}
+  wire();
+  if (APP.mode === "app") {
+    document.body.classList.add("app");
+    APP.marks = await loadMarks();
+    try { DATA = await api("/api/data"); } catch { DATA = null; }
+    if (!DATA) {
+      $("#headline").textContent = "No results yet";
+      $("#meta").textContent = "The first search starts automatically; watch the log.";
+      if (APP.status.running) $("#rundlg").showModal();
+      pollStatus(true);
+      return;
+    }
+    APP.lastSeenRun = APP.status.last_finished;
+    renderHeader(); render();
+    pollStatus(true);
+  } else {
+    APP.marks = await loadMarks();
+    if (!DATA) { $("#headline").textContent = "No data in this page"; return; }
+    renderHeader(); render();
+  }
+}
+boot();
+</script>
+</body>
+</html>
