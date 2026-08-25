@@ -14,6 +14,7 @@ sources ──► normalize ──► merge/dedupe ──► filter (undergrad, 
 |---|---|---|
 | `nufintech` | [northwesternfintech/2027QuantInternships](https://github.com/northwesternfintech/2027QuantInternships) YAML data | curated quant firms, role codes (QR/QT/QD/SWE/HW) |
 | `simplify` | [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) `listings.json` | "Quant" category + every watchlist company; has degree and term fields |
+| `vansh` | [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) (Vansh & Ouckah community list) `listings.json` | same schema and filtering as `simplify`; overlapping postings merge, unique ones add |
 | `speedyapply` | [speedyapply/2027-SWE-College-Jobs](https://github.com/speedyapply/2027-SWE-College-Jobs) and [2027-AI-College-Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) READMEs | updated daily; adds hourly pay and posting age. Only the Quant section plus watchlist / quant-firm rows are taken |
 | `greenhouse` | public Greenhouse job-board API | Jane Street, HRT, Anthropic, Point72, DRW, IMC, Optiver, … posting text is included, so deadlines get extracted |
 | `amazon` | amazon.jobs search API | US intern roles matching research / science / quant / SDE |

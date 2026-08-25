@@ -387,7 +387,7 @@ def src_nufintech(cfg):
     return out, {"firms": firms, "notes": notes}
 
 
-def src_simplify(cfg, ctx):
+def src_simplify(cfg, ctx, name="simplify"):
     r = SESSION.get(cfg["url"], timeout=90)
     r.raise_for_status()
     rows = [x for x in r.json() if x.get("active") and x.get("is_visible", True)]
@@ -398,7 +398,7 @@ def src_simplify(cfg, ctx):
     firms |= {canon_company(x.get("company_name")).lower() for x in rows if x.get("category") == quant_cat}
     firms |= {canon_company(c).lower() for c in CFG.get("sources", {}).get("greenhouse", {}).get("boards", {})}
     firms |= {canon_company(c).lower() for c in CFG.get("quant_firms", [])}
-    ctx["quant_firms"] = firms
+    ctx["quant_firms"] = firms | set(ctx.get("quant_firms", set()))
     out = []
     for x in rows:
         company = canon_company(x.get("company_name"))
@@ -408,7 +408,7 @@ def src_simplify(cfg, ctx):
         dp = x.get("date_posted")
         terms = [t for t in (x.get("terms") or []) if t and t != "N/A"]
         out.append(listing(company=company, title=x.get("title"), locations=x.get("locations") or [],
-                           url=x.get("url"), source="simplify", term=terms[0] if terms else None,
+                           url=x.get("url"), source=name, term=terms[0] if terms else None,
                            degrees=x.get("degrees") or [], sponsorship=x.get("sponsorship"),
                            date_posted=dt.date.fromtimestamp(dp).isoformat() if dp else None))
     return out
@@ -996,7 +996,7 @@ def merge_all(items: list[dict]) -> list[dict]:
     return others + merged
 
 
-LIST_SOURCES = ("nufintech", "simplify", "speedyapply")  # internship-only lists: no need for "intern" in the title
+LIST_SOURCES = ("nufintech", "simplify", "speedyapply", "vansh")  # internship-only lists: no need for "intern" in the title
 
 
 def passes(l: dict) -> bool:
@@ -1030,7 +1030,7 @@ def passes(l: dict) -> bool:
     terms = CFG.get("cycle_terms") or []
     if terms and l.get("term") and l["term"] not in terms:
         return False
-    if l["watch"] and "simplify" not in l["sources"] and "nufintech" not in l["sources"]:
+    if l["watch"] and not any(s in l["sources"] for s in ("simplify", "vansh", "nufintech")):
         kws = CFG.get("watch_title_keywords", [])
         if kws and not any(re.search(k, t, re.I) for k in kws):
             return False
@@ -1180,6 +1180,7 @@ def main():
 
     run("nufintech", lambda c, x: src_nufintech(c))
     run("simplify", src_simplify)
+    run("vansh", lambda c, x: src_simplify(c, x, name="vansh"))  # Vansh & Ouckah list — same schema as Simplify
     run("speedyapply", src_speedyapply)
     run("greenhouse", src_greenhouse)
     run("janestreet", src_janestreet)
@@ -1244,7 +1245,8 @@ def main():
 
     s = CFG.get("sources", {})
     source_links = {"nufintech": gh_repo(s.get("nufintech", {}).get("zip_url")),
-                    "simplify": gh_repo(s.get("simplify", {}).get("url"))}
+                    "simplify": gh_repo(s.get("simplify", {}).get("url")),
+                    "vansh": gh_repo(s.get("vansh", {}).get("url"))}
     for name, u in s.get("speedyapply", {}).get("lists", {}).items():
         source_links.setdefault("speedyapply", gh_repo(u))
         source_links[f"speedyapply:{name}"] = gh_repo(u)
