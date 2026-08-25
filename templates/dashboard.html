@@ -132,9 +132,9 @@
 </div>
 
 <section>
-  <div class="sec-head"><div class="eyebrow">Watchlist · quant</div><div class="hint">click to filter · internships · +programs</div></div>
+  <div class="sec-head"><div class="eyebrow">Quant</div></div>
   <div class="chips" id="watch"></div>
-  <div class="sec-head" style="margin-top:14px"><div class="eyebrow">Watchlist · tech &amp; YC</div><div class="hint">relevant roles only: software, ML, research, data</div></div>
+  <div class="sec-head" style="margin-top:14px"><div class="eyebrow">Tech</div></div>
   <div class="chips" id="watch-tech"></div>
 </section>
 
@@ -167,6 +167,11 @@
 <section>
   <div class="sec-head"><div class="eyebrow">Rolling internships · no published deadline</div><div class="hint">sorted by date posted · most quant firms close when seats fill, so earlier is better</div></div>
   <div class="rows" id="rolling"></div>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Not currently open · expected to return</div><div class="hint" id="inactive-hint"></div></div>
+  <div class="rows" id="inactive"></div>
 </section>
 
 <section>
@@ -210,6 +215,7 @@ const levelLabel = (l) => ({ undergrad: "UG", phd: "PhD", masters: "MS", mba: "M
 const facetOf = (l) => l.kind === "event" ? `event:${l.event_type || "program"}` : l.role;
 const facetLabel = (f) => f.startsWith("event:") ? `◆ ${f.slice(6)}` : f.startsWith("who:") ? `for: ${f.slice(4)}` : f;
 const markOf = (l) => APP.marks[l.id] || {};
+const srcLink = (n) => (DATA && DATA.source_links || {})[n] || (DATA && DATA.source_links || {})[n.split(":")[0]];
 
 // ---- marks (star / applied / hidden / note): server in app mode, browser storage otherwise
 async function loadMarks() {
@@ -265,6 +271,10 @@ function row(l, mode) {
     const cls = n < 0 ? "passed" : n <= 7 ? "urgent" : n <= 21 ? "soon" : "";
     const big = n < 0 ? "past" : n === 0 ? "today" : n === 1 ? "in 1d" : `in ${n}d`;
     gutter = `<div class="gutter ${cls}"><span class="big">${big}</span><span class="small">${fmtDate(l.deadline)}${l.deadline_source === "manual" ? " · manual" : ""}</span></div>`;
+  } else if (mode === "inactive") {
+    const up = l.status === "upcoming";
+    const small = l.deadline ? `${fmtDate(l.deadline)} · ${up ? "announced" : "last cycle"}` : (l.when || "dates TBA");
+    gutter = `<div class="gutter ${up ? "soon" : "passed"}"><span class="big">${up ? "soon" : "closed"}</span><span class="small">${small}</span></div>`;
   } else if (l.kind === "event") {
     gutter = `<div class="gutter"><span class="big">${esc(l.when || "dates TBA")}</span><span class="small">${l.when ? "when" : "see page"}</span></div>`;
   } else {
@@ -288,7 +298,7 @@ function openDetail(id) {
   const srcs = (l.sources || []).map(s => s.split(":")[0]).filter((s, i, a) => a.indexOf(s) === i).join(", ");
   const btn = (st, label) => `<button class="btn small ${m.state === st ? "on" : ""}" data-mark="${st}">${label}</button>`;
   $("#detail-body").innerHTML = `
-    <div class="dlg-head"><div><div class="eyebrow">${esc(l.company)}${l.watch ? " · watchlist" : ""}</div><h2>${esc(l.title)}</h2></div><button class="x" data-close="detail" aria-label="Close">×</button></div>
+    <div class="dlg-head"><div><div class="eyebrow">${esc(l.company)}${l.watch ? ` · ${l.watch_group === "tech" ? "tech" : "quant"}` : ""}</div><h2>${esc(l.title)}</h2></div><button class="x" data-close="detail" aria-label="Close">×</button></div>
     <div class="sub">${badges(l)}</div>
     <dl class="facts">
       <dt>Deadline</dt><dd>${esc(dl)}</dd>
@@ -297,7 +307,7 @@ function openDetail(id) {
       ${l.kind === "event" ? "" : `<dt>Term</dt><dd>${esc(l.term || "not stated")}</dd>
       <dt>Level</dt><dd>${esc({ undergrad: "undergrad-eligible", phd: "PhD", masters: "Master's", mba: "MBA" }[l.level] || "not stated (assume open)")}</dd>`}
       <dt>Posted</dt><dd>${esc(l.date_posted ? fmtDate(l.date_posted) : "unknown")} · first seen ${esc(new Date(l.first_seen).toLocaleDateString())}</dd>
-      <dt>Sources</dt><dd>${esc(srcs)}</dd>
+      <dt>Sources</dt><dd>${(l.sources || []).map(s => srcLink(s) ? `<a href="${esc(srcLink(s))}" target="_blank" rel="noopener">${esc(s)}</a>` : esc(s)).join(", ")}</dd>
       ${l.pay ? `<dt>Pay</dt><dd>${esc(l.pay)} (as listed by speedyapply)</dd>` : ""}
       ${l.sponsorship && l.sponsorship !== "Other" ? `<dt>Sponsorship</dt><dd>${esc(l.sponsorship)}</dd>` : ""}
       ${l.note ? `<dt>${l.kind === "event" ? "About" : "Notes"}</dt><dd>${esc(l.note)}</dd>` : ""}
@@ -320,13 +330,21 @@ function openDetail(id) {
 function render() {
   if (!DATA) return;
   const all = DATA.listings.filter(matches);
-  const ladder = all.filter(l => l.deadline);
-  const events = all.filter(l => !l.deadline && l.kind === "event").sort((a, b) => (b.watch ? 1 : 0) - (a.watch ? 1 : 0) || a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
-  const rolling = all.filter(l => !l.deadline && l.kind !== "event");
+  const inact = l => (l.status && l.status !== "open") || l.deadline_passed;
+  const inactive = all.filter(inact).sort((a, b) =>
+    ((a.status === "upcoming") ? 0 : 1) - ((b.status === "upcoming") ? 0 : 1) ||
+    (a.status === "upcoming" ? (a.deadline || "9999").localeCompare(b.deadline || "9999")
+                             : (b.deadline || "").localeCompare(a.deadline || "")));
+  const act = all.filter(l => !inact(l));
+  const ladder = act.filter(l => l.deadline);
+  const events = act.filter(l => !l.deadline && l.kind === "event").sort((a, b) => (b.watch ? 1 : 0) - (a.watch ? 1 : 0) || a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
+  const rolling = act.filter(l => !l.deadline && l.kind !== "event");
   $("#ladder").innerHTML = ladder.length ? ladder.map(l => row(l, "ladder")).join("") : `<div class="empty">No listings with a published deadline match. Most firms post rolling deadlines — see below.</div>`;
   $("#events").innerHTML = events.length ? events.map(l => row(l, "event")).join("") : `<div class="empty">No programs or events match these filters.</div>`;
   $("#rolling").innerHTML = rolling.length ? rolling.map(l => row(l, "rolling")).join("") : `<div class="empty">Nothing matches these filters.</div>`;
-  $("#ladder-hint").textContent = `${ladder.length} with deadline · ${events.length} programs · ${rolling.length} rolling`;
+  $("#inactive").innerHTML = inactive.length ? inactive.map(l => row(l, "inactive")).join("") : `<div class="empty">Nothing here — everything shown above is currently open.</div>`;
+  $("#inactive-hint").textContent = `${inactive.length} shown · "opens soon" first, then last cycle's programs, most recently closed on top · most reopen next cycle, ★ to watch`;
+  $("#ladder-hint").textContent = `${ladder.length} with deadline · ${events.length} programs · ${rolling.length} rolling · ${inactive.length} not open`;
   $("#events-hint").textContent = `${events.length} shown · "known program" = recurring, dates come from the page · scraped ones show this year's dates when the page states them`;
   document.querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c.dataset.w === state.watch));
 }
@@ -345,7 +363,7 @@ function renderHeader() {
     const nextIn = Math.max(0, Math.round((gen.getTime() + DATA.schedule_hours * 3600000 - Date.now()) / 3600000));
     nextTxt = `next run in ~${nextIn}h`;
   }
-  $("#meta").innerHTML = `updated <b>${gen.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</b><br>${nextTxt} · ${esc((DATA.config.cycle_terms || []).join(", "))}${DATA.config.undergrad_only ? " · undergrad-eligible" : ""}${DATA.config.us_only ? " · US locations" : ""}`;
+  $("#meta").innerHTML = `updated <b>${gen.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</b><br>${nextTxt} · undergrad quant &amp; tech opportunities for US students`;
   const chip = (w) => `<button class="chip ${w.count ? "" : "zero"}" data-w="${esc(w.name)}" title="${esc(w.note || "")}">${esc(w.name)} <span class="n">${w.count}${w.events ? ` <em>+${w.events} ev</em>` : ""}</span></button>`;
   $("#watch").innerHTML = DATA.watchlist.filter(w => (w.group || "quant") !== "tech").map(chip).join("");
   $("#watch-tech").innerHTML = DATA.watchlist.filter(w => w.group === "tech").map(chip).join("");
@@ -355,7 +373,8 @@ function renderHeader() {
   keep($("#term"), [...new Set(DATA.listings.map(l => l.term || "unknown"))].sort());
   $("#sources").innerHTML = Object.entries(DATA.sources).map(([name, s]) => {
     const st = s.ok === null ? `<span class="off">off</span>` : s.ok ? `<span class="ok">ok</span>` : `<span class="bad">failed</span>`;
-    return `<div class="src"><b>${esc(name)}</b> ${st} · ${s.count} listing${s.count === 1 ? "" : "s"}${s.secs != null ? ` · ${s.secs}s` : ""}${s.error && s.error !== "disabled" ? `<div class="err">${esc(s.error)}</div>` : ""}</div>`;
+    const nm = srcLink(name) ? `<a href="${esc(srcLink(name))}" target="_blank" rel="noopener"><b>${esc(name)}</b></a>` : `<b>${esc(name)}</b>`;
+    return `<div class="src">${nm} ${st} · ${s.count} listing${s.count === 1 ? "" : "s"}${s.secs != null ? ` · ${s.secs}s` : ""}${s.error && s.error !== "disabled" ? `<div class="err">${esc(s.error)}</div>` : ""}</div>`;
   }).join("");
   $("#foot").textContent = `Listings come from community-maintained lists and company job boards; confirm eligibility and dates on the posting itself. ${c.with_deadline} of ${c.total} postings publish a deadline.`;
 }
