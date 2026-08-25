@@ -344,6 +344,7 @@ def listing(**kw) -> dict:
         "deadline": kw.get("deadline") or extract_deadline(text),
         "deadline_source": "posting" if (kw.get("deadline") or extract_deadline(text)) else None,
         "kind": kw.get("kind") or "internship",
+        "status": kw.get("status") or "open",  # open | upcoming (opens soon) | closed (last cycle over; expected to return)
         "event_type": kw.get("event_type"),
         "when": kw.get("when"),
         "eligibility": kw.get("eligibility"),
@@ -776,10 +777,153 @@ def src_events(cfg, ctx):
     return out
 
 
+UC_DEADLINE_RE = re.compile(rf"deadline:?\s*(?P<d>{DATE_FORMS})", re.I)
+UC_CLOSED_RE = re.compile(r"\bclosed\b|\bexpired\b|🔒", re.I)
+UC_SOON_RE = re.compile(r"opens? soon|coming soon|not yet open|⏳", re.I)
+UC_COLS = [("company", r"company"), ("title", r"\b(role|program|name)\b"), ("loc", r"location"),
+           ("apply", r"application|apply"), ("posted", r"date posted"), ("status", r"status"),
+           ("desc", r"description"), ("approx", r"deadline"), ("year", r"\byear\b"),
+           ("note", r"\bnote\b"), ("ptype", r"\btype\b")]
+
+
+def _uc_tables(md: str):
+    """Yield (section, colmap, cells) for every data row of every markdown table, tracked by ## section."""
+    section, cols = "", None
+    for line in md.splitlines():
+        if line.startswith("## "):
+            section = WS_RE.sub(" ", re.sub(r"[#*_`]|[^\x00-\x7f]", " ", line[3:])).strip()
+            cols = None
+            continue
+        s = line.strip()
+        if not (s.startswith("|") and s.endswith("|") and len(s) > 2):
+            cols = None
+            continue
+        cells = [c.strip() for c in s[1:-1].split("|")]
+        if all(re.fullmatch(r":?-{3,}:?", c) for c in cells if c):
+            continue
+        if cols is None:  # first pipe row of a table = header
+            cols = {}
+            for i, c in enumerate(cells):
+                for key, pat in UC_COLS:
+                    if key not in cols and re.search(pat, c, re.I):
+                        cols[key] = i
+                        break
+            continue
+        yield section, cols, cells
+
+
+UC_GENERIC = {"student", "students", "first", "global", "management", "new", "the", "a", "an", "national",
+              "university", "campus", "women", "summer", "career", "tech", "engineering", "software", "ai",
+              "spring", "fall", "winter", "autumn"}
+
+
+def _uc_company(title: str, url: str, known: dict[str, str]) -> str:
+    words = [w.strip(":,.–—") for w in re.sub(r"^the\s+", "", title, flags=re.I).split()]
+    for n in (4, 3, 2, 1):  # longest known-company prefix of the program name
+        c = canon_company(" ".join(words[:n]))
+        if c.lower() in known:
+            return known[c.lower()]
+    for name in sorted(known.values(), key=len, reverse=True):  # else a known company anywhere in the name
+        if len(name) >= 3 and re.search(rf"\b{re.escape(name)}\b", title, re.I):
+            return name
+    host = re.sub(r"^https?://|/.*$", "", url).split(".")  # else a known company in the link's domain
+    for part in host[:-1]:
+        c = canon_company(part)
+        if c.lower() in known:
+            return known[c.lower()]
+    if (len(words) >= 2 and words[1][:1].isupper()
+            and not re.match(r"(fellowship|program|internship|externship|scholarship|challenge|academy|conference|"
+                             r"membership|initiative|ambassadors?|leaders?|experts?|prep|tech|api|early|accelerate|"
+                             r"cup|summit|insight|network(ing)?|collective|creators?|builders?)s?$", words[1], re.I)):
+        return canon_company(" ".join(words[:2]))  # "Harvey Mudd …", "First Play …", "Lime Connect …"
+    return canon_company(words[0]) if words and words[0].lower() not in UC_GENERIC else ""
+
+
+def src_underclassmen(cfg, ctx):
+    """Community-maintained GitHub lists of freshman/sophomore programs & internships (markdown tables)."""
+    pools = (list(WATCH_GROUP), list(CFG.get("company_aliases", {})), CFG.get("quant_firms", []),
+             list(ctx.get("firms", set())), cfg.get("companies", []))
+    known = {canon_company(c).lower(): canon_company(c) for pool in pools for c in pool}
+    qf = set(ctx.get("quant_firms") or set())
+    if not qf:
+        qf = {canon_company(c).lower() for c in CFG.get("quant_firms", [])}
+        qf |= {canon_company(c).lower() for c in CFG.get("sources", {}).get("greenhouse", {}).get("boards", {})}
+        qf |= {canon_company(c).lower() for c in ctx.get("firms", set())}
+    out = []
+    for repo, rc in cfg.get("repos", {}).items():
+      sections = {k.lower(): v for k, v in rc.get("sections", {}).items()}
+      for src_url, forced in ((rc["url"], None), (rc.get("archive"), "closed")):
+        if not src_url:
+            continue
+        try:
+            r = SESSION.get(src_url, timeout=60)
+            r.raise_for_status()
+        except Exception as e:
+            ctx.setdefault("partial_errors", []).append(f"{repo}: {type(e).__name__} {str(e)[:80]}")
+            continue
+        for section, cols, cells in _uc_tables(r.text):
+            kind = next((v for k, v in sections.items() if section.lower().startswith(k)), None)
+            if not kind:
+                continue
+            get = lambda k: cells[cols[k]] if k in cols and cols[k] < len(cells) else ""
+            st = get("status")
+            status = forced or ("closed" if UC_CLOSED_RE.search(st) else "upcoming" if UC_SOON_RE.search(st) else "open")
+            raw = get("title")
+            m = MD_LINK_RE.search(raw)
+            href = re.search(r'href="([^"]+)"', get("apply"))
+            url = href.group(1) if href else (m.group(2) if m else "")
+            blob = re.sub(r":[a-z_0-9]+:", " ", strip_html(m.group(1) if m else raw))  # drop :lock:-style shortcodes
+            if re.search(r"🔒|:lock:|:no_entry|❌", raw):
+                status = "closed"
+            title = clean_title(re.split(r"\s*[—–-]{1,2}\s*deadline", blob, flags=re.I)[0])
+            pm = re.match(r"^(.*?)\s*\(([^()]{5,120})\)$", title)
+            paren = None
+            if pm and not (len(pm.group(2)) <= 14 and pm.group(2).upper() == pm.group(2)):  # keep short acronyms: (JSIP)
+                title, paren = pm.group(1).strip(), pm.group(2)
+            if not (3 <= len(title) <= 140) or (kind != "event" and not url):
+                continue
+            dm = UC_DEADLINE_RE.search(strip_html(raw))
+            deadline, when = dm.group("d") if dm else None, None
+            approx = strip_html(get("approx"))
+            if approx and not deadline:
+                am = re.search(DATE_FORMS, approx, re.I)
+                if am and re.search(r"\d", am.group(0)):
+                    deadline = am.group(0)
+                elif not re.search(r"no fixed|rolling|\?", approx, re.I):
+                    when = f"usually {approx.rstrip('.').strip()}"
+            desc = strip_html(get("desc"))
+            year = strip_html(get("year")).strip(" ?")
+            note = "; ".join(x for x in (paren, desc[:280] or None, strip_html(get("note"))[:200] or None) if x) or None
+            elig = ELIG_RE.search(" ".join((blob, paren or "", desc[:600], year)))
+            locs = [l for l in split_locs(strip_html(get("loc"))) if not re.search(r"check site|see site|various", l, re.I)]
+            company = canon_company(strip_html(get("company"))) or _uc_company(title, url, known)
+            if not company:
+                continue
+            if cfg.get("keep", "watchlist") != "all":
+                w = watch_name(company)
+                if not (w or company.lower() in qf):
+                    continue
+                if WATCH_GROUP.get(w) == "tech":  # same discipline as tech-group internships: relevant roles only
+                    kws = CFG.get("tech_title_keywords", [])
+                    if kws and not any(re.search(k, f"{title} {desc[:300]}", re.I) for k in kws):
+                        continue
+                    if any(re.search(p, title, re.I) for p in CFG.get("tech_exclude_patterns", []))                             or re.search(r"influencer|brand ambassador|\bcreators?\b", title, re.I):
+                        continue
+            out.append(listing(company=company, title=title, locations=locs, url=url,
+                               source=f"underclassmen:{repo}", kind=kind, text=f"{blob} {desc[:600]}",
+                               event_type=event_type(strip_html(get("ptype")), title, desc[:300]) if kind == "event" else None,
+                               eligibility=year or (elig.group(0) if elig else None), when=when,
+                               deadline=deadline, note=note, status=status,
+                               date_posted=(lambda d: d.isoformat() if d else None)(parse_date_str(strip_html(get("posted"))))))
+    return out
+
+
 # ----------------------------------------------------------------------------- pipeline
 def merge_two(a: dict, b: dict) -> dict:
     m = dict(a)
     m["sources"] = sorted(set(a["sources"]) | set(b["sources"]))
+    if a.get("status") != b.get("status"):
+        m["status"] = "open" if "open" in (a.get("status"), b.get("status")) else "upcoming"
     m["locations"] = list(dict.fromkeys(a["locations"] + b["locations"]))
     m["us"] = us_status(m["locations"])
     if "nufintech" in a["sources"] and "nufintech" not in b["sources"] and INTERN_RE.search(b["title"]):
@@ -825,20 +969,26 @@ def merge_all(items: list[dict]) -> list[dict]:
             out.append(l)
     out = out + list(by_title.values())
     # events: "ETC" scraped from the hub and the seeded "Electronic Trading Challenge (ETC)" are the same thing
-    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower().replace("&", " and ")).strip()
 
-    def names(t):  # "Electronic Trading Challenge (ETC)" -> {"electronic trading challenge etc", "electronic trading challenge", "etc"}
+    def names(t, company=""):  # "Electronic Trading Challenge (ETC)" -> {"electronic trading challenge etc", "electronic trading challenge", "etc"}
         ns = {norm(t)}
         m = re.match(r"^(.*?)\s*\(([^)]+)\)\s*$", t)
         if m:
             ns |= {norm(m.group(1)), norm(m.group(2))}
+        ns |= {norm(x) for x in re.findall(r"\(([^)]{2,30})\)", t)}  # acronyms anywhere: "… (ASDI) — formerly STEP"
+        ns |= {norm(x) for x in re.split(r"\s+[—–]\s+|:\s+", t)}     # "FTTP — First-Year …" -> "fttp"
+        cn = norm(company)
+        if cn:  # "Jane Street FTTP" folds into "FTTP"
+            ns |= {n[len(cn):].strip() for n in set(ns) if n.startswith(cn + " ")}
+        ns |= {" ".join(sorted(n.split())) for n in set(ns)}         # "Microsoft Explore" == "Explore Microsoft"
         return {n for n in ns if len(n) >= 3}
     events = [l for l in out if l["kind"] == "event"]
     others = [l for l in out if l["kind"] != "event"]
     merged: list[dict] = []
     for l in sorted(events, key=lambda x: (not x["seeded"], -len(x["title"]))):  # seeds first, so scraped hits fold into them
-        ln = names(l["title"])
-        hit = next((m for m in merged if m["company"] == l["company"] and not (m["seeded"] and l["seeded"]) and ln & names(m["title"])), None)
+        ln = names(l["title"], l["company"])
+        hit = next((m for m in merged if m["company"] == l["company"] and not (m["seeded"] and l["seeded"]) and ln & names(m["title"], m["company"])), None)
         if hit:
             merged[merged.index(hit)] = merge_two(hit, l)
         else:
@@ -904,7 +1054,7 @@ def enrich(items: list[dict], cache: dict, limit: int):
     done = 0
     log(f"looking for deadlines in up to {limit} postings (Greenhouse text already checked)…")
     for l in items:
-        if l.get("deadline") or not l.get("url"):
+        if l.get("deadline") or not l.get("url") or l.get("status") == "closed":
             continue
         c = cache.get(l["id"])
         if c is not None:
@@ -1040,6 +1190,7 @@ def main():
     run("microsoft", src_microsoft)
     run("pages", src_pages)
     run("events", src_events)
+    run("underclassmen", src_underclassmen)
 
     merged = merge_all(raw)
     kept = [l for l in merged if passes(l)]
@@ -1050,6 +1201,11 @@ def main():
         n = enrich(kept, cache, int(CFG.get("enrich_limit_per_run", 15)))
         log(f"enriched {n} postings for deadlines")
     apply_manual_deadlines(kept)
+    for l in kept:  # extract_deadline stores raw text ("Aug 28, 2026"); the dashboard and passed-check need ISO
+        if l.get("deadline") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", l["deadline"]):
+            d = parse_date_str(l["deadline"])
+            if d:
+                l["deadline"] = d.isoformat()
     save_json(CACHE_PATH, cache)
 
     seen = load_json(SEEN_PATH, {})
@@ -1060,7 +1216,8 @@ def main():
         fs = seen.get(l["id"])
         if not fs:
             fs = seen[l["id"]] = NOW.isoformat()
-            new_now.append(l)
+            if l.get("status") != "closed":  # expected-to-return rows are context, not news
+                new_now.append(l)
         l["first_seen"] = fs
         l["is_new"] = (not first_run) and (NOW - dt.datetime.fromisoformat(fs)) < window
         l["deadline_passed"] = bool(l.get("deadline")) and l["deadline"] < TODAY.isoformat()
@@ -1081,8 +1238,24 @@ def main():
         info = notes.get(w) or {}
         watch_summary.append({"name": w, "group": WATCH_GROUP.get(w, "quant"), "count": n, "events": ev, "website": info.get("website"), "note": info.get("notes")})
 
+    def gh_repo(u):
+        m = re.match(r"https?://(?:raw\.githubusercontent\.com|codeload\.github\.com|github\.com)/([^/]+)/([^/]+)", u or "")
+        return f"https://github.com/{m.group(1)}/{m.group(2)}" if m else None
+
+    s = CFG.get("sources", {})
+    source_links = {"nufintech": gh_repo(s.get("nufintech", {}).get("zip_url")),
+                    "simplify": gh_repo(s.get("simplify", {}).get("url"))}
+    for name, u in s.get("speedyapply", {}).get("lists", {}).items():
+        source_links.setdefault("speedyapply", gh_repo(u))
+        source_links[f"speedyapply:{name}"] = gh_repo(u)
+    for name, rc in s.get("underclassmen", {}).get("repos", {}).items():
+        source_links.setdefault("underclassmen", gh_repo(rc.get("url")))
+        source_links[f"underclassmen:{name}"] = gh_repo(rc.get("url"))
+    source_links = {k: v for k, v in source_links.items() if v}
+
     payload = {
         "generated_at": NOW.isoformat(timespec="seconds"),
+        "source_links": source_links,
         "schedule_hours": int(os.environ.get("SCHEDULE_HOURS", "12")),
         "config": {"cycle_terms": CFG.get("cycle_terms"), "undergrad_only": CFG.get("undergrad_only"), "us_only": CFG.get("us_only")},
         "counts": {"total": sum(1 for l in kept if l["kind"] == "internship"), "events": sum(1 for l in kept if l["kind"] == "event"),

@@ -21,6 +21,7 @@ sources ──► normalize ──► merge/dedupe ──► filter (undergrad, 
 | `janestreet` | Jane Street's own feed | off by default; their Greenhouse board covers it |
 | `lever`, `ashby`, `workday`, `microsoft` | public job-board APIs | Palantir (Lever), OpenAI & Cohere (Ashby), NVIDIA (Workday), Microsoft (careers search API) |
 | `events` | company "programs & events" pages read through Jina Reader, plus a seeded list of known recurring programs | datathons, insight days, trading challenges, fellowships, ambassador programs — things you apply to that aren't internships. Shown in their own section |
+| `underclassmen` | three community GitHub lists of freshman/sophomore opportunities: [Jose-Gael-Cruz-Lopez/underclassmen-opportunities](https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities) (README + ARCHIVE.md), [LuisaE/opportunities](https://github.com/LuisaE/opportunities), [zapplyjobs/underclassmen-internships](https://github.com/zapplyjobs/underclassmen-internships) | live postings (Optiver, Scale AI, …) join the internship list; recurring programs (Explore, Launch, JSIP, externships, ambassador roles) land in the events section and fold into the seeds. Rows the lists mark closed / opens-soon keep their status and last-known deadline instead of being dropped. Only programs from watchlist companies and known quant firms are kept, and tech-group ones must clear `tech_title_keywords` — set `"keep": "all"` to widen. Sections kept per repo are set in `config.json`; scholarship/HS sections are off by default |
 
 ## Easiest: the desktop app (no Terminal after the first launch)
 
@@ -97,6 +98,9 @@ python app.py                    # the desktop app
 
 Most quant firms don't publish one — they close roles when the class fills. So the **Deadline ladder** only holds postings whose
 text states a date (or a `manual_deadlines` entry), and everything else sits under **Rolling**, newest first.
+Anything whose deadline has already passed, or that a source list marks closed or opens-soon, moves to
+**Not currently open · expected to return** at the bottom — recurring programs usually come back next cycle, so they're kept
+with their last-known deadline instead of vanishing; when a new cycle's date appears they move back up on their own.
 Confirm dates and eligibility on the posting itself before planning around them.
 
 ## Files

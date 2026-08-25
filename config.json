@@ -845,7 +845,81 @@
           "url": "https://www.ycombinator.com/internships",
           "eligibility": "students",
           "note": "One application to intern at YC companies, plus a student cohort with closed-door founder talks. The Summer 2026 round has closed; the page is re-read each run for the next one."
+        },
+        {
+          "company": "Amazon",
+          "title": "Propel Program (APP)",
+          "url": "https://www.amazon.jobs/content/en/faq/university-talent",
+          "type": "program",
+          "eligibility": "early undergrads; students from groups historically underrepresented in tech",
+          "note": "12-week SDE internship track (technical training + team project); considered automatically when applying to Amazon early-career SDE intern postings"
+        },
+        {
+          "company": "Federal Reserve Bank of New York",
+          "title": "Sophomore Career Exploration Internship",
+          "url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+          "type": "program",
+          "locations": [
+            "New York, NY"
+          ],
+          "eligibility": "sophomores",
+          "note": "10-week paid cohort program across Bank groups incl. Technology; pipeline into the Junior Summer Analyst program"
         }
+      ]
+    },
+    "underclassmen": {
+      "enabled": true,
+      "keep": "watchlist",
+      "repos": {
+        "jgcl": {
+          "url": "https://raw.githubusercontent.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities/main/README.md",
+          "sections": {
+            "Underclassmen Internships": "internship",
+            "Underclassmen Programs": "event",
+            "Ambassador Programs": "event",
+            "Underclassmen Research Programs": "event"
+          },
+          "archive": "https://raw.githubusercontent.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities/main/ARCHIVE.md"
+        },
+        "luisae": {
+          "url": "https://raw.githubusercontent.com/LuisaE/opportunities/master/README.md",
+          "sections": {
+            "CS underclassmen internships": "event",
+            "CS fellowships": "event",
+            "CS exploratory programs": "event",
+            "CS Research": "event",
+            "CS Mentorship": "event",
+            "CS internship alternative": "event",
+            "Part-time internships": "event",
+            "For rising seniors": "event"
+          }
+        },
+        "zapply": {
+          "url": "https://raw.githubusercontent.com/zapplyjobs/underclassmen-internships/main/README.md",
+          "sections": {
+            "Internships": "event",
+            "Fellowships": "event",
+            "Internship-Matching Fellowships": "event",
+            "Externships / Insight Series": "event",
+            "Winternships": "event",
+            "Special Programs & Resources": "event"
+          }
+        }
+      },
+      "companies": [
+        "Capital One",
+        "Bank of America",
+        "Activision Blizzard",
+        "Scale AI",
+        "New Technologists",
+        "Morgan Stanley",
+        "Goldman Sachs",
+        "JPMorganChase",
+        "Akuna Capital",
+        "Palo Alto Networks",
+        "MITRE",
+        "LinkedIn",
+        "MLT"
       ]
     },
     "lever": {
