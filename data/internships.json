@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T17:55:38+00:00",
+ "generated_at": "2026-08-26T01:59:17+00:00",
  "source_links": {
   "nufintech": "https://github.com/northwesternfintech/2027QuantInternships",
   "simplify": "https://github.com/SimplifyJobs/Summer2027-Internships",
@@ -25,11 +25,11 @@
  },
  "counts": {
   "total": 273,
-  "events": 182,
-  "with_deadline": 8,
-  "new": 455,
-  "watchlist": 229,
-  "new_this_run": 12
+  "events": 183,
+  "with_deadline": 9,
+  "new": 107,
+  "watchlist": 228,
+  "new_this_run": 6
  },
  "first_run": false,
  "sources": {
@@ -37,11 +37,11 @@
    "ok": true,
    "count": 71,
    "error": null,
-   "secs": 0.2
+   "secs": 0.1
   },
   "simplify": {
    "ok": true,
-   "count": 413,
+   "count": 403,
    "error": null,
    "secs": 0.2
   },
@@ -49,19 +49,19 @@
    "ok": true,
    "count": 83,
    "error": null,
-   "secs": 0.1
+   "secs": 0.0
   },
   "speedyapply": {
    "ok": true,
    "count": 77,
    "error": null,
-   "secs": 0.6
+   "secs": 0.4
   },
   "greenhouse": {
    "ok": true,
-   "count": 197,
+   "count": 199,
    "error": null,
-   "secs": 2.6
+   "secs": 1.9
   },
   "janestreet": {
    "ok": null,
@@ -72,7 +72,7 @@
    "ok": true,
    "count": 5,
    "error": null,
-   "secs": 16.4
+   "secs": 35.2
   },
   "lever": {
    "ok": null,
@@ -83,13 +83,13 @@
    "ok": true,
    "count": 0,
    "error": null,
-   "secs": 0.6
+   "secs": 0.4
   },
   "workday": {
    "ok": true,
-   "count": 57,
+   "count": 58,
    "error": null,
-   "secs": 17.3
+   "secs": 20.0
   },
   "microsoft": {
    "ok": true,
@@ -99,21 +99,21 @@
   },
   "pages": {
    "ok": true,
-   "count": 15,
-   "error": "Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab",
-   "secs": 26.2
+   "count": 13,
+   "error": null,
+   "secs": 69.1
   },
   "events": {
    "ok": true,
    "count": 109,
    "error": null,
-   "secs": 64.6
+   "secs": 117.7
   },
   "underclassmen": {
    "ok": true,
    "count": 52,
    "error": null,
-   "secs": 0.6
+   "secs": 0.5
   }
  },
  "watchlist": [
@@ -216,7 +216,7 @@
   {
    "name": "Y Combinator",
    "group": "tech",
-   "count": 1,
+   "count": 0,
    "events": 4,
    "website": null,
    "note": null
@@ -273,7 +273,43 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "140340466a82",
+   "company": "Citadel",
+   "title": "Conference Travel Grant",
+   "locations": [],
+   "url": "https://www.citadel.com/careers/programs-and-events/conference-travel-grant/",
+   "sources": [
+    "events:Citadel",
+    "events:seed"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "phd",
+   "date_posted": null,
+   "deadline": "2026-10-05",
+   "deadline_source": "posting",
+   "kind": "event",
+   "status": "open",
+   "event_type": "scholarship",
+   "when": null,
+   "eligibility": "students in STEM",
+   "audience": [
+    "any undergrad"
+   ],
+   "seeded": false,
+   "watch": "Citadel",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": "Grant to support rising STEM talent attending conferences.",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -311,6 +347,156 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-25T17:06:19.115420+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "a15c13e936a3",
+   "company": "DV Trading",
+   "title": "Futures & Options Trading Analyst Intern - Summer 2027",
+   "locations": [
+    "NYC",
+    "New York"
+   ],
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4722749005",
+   "sources": [
+    "greenhouse:dvtrading",
+    "simplify"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-26",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T01:59:17.877640+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "b82928db613d",
+   "company": "BP",
+   "title": "Finance & Risk Intern - Supply, Trading, & Shipping - Finance & Risk",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Illinois---Chicago/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Chicago--IL_RQ114738-1",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-25",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T01:59:17.877640+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "b34265cd18fb",
+   "company": "Susquehanna International Group",
+   "title": "AI Co-op - Drexel University",
+   "locations": [
+    "Bala Cynwyd, PA"
+   ],
+   "url": "https://careers-sig.icims.com/jobs/11368/job?mobile=true&needsRedirect=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "ML",
+   "term": "Fall 2026",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-25",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T01:59:17.877640+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "2bef68733591",
+   "company": "Point72",
+   "title": "AI Instructor, Point72 Academy",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://boards.greenhouse.io/point72/jobs/8729688002?gh_jid=8729688002",
+   "sources": [
+    "greenhouse:point72"
+   ],
+   "role": "ML",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-25",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "insight",
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T01:59:17.877640+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -1020,6 +1206,43 @@
    "deadline_passed": false
   },
   {
+   "id": "fa0146ba399c",
+   "company": "BP",
+   "title": "Corporate Asset Development Engineer Intern",
+   "locations": [
+    "Denver, CO"
+   ],
+   "url": "https://bpinternational.wd3.myworkdayjobs.com/bpPrivateExternalCareersSite/job/United-States-of-America---Colorado---Denver/Corporate-Asset-Development-Engineer-Intern_RQ115146",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Fall 2026",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-24",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T01:59:17.877640+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "965ea50d0db7",
    "company": "Point72",
    "title": "Point72 Academy Coffee Chats — Class of 2029 (US)",
@@ -1127,7 +1350,7 @@
    "pay": "$52/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1173,7 +1396,7 @@
    "pay": "$72/hr",
    "note": "2 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1250,7 +1473,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1285,7 +1508,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1322,7 +1545,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1464,7 +1687,112 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3517a64b7c03",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-20",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e454f69805ec",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-20",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e910eff8a97f",
+   "company": "NVIDIA",
+   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-20",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1540,7 +1868,7 @@
    "pay": "$52/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1579,7 +1907,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1618,7 +1946,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1656,7 +1984,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1696,7 +2024,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1732,7 +2060,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1767,185 +2095,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "6f8bf068546d",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern - Americas - AWM Product Management",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://higher.gs.com/roles/182389?type=students",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-25T01:53:11.720622+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "803dcc9c2aa0",
-   "company": "Goldman Sachs",
-   "title": "AWM Product Management Analyst Intern",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://higher.gs.com/roles/171513?type=students",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-25T01:53:11.720622+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "3517a64b7c03",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "e454f69805ec",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "e910eff8a97f",
-   "company": "NVIDIA",
-   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1980,7 +2130,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2015,7 +2165,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2050,7 +2200,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2088,7 +2238,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2125,7 +2275,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2161,7 +2311,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2201,7 +2351,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2243,7 +2393,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2282,7 +2432,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2318,27 +2468,27 @@
    "pay": "$72/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
-   "id": "acee8f7d8e6f",
-   "company": "Goldman Sachs",
-   "title": "Quantitative Strategist Intern - Multiple Teams",
+   "id": "16eded31b444",
+   "company": "BP",
+   "title": "Reservoir Engineer Intern - Summer Internship",
    "locations": [
-    "NYC"
+    "Houston, TX"
    ],
-   "url": "https://higher.gs.com/roles/171563?type=students",
+   "url": "https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Reservoir-Engineer---Houston--TX_RQ114655-2",
    "sources": [
     "simplify"
    ],
-   "role": "QD",
+   "role": "SWE",
    "term": "Summer 2027",
    "degrees": [
     "Bachelor's"
    ],
    "level": "undergrad",
-   "date_posted": "2026-08-15",
+   "date_posted": "2026-08-16",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -2354,45 +2504,7 @@
    "sponsorship": "Other",
    "pay": null,
    "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "e1ef09816634",
-   "company": "Goldman Sachs",
-   "title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-   "locations": [
-    "West Palm Beach, FL"
-   ],
-   "url": "https://higher.gs.com/roles/181628?type=students",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-15",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "first_seen": "2026-08-26T01:59:17.877640+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -2431,7 +2543,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2470,7 +2582,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2508,7 +2620,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2543,7 +2655,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2581,7 +2693,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2619,7 +2731,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2656,7 +2768,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2694,7 +2806,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2732,7 +2844,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2769,7 +2881,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2806,7 +2918,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2841,7 +2953,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2880,7 +2992,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2918,7 +3030,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2955,7 +3067,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2994,7 +3106,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3032,7 +3144,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3069,7 +3181,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3106,7 +3218,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3143,7 +3255,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3180,7 +3292,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3217,7 +3329,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3254,7 +3366,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3267,7 +3379,6 @@
    ],
    "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
    "sources": [
-    "page:Citadel",
     "simplify",
     "speedyapply:ai"
    ],
@@ -3294,7 +3405,7 @@
    "pay": "$125/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3331,7 +3442,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3368,7 +3479,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3403,7 +3514,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3438,7 +3549,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3473,7 +3584,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3508,7 +3619,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3543,7 +3654,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3580,7 +3691,112 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ca17838a06d7",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern - Dynamo - Fall 2026",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3fd00ca130c5",
+   "company": "Belvedere Trading",
+   "title": "Software Engineer Intern - Summer 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$72/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "c7fb856700fc",
+   "company": "Belvedere Trading",
+   "title": "Quantitative Trading Intern - Winter Quarter 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$72/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3615,7 +3831,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3655,7 +3871,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3693,7 +3909,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3733,7 +3949,7 @@
    "pay": "$125/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3768,112 +3984,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "ca17838a06d7",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern - Dynamo - Fall 2026",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "3fd00ca130c5",
-   "company": "Belvedere Trading",
-   "title": "Software Engineer Intern - Summer 2027",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$72/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "c7fb856700fc",
-   "company": "Belvedere Trading",
-   "title": "Quantitative Trading Intern - Winter Quarter 2027",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$72/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3908,7 +4019,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3943,7 +4054,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3978,7 +4089,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4017,7 +4128,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4230,7 +4341,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4321,7 +4432,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4359,7 +4470,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4394,7 +4505,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4434,7 +4545,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4475,7 +4586,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4514,7 +4625,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4623,7 +4734,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4662,7 +4773,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4701,7 +4812,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4739,7 +4850,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4777,7 +4888,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4887,7 +4998,7 @@
    "pay": null,
    "note": "A few days of classes and a team mock-trading game in the office; travel, accommodation and a daily stipend covered. No sponsorship requirements.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4922,7 +5033,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4957,7 +5068,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4992,7 +5103,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5033,7 +5144,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5070,7 +5181,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5109,7 +5220,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5147,7 +5258,7 @@
    "pay": "$75/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5185,7 +5296,7 @@
    "pay": "$75/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5223,7 +5334,7 @@
    "pay": "$75/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5261,7 +5372,7 @@
    "pay": "$75/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5299,7 +5410,7 @@
    "pay": "$75/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5337,7 +5448,7 @@
    "pay": "$75/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5374,7 +5485,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5411,7 +5522,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5452,7 +5563,7 @@
    "pay": "$144/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5489,7 +5600,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5529,7 +5640,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5567,7 +5678,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5605,7 +5716,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5642,7 +5753,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5684,7 +5795,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5966,7 +6077,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6070,7 +6181,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6109,7 +6220,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6144,7 +6255,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6180,7 +6291,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6219,7 +6330,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6258,7 +6369,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6293,7 +6404,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6332,7 +6443,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6374,7 +6485,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6413,7 +6524,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6453,7 +6564,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6492,7 +6603,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6528,7 +6639,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6563,7 +6674,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6598,7 +6709,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6636,7 +6747,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6675,7 +6786,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6714,7 +6825,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6772,7 +6883,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6807,7 +6918,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6842,7 +6953,84 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "404d0fd4b713",
+   "company": "Citadel Securities",
+   "title": "Quantitative Trader - Intern - US - Trading and Research",
+   "locations": [
+    "Chicago",
+    "NYC",
+    "Miami, FL"
+   ],
+   "url": "https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/",
+   "sources": [
+    "nufintech",
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-16",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$125/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "a47698125824",
+   "company": "Five Rings",
+   "title": "Summer Intern 2027 - Quantitative Trader",
+   "locations": [
+    "NYC",
+    "New York City, NY",
+    "New York"
+   ],
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
+   "sources": [
+    "greenhouse:fiveringsllc",
+    "nufintech",
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-16",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$144/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -6919,84 +7107,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "404d0fd4b713",
-   "company": "Citadel Securities",
-   "title": "Quantitative Trader - Intern - US - Trading and Research",
-   "locations": [
-    "Chicago",
-    "NYC",
-    "Miami, FL"
-   ],
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/",
-   "sources": [
-    "nufintech",
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-15",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$125/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "a47698125824",
-   "company": "Five Rings",
-   "title": "Summer Intern 2027 - Quantitative Trader",
-   "locations": [
-    "NYC",
-    "New York City, NY",
-    "New York"
-   ],
-   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
-   "sources": [
-    "greenhouse:fiveringsllc",
-    "nufintech",
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-15",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$144/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7038,7 +7149,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7075,7 +7186,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7110,7 +7221,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7151,7 +7262,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7190,7 +7301,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7229,7 +7340,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7271,7 +7382,7 @@
    "pay": "$145/hr",
    "note": "2 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7315,7 +7426,7 @@
    "pay": "$145/hr",
    "note": "4 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7350,7 +7461,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7385,7 +7496,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7420,7 +7531,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7455,7 +7566,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7490,7 +7601,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7528,7 +7639,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7566,7 +7677,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7603,7 +7714,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7884,7 +7995,7 @@
    "pay": "$138/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7921,7 +8032,7 @@
    "pay": "$138/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7958,7 +8069,7 @@
    "pay": "$138/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7997,7 +8108,7 @@
    "pay": "$138/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8034,7 +8145,7 @@
    "pay": "$138/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8073,7 +8184,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8112,7 +8223,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8150,7 +8261,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8188,7 +8299,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8227,7 +8338,7 @@
    "pay": "$125/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8264,7 +8375,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8334,7 +8445,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8369,7 +8480,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8413,7 +8524,7 @@
    "pay": "$125/hr",
    "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8455,7 +8566,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8503,7 +8614,7 @@
    "pay": "$125/hr",
    "note": "2 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8543,7 +8654,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8583,7 +8694,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8625,7 +8736,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8665,7 +8776,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8706,7 +8817,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8744,7 +8855,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8783,7 +8894,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8823,7 +8934,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8865,7 +8976,7 @@
    "pay": "$120/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8900,7 +9011,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8938,7 +9049,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -8976,7 +9087,7 @@
    "pay": null,
    "note": "Sophomore Standing+; Grad Dec 2027–Jun 2029",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9016,7 +9127,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9058,7 +9169,42 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "5c65f2ceb009",
+   "company": "NVIDIA",
+   "title": "Applied Research Intern - NLP - Fall 2026",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-02",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9093,7 +9239,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9128,7 +9274,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9169,7 +9315,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9212,7 +9358,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9254,7 +9400,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9294,7 +9440,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9334,7 +9480,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9374,7 +9520,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9414,7 +9560,7 @@
    "pay": "$125/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9454,7 +9600,7 @@
    "pay": "$125/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9494,42 +9640,7 @@
    "pay": "$125/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "5c65f2ceb009",
-   "company": "NVIDIA",
-   "title": "Applied Research Intern - NLP - Fall 2026",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-01",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9566,7 +9677,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9607,7 +9718,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9642,7 +9753,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9677,7 +9788,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9712,7 +9823,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9817,7 +9928,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9852,7 +9963,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9892,7 +10003,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9927,7 +10038,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9962,7 +10073,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9997,7 +10108,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10035,7 +10146,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10075,7 +10186,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10117,7 +10228,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10153,6 +10264,41 @@
    "note": null,
    "first_seen": "2026-08-25T17:06:19.115420+00:00",
    "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "8b2ebd219568",
+   "company": "Apple",
+   "title": "Software Undergrad Engineering Internships",
+   "locations": [
+    "USA"
+   ],
+   "url": "https://jobs.apple.com/en-us/details/200664785-3810",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "undergrad",
+   "date_posted": "2026-05-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Apple",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$47/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10226,41 +10372,6 @@
    "deadline_passed": false
   },
   {
-   "id": "8b2ebd219568",
-   "company": "Apple",
-   "title": "Software Undergrad Engineering Internships",
-   "locations": [
-    "USA"
-   ],
-   "url": "https://jobs.apple.com/en-us/details/200664785-3810",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "undergrad",
-   "date_posted": "2026-05-22",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Apple",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$47/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
    "id": "fdee385463c9",
    "company": "Databricks",
    "title": "Senior Customer Enablement Program Manager",
@@ -10292,7 +10403,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10328,7 +10439,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10388,7 +10499,7 @@
    "term": "Summer 2027",
    "degrees": [],
    "level": "unknown",
-   "date_posted": "2026-05-07",
+   "date_posted": "2026-05-08",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -10405,7 +10516,7 @@
    "pay": "$127/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10440,7 +10551,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10475,7 +10586,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10510,7 +10621,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10528,7 +10639,7 @@
    "term": "Summer 2027",
    "degrees": [],
    "level": "unknown",
-   "date_posted": "2026-04-29",
+   "date_posted": "2026-04-30",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -10545,7 +10656,7 @@
    "pay": "$127/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10563,7 +10674,7 @@
    "term": "Summer 2027",
    "degrees": [],
    "level": "unknown",
-   "date_posted": "2026-04-29",
+   "date_posted": "2026-04-30",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -10580,7 +10691,7 @@
    "pay": "$127/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10615,7 +10726,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10650,7 +10761,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10688,7 +10799,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10726,7 +10837,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10761,7 +10872,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10907,7 +11018,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -10980,7 +11091,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11018,7 +11129,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11055,7 +11166,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11099,7 +11210,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11143,7 +11254,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11178,7 +11289,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11285,7 +11396,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11323,18 +11434,18 @@
    "pay": null,
    "note": "One-day event at the NYC office: workshops, mock interviews, talks by algo developers and engineers. Announced on HRT's LinkedIn.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
-   "id": "a17ece8c3389",
+   "id": "05fccbd31ef8",
    "company": "Databricks",
    "title": "Sr. Staff Technical Program Manager - Reliability",
    "locations": [
-    "Mountain View, California; San Francisco, California",
-    "Bellevue, Washington; Seattle, Washington"
+    "Bellevue, Washington; Seattle, Washington",
+    "Mountain View, California; San Francisco, California"
    ],
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445428002",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445423002",
    "sources": [
     "greenhouse:databricks"
    ],
@@ -11358,8 +11469,8 @@
    "sponsorship": null,
    "pay": null,
    "note": null,
-   "first_seen": "2026-08-25T01:53:11.720622+00:00",
-   "is_new": true,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11394,7 +11505,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11541,7 +11652,7 @@
    "pay": null,
    "note": "Listed on Citadel's programs page; open the page for this year's dates.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11576,7 +11687,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11611,7 +11722,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11651,7 +11762,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11728,7 +11839,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11763,7 +11874,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11800,7 +11911,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11835,7 +11946,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -11985,7 +12096,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12022,7 +12133,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12057,7 +12168,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12092,7 +12203,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12127,7 +12238,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12162,7 +12273,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12267,7 +12378,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12303,7 +12414,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12339,7 +12450,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12374,7 +12485,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12409,7 +12520,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12446,7 +12557,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12483,7 +12594,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12520,7 +12631,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12557,7 +12668,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12592,7 +12703,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12629,7 +12740,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12666,7 +12777,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12703,7 +12814,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12740,7 +12851,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12775,7 +12886,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12810,7 +12921,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12845,7 +12956,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12880,7 +12991,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12915,7 +13026,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -12989,39 +13100,6 @@
    "deadline_passed": false
   },
   {
-   "id": "edd2e6b4ed87",
-   "company": "Citadel",
-   "title": "Sector Data Analyst – Intern (Asia) Hong Kong, Singapore Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/sector-data-analyst-intern-asia/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
    "id": "05d1b83c56d8",
    "company": "Citadel",
    "title": "Software Engineer – Intern (Asia) Hong Kong, Singapore Apply Now",
@@ -13051,7 +13129,40 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "edd2e6b4ed87",
+   "company": "Citadel",
+   "title": "Sector Data Analyst – Intern (Asia) Hong Kong, Singapore Apply Now",
+   "locations": [],
+   "url": "https://www.citadel.com/careers/details/sector-data-analyst-intern-asia/",
+   "sources": [
+    "page:Citadel"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13084,7 +13195,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13117,7 +13228,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13154,39 +13265,6 @@
    "deadline_passed": false
   },
   {
-   "id": "a062776e3f3b",
-   "company": "Y Combinator",
-   "title": "Software Engineering Intern",
-   "locations": [],
-   "url": "https://www.workatastartup.com/jobs/94623",
-   "sources": [
-    "page:Y Combinator"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Y Combinator",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-25T17:06:19.115420+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
    "id": "aedcb86206b9",
    "company": "Amazon",
    "title": "Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more)",
@@ -13216,7 +13294,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13249,7 +13327,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13284,7 +13362,7 @@
    "pay": null,
    "note": "Paid ~10-week cohorts each fall and spring: run a Claude Builder Club or lead outreach; API credits and Anthropic speakers. Fall applications historically open late summer.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13320,7 +13398,7 @@
    "pay": null,
    "note": "Run with Correlation One. Women's Datathon is in February in Miami (all expenses paid, $15k prizes); Summer Invitational follows. Invite via application.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13356,7 +13434,7 @@
    "pay": null,
    "note": "On-site in Santa Clara with travel and a housing stipend; software and hardware tracks. The 2026 edition took applications from mid-September to mid-October and was posted on NVIDIA's job board as 'NVIDIA 2026 Ignite Internships', so the next one is picked up automatically.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13393,7 +13471,7 @@
    "pay": null,
    "note": "Google renamed STEP to ASDI in 2025: a 12-week early-undergrad engineering internship with a mentor and a paired project. It's posted on Google Careers, historically Sep–Oct, and fills on a rolling basis; when it's live it appears in the internships list above as well. Search 'Associate Software Developer Intern' on the Students page.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13430,7 +13508,7 @@
    "pay": null,
    "note": "12-week rotational internship across PM, engineering and design for early undergrads; posted on Microsoft's careers site in the fall and picked up here when live.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13465,7 +13543,7 @@
    "pay": null,
    "note": "Business-side counterpart to ASDI for first- and second-years; search 'BOLD' on Google's Students page when the season opens.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13501,7 +13579,7 @@
    "pay": null,
    "note": "Paid 2–4 week winter program in NYC starting early January: Python/C++ projects, algo dev and SWE exposure. Last cycle's deadline was Oct 12; it's posted on HRT's job board when open.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13538,7 +13616,7 @@
    "pay": null,
    "note": "Short paid programs in New York introducing the firm; listed under D. E. Shaw's careers site.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13573,7 +13651,7 @@
    "pay": null,
    "note": "Two Sigma's students page lists insight programs and fellowships for early undergrads.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13609,7 +13687,7 @@
    "pay": null,
    "note": "Tower-defense-style algorithm competition; winners get access to job opportunities.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13644,7 +13722,7 @@
    "pay": null,
    "note": "Multi-round algorithmic + manual trading game each spring with cash prizes; look for 'Prosperity' on IMC's site.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13679,7 +13757,7 @@
    "pay": null,
    "note": "SIG's campus page lists discovery days and early-year programs (Bala Cynwyd, PA).",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13751,7 +13829,7 @@
    "pay": null,
    "note": "Optiver's student page lists its coding and trading competitions and insight days.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13784,7 +13862,7 @@
    "pay": null,
    "note": "YC's self-paced course and founder-matching; no application, start any time.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13819,7 +13897,7 @@
    "pay": null,
    "note": "Rolling applications; community-leadership program with events, Azure credits and training.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13854,7 +13932,7 @@
    "pay": null,
    "note": "Day-long programming contest in a simulated market, hosted at campuses through the fall; cash prizes. Sign-ups close about a week before each date.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13891,7 +13969,7 @@
    "pay": null,
    "note": "Invite-only week in New York in January: market-making overviews and trading exercises; travel and hotel covered. Past sign-ups ran through events.citadelsecurities.com/ignite.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13927,7 +14005,7 @@
    "pay": null,
    "note": "Invitation-only two-day event in New York, London, Hong Kong or Singapore.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13940,7 +14018,7 @@
     "events:seed"
    ],
    "role": "Other",
-   "term": null,
+   "term": "Fall 2023",
    "degrees": [],
    "level": "unknown",
    "date_posted": null,
@@ -13962,7 +14040,7 @@
    "pay": null,
    "note": "Apply to YC while in school; if accepted you're funded now and your spot is held for a batch after you graduate. Pick 'a batch after the current one' on the application.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -13997,43 +14075,7 @@
    "pay": null,
    "note": "Part- or full-time research projects with Google researchers; reviewed on a rolling basis, closes when projects fill.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "140340466a82",
-   "company": "Citadel",
-   "title": "Conference Travel Grant",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/programs-and-events/conference-travel-grant/",
-   "sources": [
-    "events:Citadel",
-    "events:seed"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "scholarship",
-   "when": null,
-   "eligibility": "students in STEM",
-   "audience": [
-    "any undergrad"
-   ],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Grant to support rising STEM talent attending conferences.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14068,7 +14110,7 @@
    "pay": null,
    "note": "Build an app playground in Swift; winners get a year of Apple Developer Program membership and some are invited to WWDC. Submissions usually open in February.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14103,7 +14145,7 @@
    "pay": null,
    "note": "Summer program for second-years; posts on HRT's job board and is picked up here automatically when live.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14138,7 +14180,7 @@
    "pay": null,
    "note": "Calendar of member hackathons across North America for the 2027 season; most are free with travel reimbursement at the larger ones.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14210,7 +14252,7 @@
    "pay": null,
    "note": "Invite-only 5-day research challenge in Miami, all expenses paid.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14243,7 +14285,7 @@
    "pay": null,
    "note": "Annual algorithmic programming contest; qualification round usually in September, finals later in the year.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14278,7 +14320,7 @@
    "pay": null,
    "note": "Microsoft's global student startup/tech competition; registration usually opens in the fall.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14313,7 +14355,7 @@
    "pay": null,
    "note": "One-week virtual research exposure program listed on Google Research's student page.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14348,7 +14390,7 @@
    "pay": null,
    "note": "Few-day program with classes and mock trading across trading, SWE, and strategy & product tracks.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14384,7 +14426,7 @@
    "pay": null,
    "note": "Multi-day program in trading, software engineering, or strategy & product tracks. Apply to the office nearest you; travel covered.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14419,7 +14461,7 @@
    "pay": null,
    "note": "Day-long program on how the business works: Strategy & Product track (New York) or Institutional Sales & Trading (London offers both). Apply to the office nearest you.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14455,7 +14497,7 @@
    "pay": null,
    "note": "Multi-day introduction to Jane Street for first-years; no finance background needed.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14492,7 +14534,7 @@
    "pay": null,
    "note": "Listed on Jane Street's programs page; open it for this year's track and eligibility.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14525,7 +14567,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14558,7 +14600,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14591,7 +14633,7 @@
    "pay": null,
    "note": "Our HR rotation program is a 3-year program that fosters learning and growth in the HR profession and helps you jumpstart your career. https://careers.microsoft.com/v2/global/en/hrrotation Learn more about the HR2P program",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14626,7 +14668,7 @@
    "pay": null,
    "note": "Explore program Explore Microsoft is a summer internship program specifically designed for first- and/or second-year college students. Gain experience in software development through a learning program where you get the opportunity to work in a pod alongside other Explore Interns",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14659,7 +14701,7 @@
    "pay": null,
    "note": "Our Microsoft Finance Rotation Program (FRP) is a two-year program comprised of four, 6-month rotations, split across core finance functions. Kick-start your career in finance with a rotation in corporate functions, production/engineering finance, sales finance and more. https://",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14692,7 +14734,7 @@
    "pay": null,
    "note": "Leap At Microsoft, we know there are many pathways into the technology industry and into our organization. We're constantly looking for new ways to create unconventional entry points for talent and leverage the skills and experiences of talent from outside the traditional academi",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14725,7 +14767,7 @@
    "pay": null,
    "note": "MSSA Microsoft Software and Systems Academy (MSSA) provides transitioning service members and veterans with critical technical and career skills required for today’s growing technology industry. https://\"https://military.microsoft.com/mssa/\" \"Learn more about MSSA\"",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14758,7 +14800,7 @@
    "pay": null,
    "note": "!",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14794,7 +14836,7 @@
    "pay": null,
    "note": "One application to intern at YC companies, plus a student cohort with closed-door founder talks. The Summer 2026 round has closed; the page is re-read each run for the next one.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14827,7 +14869,7 @@
    "pay": null,
    "note": "Microsoft Customer and Partner Solutions Early in Profession Program (MCAPS EiP) The world is interested in AI and the world trusts Microsoft as their partner for AI transformation. Microsoft Customer and Partner Solutions (MCAPS) is the company's global unified commercial organi",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14860,7 +14902,7 @@
    "pay": null,
    "note": "Neurodiversity We built the Microsoft Neurodiversity Hiring Program on the belief that neurodivergent individuals strengthen a workforce with innovative thinking and creative solutions. Diverse teams positively impact our company culture, working environment and how we serve our ",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -14966,7 +15008,7 @@
    "pay": null,
    "note": "Imagine Cup Compete in the premier global technology competition for student founders and tuen your innovative idea into a market-ready startup with Microsoft AI technologies. Gain access to network opportunities, global recognition, and expert coaching during the competition to ",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15034,7 +15076,7 @@
    "pay": null,
    "note": "SCORE is a three-year career experience designed to provide emerging talent with an unparalleled journey through end-to-end cloud supply chain operations. Over three one-year rotations, participants will partner with and learn from our teams while building skills and supply chain",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15069,7 +15111,7 @@
    "pay": null,
    "note": "Student Ambassador We are looking for student leaders with a passion for making a difference and sharing technology with their peers. !",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15208,7 +15250,7 @@
    "pay": null,
    "note": "Corporate, External, and Legal Affairs (CELA) internships The Microsoft Legal Intern Program is an extraordinary opportunity for aspiring legal professionals to cultivate their careers within one of the world's leading technology companies. Rotation programs HR Rotation Finance R",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15243,7 +15285,7 @@
    "pay": null,
    "note": "Discovery program The Discovery Program is a unique opportunity for students who are passionate about technology and want to make a positive impact on the world and society. This four-week internship is open to rising first-year students college students, based in Redmond, Washin",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15276,7 +15318,7 @@
    "pay": null,
    "note": "Our Microsoft Finance Rotation Program (FRP) is a two-year program comprised of four, 6-month rotations, split across core finance functions. Kick-start your career in finance with a rotation in corporate functions, production/engineering finance, sales finance and more. https://",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15379,7 +15421,7 @@
    "pay": null,
    "note": "! Image 11: NVIDIA Hiring Areas (blob:http://localhost/b9a31d3949b1882a09ed2f8508d538f3) Teams in Action Learn about the breakthroughs we’re making here and how NVIDIA is impacting businesses everywhere.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15418,7 +15460,7 @@
    "pay": null,
    "note": "Paid ten-week summer internship (May–August): a few weeks of technical training, then project work with a Meta engineer as mentor. Applications usually open November–January and include a coding challenge; first-years need one college CS course, second-years two.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15453,7 +15495,7 @@
    "pay": null,
    "note": "Student Veterans Microsoft offers internships and onboarding programs for student veterans who are working toward a degree in a STEM field. https://\"https://careers.microsoft.com/v2/global/en/military/student-veterans\" \"Learn more about our student veterans\"",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15489,7 +15531,7 @@
    "pay": null,
    "note": "NYC | Spring Inside HRT is a three-day immersive program for first and second-year students. The program aims to provide essential learning that removes barriers and creates opportunity for high-potential students pursuing a degree in computer science, mathematics, or another STE",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15557,7 +15599,7 @@
    "pay": null,
    "note": "Engineering at Anthropic Events",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15590,7 +15632,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15623,7 +15665,7 @@
    "pay": null,
    "note": "NYC, London & Singapore | Spring Explore HRT is a multi-day program for 2028 graduates who are interested in building a career in quantitative trading. Expect tech talks, 1:1 mentorship, and a look into the systems and people behind HRT’s global trading infrastructure.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15656,7 +15698,7 @@
    "pay": null,
    "note": "❯ Hiring programs ❮ Neurodiversity We built the Microsoft Neurodiversity Hiring Program on the belief that neurodivergent individuals strengthen a workforce with innovative thinking and creative solutions. Diverse teams positively impact our company culture, working environment a",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15689,7 +15731,7 @@
    "pay": null,
    "note": "Student Veterans Microsoft offers internships and onboarding programs for student veterans who are working toward a degree in a STEM field. https://careers.microsoft.com/v2/global/en/military/student-veterans Learn more about our student veterans",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15722,7 +15764,7 @@
    "pay": null,
    "note": "Global programs !",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15757,7 +15799,7 @@
    "pay": null,
    "note": "! Image 10: NVIDIA Hiring Areas (blob:http://localhost/b9a31d3949b1882a09ed2f8508d538f3) Academic Programs Discover a hub of resources and news for researchers, educators, and students.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15897,7 +15939,7 @@
    "pay": null,
    "note": "Paid open-source projects with mentoring orgs; applications typically open in March.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15933,7 +15975,7 @@
    "pay": null,
    "note": "Apply to compete; put trading skills to the test on-site.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15969,7 +16011,7 @@
    "pay": null,
    "note": "Apply to compete.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16035,7 +16077,7 @@
    "pay": null,
    "note": "Careers Shaping the future together",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16070,7 +16112,7 @@
    "pay": null,
    "note": "Campus Talent Community If you’re a first or second year student interested in early student programs, or just want to share your resume with us, join our talent community so we can reach out to you when an opportunity arises!",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16171,7 +16213,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16277,7 +16319,7 @@
    "pay": null,
    "note": "Two-day invitation-only event in New York (also London, Hong Kong, Singapore, Sydney) covering both Citadel and Citadel Securities.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16310,7 +16352,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16343,7 +16385,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16381,7 +16423,7 @@
    "pay": null,
    "note": "12-week remote program with several tracks (software engineering, production engineering, site reliability); cohorts run a few times a year with rolling applications.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16449,7 +16491,7 @@
    "pay": null,
    "note": "Events",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16482,7 +16524,7 @@
    "pay": null,
    "note": "Transparency Programs Startups",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16515,7 +16557,7 @@
    "pay": null,
    "note": "Programs",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16551,7 +16593,7 @@
    "pay": null,
    "note": "Same Correlation One series as Citadel's; compete for prizes and an interview.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16584,7 +16626,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16617,7 +16659,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16650,7 +16692,7 @@
    "pay": null,
    "note": "/ 2. Campus Explore here",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16683,7 +16725,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16716,7 +16758,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16749,7 +16791,7 @@
    "pay": null,
    "note": "About Search Student engagement In order to support and deepen our relationship with the next generation of researchers, Google offers fellowships, internships and other student engagement opportunities.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16787,7 +16829,7 @@
    "pay": null,
    "note": "Multi-week summer software-engineering program in NYC; housing, travel and meals covered, plus a $12,500 scholarship per Fellow. Last cycle's deadline was Feb 8; second-years are read on a rolling basis, first-years in February.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": true
   },
   {
@@ -16823,7 +16865,7 @@
    "pay": null,
    "note": "YC funds four batches a year (Winter, Spring, Summer, Fall); standard deal is $500k. Fall 2026's on-time deadline was July 27; the next batch's deadline is read from this page each run.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": true
   },
   {
