@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T07:05:43+00:00",
+ "generated_at": "2026-08-29T16:43:38+00:00",
  "source_links": {
   "nufintech": "https://github.com/northwesternfintech/2027QuantInternships",
   "simplify": "https://github.com/SimplifyJobs/Summer2027-Internships",
@@ -24,12 +24,12 @@
   "us_only": true
  },
  "counts": {
-  "total": 268,
-  "events": 179,
-  "with_deadline": 10,
-  "new": 16,
-  "watchlist": 217,
-  "new_this_run": 0
+  "total": 279,
+  "events": 181,
+  "with_deadline": 11,
+  "new": 9,
+  "watchlist": 230,
+  "new_this_run": 2
  },
  "first_run": false,
  "sources": {
@@ -41,7 +41,7 @@
   },
   "simplify": {
    "ok": true,
-   "count": 443,
+   "count": 435,
    "error": null,
    "secs": 0.3
   },
@@ -49,7 +49,7 @@
    "ok": true,
    "count": 83,
    "error": null,
-   "secs": 0.0
+   "secs": 0.1
   },
   "speedyapply": {
    "ok": true,
@@ -61,7 +61,7 @@
    "ok": true,
    "count": 199,
    "error": null,
-   "secs": 5.5
+   "secs": 2.2
   },
   "janestreet": {
    "ok": null,
@@ -72,7 +72,7 @@
    "ok": true,
    "count": 6,
    "error": null,
-   "secs": 39.8
+   "secs": 36.2
   },
   "lever": {
    "ok": null,
@@ -83,13 +83,13 @@
    "ok": true,
    "count": 0,
    "error": null,
-   "secs": 0.7
+   "secs": 0.4
   },
   "workday": {
    "ok": true,
-   "count": 0,
-   "error": "NVIDIA 'intern': JSONDecodeError Expecting value: line 1 column 1 (char 0); NVIDIA 'Ignite': JSONDecodeError Expecting value: line 1 column 1 (char 0)",
-   "secs": 0.4
+   "count": 66,
+   "error": null,
+   "secs": 14.4
   },
   "microsoft": {
    "ok": true,
@@ -100,27 +100,27 @@
   "pages": {
    "ok": true,
    "count": 6,
-   "error": "Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab",
-   "secs": 41.5
+   "error": null,
+   "secs": 54.5
   },
   "events": {
    "ok": true,
-   "count": 101,
-   "error": null,
-   "secs": 111.2
+   "count": 108,
+   "error": "Y Combinator events: ReadTimeout HTTPSConnectionPool(host='r.jina.ai', port=443): Read timed out. (read timeout=1",
+   "secs": 224.3
   },
   "underclassmen": {
    "ok": true,
    "count": 52,
    "error": null,
-   "secs": 0.5
+   "secs": 0.7
   }
  },
  "watchlist": [
   {
    "name": "Citadel",
    "group": "quant",
-   "count": 5,
+   "count": 7,
    "events": 8,
    "website": "https://www.citadel.com/careers/open-opportunities/students/internships/",
    "note": "The hedge fund side of Ken Griffin's Citadel. The quants are mostly on the Global Quantitative Strategies team (GQS). Citadel tends to be fairly school-selective."
@@ -128,8 +128,8 @@
   {
    "name": "Citadel Securities",
    "group": "quant",
-   "count": 7,
-   "events": 5,
+   "count": 5,
+   "events": 7,
    "website": "https://www.citadelsecurities.com/careers/students/internships/",
    "note": "The market making arm of Citadel. The general perception is that the culture tends to be better at Citadel Securities vs Citadel LLC."
   },
@@ -192,7 +192,7 @@
   {
    "name": "Microsoft",
    "group": "tech",
-   "count": 8,
+   "count": 9,
    "events": 23,
    "website": null,
    "note": null
@@ -200,7 +200,7 @@
   {
    "name": "NVIDIA",
    "group": "tech",
-   "count": 10,
+   "count": 20,
    "events": 9,
    "website": null,
    "note": null
@@ -313,13 +313,45 @@
    "deadline_passed": false
   },
   {
+   "id": "205d3a4b938f",
+   "company": "Citadel Securities",
+   "title": "Conference Travel Grant",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/conference-travel-grant/",
+   "sources": [
+    "events:Citadel Securities"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "phd",
+   "date_posted": null,
+   "deadline": "2026-10-05",
+   "deadline_source": "posting",
+   "kind": "event",
+   "status": "open",
+   "event_type": "scholarship",
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "ddecce4ba650",
    "company": "Y Combinator",
    "title": "Apply to Y Combinator (current batch)",
    "locations": [],
    "url": "https://ycombinator.com/apply",
    "sources": [
-    "events:Y Combinator",
     "events:seed"
    ],
    "role": "Other",
@@ -332,12 +364,12 @@
    "kind": "event",
    "status": "open",
    "event_type": "program",
-   "when": "Winter 2027",
+   "when": null,
    "eligibility": "founders, including students",
    "audience": [
     "any undergrad"
    ],
-   "seeded": false,
+   "seeded": true,
    "watch": "Y Combinator",
    "watch_group": "tech",
    "us": "unknown",
@@ -612,7 +644,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -650,7 +682,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -687,7 +719,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -726,7 +758,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -761,7 +793,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1540,7 +1572,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2063,7 +2095,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2104,111 +2136,6 @@
    "deadline_passed": false
   },
   {
-   "id": "e910eff8a97f",
-   "company": "NVIDIA",
-   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e454f69805ec",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "3517a64b7c03",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "85fec847e81f",
    "company": "Jane Street",
    "title": "NY FTTP 2027",
@@ -2240,47 +2167,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-25T17:55:38.887762+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e902a9f7fe73",
-   "company": "Microsoft",
-   "title": "AI Software Engineer Intern",
-   "locations": [
-    "Redmond, WA",
-    "Mountain View, CA",
-    "Washington, DC"
-   ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556962891",
-   "sources": [
-    "simplify",
-    "speedyapply:swe"
-   ],
-   "role": "ML",
-   "term": "Fall 2026",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$52/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -2449,10 +2335,9 @@
    ],
    "url": "https://www.citadelsecurities.com/careers/details/trading-fundamental-analyst-intern-us/",
    "sources": [
-    "page:Citadel Securities",
     "simplify"
    ],
-   "role": "QT",
+   "role": "Other",
    "term": "Fall 2026",
    "degrees": [],
    "level": "unknown",
@@ -2471,6 +2356,146 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e902a9f7fe73",
+   "company": "Microsoft",
+   "title": "AI Software Engineering Intern",
+   "locations": [
+    "Washington, DC"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556962891",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "ML",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e910eff8a97f",
+   "company": "NVIDIA",
+   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e454f69805ec",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3517a64b7c03",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -2580,7 +2605,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2617,7 +2642,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -2654,7 +2679,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-27T09:49:49.026411+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4038,11 +4063,13 @@
    "company": "NVIDIA",
    "title": "Software Engineering Intern, Dynamo",
    "locations": [
-    "Santa Clara, CA"
+    "Santa Clara, CA",
+    "US, CA, Santa Clara"
    ],
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
    "sources": [
-    "vansh"
+    "vansh",
+    "workday:nvidia"
    ],
    "role": "SWE",
    "term": "Fall 2026",
@@ -4063,41 +4090,6 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "ca17838a06d7",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern - Dynamo - Fall 2026",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -4286,6 +4278,41 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ca17838a06d7",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern - Dynamo - Fall 2026",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-05",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -7262,44 +7289,6 @@
    "deadline_passed": false
   },
   {
-   "id": "404d0fd4b713",
-   "company": "Citadel Securities",
-   "title": "Quantitative Trader - Intern - US - Trading and Research",
-   "locations": [
-    "Chicago",
-    "NYC",
-    "Miami, FL"
-   ],
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/",
-   "sources": [
-    "nufintech",
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$125/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "f3ab41064974",
    "company": "Optiver",
    "title": "Trading Automation and Operations Intern",
@@ -7372,6 +7361,44 @@
    "sponsorship": "Other",
    "pay": null,
    "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "404d0fd4b713",
+   "company": "Citadel Securities",
+   "title": "Quantitative Trader - Intern - US - Trading and Research",
+   "locations": [
+    "Chicago",
+    "NYC",
+    "Miami, FL"
+   ],
+   "url": "https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/",
+   "sources": [
+    "nufintech",
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$125/hr",
+   "note": "1 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -7492,6 +7519,41 @@
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "cee26991665a",
+   "company": "Citadel",
+   "title": "Quantitative Research Analyst - Intern - US",
+   "locations": [
+    "Miami, FL"
+   ],
+   "url": "https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$125/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-08-29T16:43:38.819961+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -8617,6 +8679,7 @@
    ],
    "url": "https://www.citadel.com/careers/details/quantitative-trader-equity-quantitative-research-intern-us/",
    "sources": [
+    "page:Citadel",
     "simplify",
     "speedyapply:ai"
    ],
@@ -8791,7 +8854,7 @@
   {
    "id": "2e764e8effcc",
    "company": "Citadel Securities",
-   "title": "Software Engineer – Intern (US) Miami, New York Apply Now",
+   "title": "Software Engineer - Intern - US",
    "locations": [
     "Chicago",
     "NYC",
@@ -8800,7 +8863,6 @@
    "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
    "sources": [
     "nufintech",
-    "page:Citadel Securities",
     "simplify",
     "speedyapply:swe"
    ],
@@ -9094,6 +9156,7 @@
    ],
    "url": "https://www.citadel.com/careers/details/trader-fixed-income-macro-intern-us/",
    "sources": [
+    "page:Citadel",
     "simplify"
    ],
    "role": "QT",
@@ -9471,41 +9534,6 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "5c65f2ceb009",
-   "company": "NVIDIA",
-   "title": "Applied Research Intern - NLP - Fall 2026",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -9942,6 +9970,41 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": "$125/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "5c65f2ceb009",
+   "company": "NVIDIA",
+   "title": "Applied Research Intern - NLP - Fall 2026",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-01",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -10676,6 +10739,41 @@
    "deadline_passed": false
   },
   {
+   "id": "be339bb2bc21",
+   "company": "Microsoft",
+   "title": "Research Intern - Self-Improving AI",
+   "locations": [
+    "Cambridge, MA"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556867858",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-05-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-08-29T16:43:38.819961+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "fdee385463c9",
    "company": "Databricks",
    "title": "Senior Customer Enablement Program Manager",
@@ -10803,7 +10901,7 @@
    "term": "Summer 2027",
    "degrees": [],
    "level": "unknown",
-   "date_posted": "2026-05-08",
+   "date_posted": "2026-05-07",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -13054,13 +13152,15 @@
    "deadline_passed": false
   },
   {
-   "id": "2c023b00c70c",
-   "company": "Citadel Securities",
-   "title": "Software Engineer – Intern (Australia) Sydney Apply Now",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-australia/",
+   "id": "1a8999fd29a6",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern, NCCL - 2026",
+   "locations": [
+    "2 Locations"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
    "sources": [
-    "page:Citadel Securities"
+    "workday:nvidia"
    ],
    "role": "SWE",
    "term": null,
@@ -13076,8 +13176,8 @@
    "eligibility": null,
    "audience": [],
    "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
+   "watch": "NVIDIA",
+   "watch_group": "tech",
    "us": "unknown",
    "sponsorship": null,
    "pay": null,
@@ -13087,13 +13187,15 @@
    "deadline_passed": false
   },
   {
-   "id": "eb3f356ac06a",
-   "company": "Citadel Securities",
-   "title": "Software Engineer – Intern (Asia) Hong Kong, Singapore Apply Now",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-asia/",
+   "id": "1b2bf4f25deb",
+   "company": "NVIDIA",
+   "title": "Developer Technology Engineering Intern - 2027",
+   "locations": [
+    "2 Locations"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Developer-Technology-Engineering-Intern---2027_JR2024122",
    "sources": [
-    "page:Citadel Securities"
+    "workday:nvidia"
    ],
    "role": "SWE",
    "term": null,
@@ -13109,7 +13211,320 @@
    "eligibility": null,
    "audience": [],
    "seeded": false,
-   "watch": "Citadel Securities",
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-27T22:16:22.562871+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "456a240d0eb8",
+   "company": "NVIDIA",
+   "title": "Applied Research Intern, NLP - Fall 2026",
+   "locations": [
+    "US, CA, Santa Clara"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "QR",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "6c0e5e2902ec",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+   "locations": [
+    "US, CA, Santa Clara"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3218659c8bb4",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Software Engineering",
+   "locations": [
+    "US, CA, Santa Clara"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "aa053c65d569",
+   "company": "NVIDIA",
+   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "locations": [
+    "US, CA, Santa Clara"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "89db04821412",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Engineer Intern, AI - 2027",
+   "locations": [
+    "2 Locations"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "ML",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T13:13:35.992739+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "4350d1784ee8",
+   "company": "NVIDIA",
+   "title": "AI Research Intern, TAO Multi-Modal Model Development - 2026",
+   "locations": [
+    "2 Locations"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Vietnam-Hanoi/AI-Research-Intern--TAO-Multi-Modal-Model-Development---2026_JR2021301",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-25T13:12:09.434027+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ad27899fc0e5",
+   "company": "NVIDIA",
+   "title": "AI Developer Technology Intern, Robotics - 2027",
+   "locations": [
+    "2 Locations"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "ML",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T13:17:22.062179+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "cfdf72d016c8",
+   "company": "NVIDIA",
+   "title": "Developer Technology Engineering Intern, AI - 2027",
+   "locations": [
+    "2 Locations"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/Developer-Technology-Engineering-Intern--AI---2027_JR2024258",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "ML",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-26T13:17:22.062179+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "05d1b83c56d8",
+   "company": "Citadel",
+   "title": "Software Engineer – Intern (Asia) Hong Kong, Singapore Apply Now",
+   "locations": [],
+   "url": "https://www.citadel.com/careers/details/software-engineer-intern-asia/",
+   "sources": [
+    "page:Citadel"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel",
    "watch_group": "quant",
    "us": "unknown",
    "sponsorship": null,
@@ -13795,8 +14210,9 @@
    "company": "Citadel Securities",
    "title": "Ignite Women's Trading Program",
    "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/ignite-womens-trading-program/",
    "sources": [
+    "events:Citadel Securities",
     "events:seed"
    ],
    "role": "QT",
@@ -13815,7 +14231,7 @@
     "first/second-years",
     "women+"
    ],
-   "seeded": true,
+   "seeded": false,
    "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
@@ -13831,8 +14247,9 @@
    "company": "Citadel Securities",
    "title": "Discover Citadel Securities",
    "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/",
    "sources": [
+    "events:Citadel Securities",
     "events:seed"
    ],
    "role": "Other",
@@ -13850,7 +14267,7 @@
    "audience": [
     "first/second-years"
    ],
-   "seeded": true,
+   "seeded": false,
    "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
@@ -13962,41 +14379,6 @@
    "sponsorship": null,
    "pay": null,
    "note": "Build an app playground in Swift; winners get a year of Apple Developer Program membership and some are invited to WWDC. Submissions usually open in February.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "308d26e696de",
-   "company": "Citadel Securities",
-   "title": "Trading Invitational",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-trading-invitational/",
-   "sources": [
-    "events:seed"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "competition",
-   "when": null,
-   "eligibility": "undergrads",
-   "audience": [
-    "any undergrad"
-   ],
-   "seeded": true,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Apply to compete.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -14114,6 +14496,7 @@
    "locations": [],
    "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-citadel-securities-quant-invitational/",
    "sources": [
+    "events:Citadel Securities",
     "events:seed"
    ],
    "role": "Other",
@@ -14131,7 +14514,7 @@
    "audience": [
     "first/second-years"
    ],
-   "seeded": true,
+   "seeded": false,
    "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
@@ -14241,41 +14624,6 @@
    "sponsorship": null,
    "pay": null,
    "note": "One-week virtual research exposure program listed on Google Research's student page.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "aab70bb0290d",
-   "company": "Citadel Securities",
-   "title": "Datathons",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/datathons/",
-   "sources": [
-    "events:seed"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "datathon",
-   "when": null,
-   "eligibility": "undergrads at US/Canada universities graduating Dec 2026 – Jun 2028",
-   "audience": [
-    "any undergrad"
-   ],
-   "seeded": true,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Same Correlation One series as Citadel's; compete for prizes and an interview.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -15833,6 +16181,42 @@
    "deadline_passed": false
   },
   {
+   "id": "308d26e696de",
+   "company": "Citadel Securities",
+   "title": "Trading Invitational",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-trading-invitational/",
+   "sources": [
+    "events:Citadel Securities",
+    "events:seed"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "competition",
+   "when": null,
+   "eligibility": "undergrads",
+   "audience": [
+    "any undergrad"
+   ],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": "Apply to compete.",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "531b047e8af7",
    "company": "Jane Street",
    "title": "Jane Street Programs",
@@ -16379,6 +16763,42 @@
    "deadline_passed": false
   },
   {
+   "id": "aab70bb0290d",
+   "company": "Citadel Securities",
+   "title": "Datathons",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/datathons",
+   "sources": [
+    "events:Citadel Securities",
+    "events:seed"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "datathon",
+   "when": null,
+   "eligibility": "undergrads at US/Canada universities graduating Dec 2026 – Jun 2028",
+   "audience": [
+    "any undergrad"
+   ],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": "Same Correlation One series as Citadel's; compete for prizes and an interview.",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "67b5e58739c8",
    "company": "Citadel",
    "title": "Datathon",
@@ -16402,6 +16822,39 @@
    "audience": [],
    "seeded": false,
    "watch": "Citadel",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "4541cd632ba6",
+   "company": "Citadel Securities",
+   "title": "Terminal",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/terminal/",
+   "sources": [
+    "events:Citadel Securities"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "program",
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
    "sponsorship": null,
