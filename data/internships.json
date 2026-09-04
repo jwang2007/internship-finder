@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T16:26:55+00:00",
+ "generated_at": "2026-09-04T04:34:29+00:00",
  "source_links": {
   "nufintech": "https://github.com/northwesternfintech/2027QuantInternships",
   "simplify": "https://github.com/SimplifyJobs/Summer2027-Internships",
@@ -24,12 +24,12 @@
   "us_only": true
  },
  "counts": {
-  "total": 288,
-  "events": 180,
-  "with_deadline": 11,
-  "new": 42,
-  "watchlist": 235,
-  "new_this_run": 15
+  "total": 301,
+  "events": 177,
+  "with_deadline": 10,
+  "new": 51,
+  "watchlist": 237,
+  "new_this_run": 26
  },
  "first_run": false,
  "sources": {
@@ -41,9 +41,9 @@
   },
   "simplify": {
    "ok": true,
-   "count": 519,
+   "count": 540,
    "error": null,
-   "secs": 0.2
+   "secs": 0.3
   },
   "vansh": {
    "ok": true,
@@ -55,13 +55,13 @@
    "ok": true,
    "count": 83,
    "error": null,
-   "secs": 0.8
+   "secs": 0.7
   },
   "greenhouse": {
    "ok": true,
-   "count": 205,
+   "count": 207,
    "error": null,
-   "secs": 2.5
+   "secs": 2.8
   },
   "janestreet": {
    "ok": null,
@@ -70,9 +70,9 @@
   },
   "amazon": {
    "ok": true,
-   "count": 6,
+   "count": 7,
    "error": null,
-   "secs": 39.4
+   "secs": 37.3
   },
   "lever": {
    "ok": null,
@@ -83,13 +83,13 @@
    "ok": true,
    "count": 0,
    "error": null,
-   "secs": 0.5
+   "secs": 0.6
   },
   "workday": {
    "ok": true,
    "count": 74,
    "error": null,
-   "secs": 16.1
+   "secs": 16.6
   },
   "microsoft": {
    "ok": true,
@@ -99,21 +99,21 @@
   },
   "pages": {
    "ok": true,
-   "count": 6,
+   "count": 12,
    "error": null,
-   "secs": 60.9
+   "secs": 49.3
   },
   "events": {
    "ok": true,
-   "count": 106,
+   "count": 94,
    "error": null,
-   "secs": 118.2
+   "secs": 102.5
   },
   "underclassmen": {
    "ok": true,
    "count": 52,
    "error": null,
-   "secs": 0.5
+   "secs": 0.4
   }
  },
  "watchlist": [
@@ -128,8 +128,8 @@
   {
    "name": "Citadel Securities",
    "group": "quant",
-   "count": 4,
-   "events": 7,
+   "count": 8,
+   "events": 5,
    "website": "https://www.citadelsecurities.com/careers/students/internships/",
    "note": "The market making arm of Citadel. The general perception is that the culture tends to be better at Citadel Securities vs Citadel LLC."
   },
@@ -137,7 +137,7 @@
    "name": "Jane Street",
    "group": "quant",
    "count": 16,
-   "events": 23,
+   "events": 25,
    "website": "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=new-york",
    "note": "Founded by ex-SIG people. Tends to be more school-agnostic than other firms. General perception of JS is that it has a very comfortable and nerdy culture. Specializes in ETF market making, and uses OCaml as their primary programming language. Has big offices in London and Hong Kong. Opens roles in July."
   },
@@ -160,7 +160,7 @@
   {
    "name": "Google",
    "group": "tech",
-   "count": 4,
+   "count": 3,
    "events": 12,
    "website": null,
    "note": null
@@ -168,7 +168,7 @@
   {
    "name": "Amazon",
    "group": "tech",
-   "count": 8,
+   "count": 10,
    "events": 2,
    "website": null,
    "note": null
@@ -193,7 +193,7 @@
    "name": "Microsoft",
    "group": "tech",
    "count": 14,
-   "events": 19,
+   "events": 16,
    "website": null,
    "note": null
   },
@@ -313,39 +313,6 @@
    "deadline_passed": false
   },
   {
-   "id": "205d3a4b938f",
-   "company": "Citadel Securities",
-   "title": "Conference Travel Grant",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/conference-travel-grant/",
-   "sources": [
-    "events:Citadel Securities"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "phd",
-   "date_posted": null,
-   "deadline": "2026-10-05",
-   "deadline_source": "posting",
-   "kind": "event",
-   "status": "open",
-   "event_type": "scholarship",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "ddecce4ba650",
    "company": "Y Combinator",
    "title": "Apply to Y Combinator (current batch)",
@@ -452,6 +419,49 @@
    "note": "The Undergraduate Architecture Mentoring (uArch) Workshop is designed to introduce undergraduate and early Master's students to research and career opportunities in the field of computer architecture in particular and graduate school lifestyle and survival skills in general.",
    "first_seen": "2026-08-25T17:06:19.115420+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "4a90b7ed980f",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern - Robotics",
+   "locations": [
+    "Seattle, WA",
+    "Nashville, TN",
+    "Austin, TX",
+    "North Reading, MA",
+    "Arlington County, Arlington, VA",
+    "Bellevue, WA",
+    "Westborough, MA"
+   ],
+   "url": "https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-09-04",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -562,6 +572,185 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-03T16:26:55.919989+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "d90e120cb17d",
+   "company": "Susquehanna International Group",
+   "title": "FPGA Engineer Intern",
+   "locations": [
+    "Bala Cynwyd, PA"
+   ],
+   "url": "https://careers-sig.icims.com/jobs/11446/job?mobile=true&needsRedirect=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "HW",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-09-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "5eb3c12a9063",
+   "company": "AXQ Capital",
+   "title": "Quantitative Research Intern - Summer 2027",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://job-boards.greenhouse.io/axq/jobs/6181069004",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QR",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-09-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "cff48d4ca045",
+   "company": "Jane Street",
+   "title": "Graduate Research Fellowship (GRF) 2026",
+   "locations": [
+    "New York"
+   ],
+   "url": "https://job-boards.greenhouse.io/jshiddenevents/jobs/8782559002",
+   "sources": [
+    "greenhouse:jshiddenevents"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "fellowship",
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Jane Street",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "014e07f9d2f0",
+   "company": "Anthropic",
+   "title": "Program Specialist, M&A",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382617008",
+   "sources": [
+    "greenhouse:anthropic"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "program",
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Anthropic",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "ee218ec53f1a",
+   "company": "Jane Street",
+   "title": "Swag Program Manager",
+   "locations": [
+    "New York, New York, United States"
+   ],
+   "url": "https://www.janestreet.com/join-jane-street/apply/8782908002?gh_jid=8782908002",
+   "sources": [
+    "greenhouse:janestreet"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "program",
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Jane Street",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -756,6 +945,41 @@
    "deadline_passed": false
   },
   {
+   "id": "fbb26a5645f0",
+   "company": "Microsoft",
+   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
+   "locations": [
+    "Washington, DC"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-02",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": null,
+   "first_seen": "2026-09-01T16:40:49.508096+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "75e62d7d92dc",
    "company": "First National Bank",
    "title": "Retail Administration Analytics Intern",
@@ -789,7 +1013,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -826,7 +1050,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -866,7 +1090,7 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -905,7 +1129,7 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -942,7 +1166,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -979,7 +1203,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1016,7 +1240,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -1546,7 +1770,7 @@
    "term": null,
    "degrees": [],
    "level": "unknown",
-   "date_posted": "2026-08-28",
+   "date_posted": "2026-08-29",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -2803,6 +3027,111 @@
    "deadline_passed": false
   },
   {
+   "id": "e910eff8a97f",
+   "company": "NVIDIA",
+   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-20",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3517a64b7c03",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-20",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e454f69805ec",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-20",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "85fec847e81f",
    "company": "Jane Street",
    "title": "NY FTTP 2027",
@@ -2994,20 +3323,23 @@
    "deadline_passed": false
   },
   {
-   "id": "e910eff8a97f",
-   "company": "NVIDIA",
-   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "id": "6f8bf068546d",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - AWM Product Management",
    "locations": [
-    "Santa Clara, CA"
+    "NYC"
    ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "url": "https://higher.gs.com/roles/182389?type=students",
    "sources": [
-    "speedyapply:swe"
+    "simplify"
    ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
    "date_posted": "2026-08-19",
    "deadline": null,
    "deadline_source": null,
@@ -3018,29 +3350,29 @@
    "eligibility": null,
    "audience": [],
    "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
+   "watch": null,
+   "watch_group": null,
    "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
+   "sponsorship": "Other",
+   "pay": null,
    "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "first_seen": "2026-08-25T01:53:11.720622+00:00",
    "is_new": false,
    "deadline_passed": false
   },
   {
-   "id": "3517a64b7c03",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Software Engineering",
+   "id": "803dcc9c2aa0",
+   "company": "Goldman Sachs",
+   "title": "AWM Product Management Analyst Intern",
    "locations": [
-    "Santa Clara, CA"
+    "Dallas, TX"
    ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "url": "https://higher.gs.com/roles/171513?type=students",
    "sources": [
-    "speedyapply:swe"
+    "simplify"
    ],
-   "role": "SWE",
-   "term": null,
+   "role": "Other",
+   "term": "Summer 2027",
    "degrees": [],
    "level": "unknown",
    "date_posted": "2026-08-19",
@@ -3053,48 +3385,13 @@
    "eligibility": null,
    "audience": [],
    "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
+   "watch": null,
+   "watch_group": null,
    "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
+   "sponsorship": "Other",
+   "pay": null,
    "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e454f69805ec",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "first_seen": "2026-08-25T01:53:11.720622+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -3427,7 +3724,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -3581,6 +3878,598 @@
    "deadline_passed": false
   },
   {
+   "id": "acee8f7d8e6f",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Multiple Teams",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171563?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e1ef09816634",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
+   "locations": [
+    "West Palm Beach, FL"
+   ],
+   "url": "https://higher.gs.com/roles/181628?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "41219d857bc8",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171551?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "7bb41ed1a967",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171550?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "88ed4c214f34",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171548?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "5b6b27573b02",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Engineering",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171564?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "e9b59b47da38",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171532?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "9fc62544ec7b",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171534?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "eb68ff14fd7a",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171533?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "904d14ee3d51",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Engineering",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171565?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "513d86a433ab",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171547?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "428152c070c3",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171549?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "3e3ccf58e53c",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Engineering",
+   "locations": [
+    "Seattle, WA"
+   ],
+   "url": "https://higher.gs.com/roles/177808?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "9c272410d2fe",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Engineering",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171553?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "cf99a3e5bd71",
+   "company": "Bank of China USA",
+   "title": "Enterprise Risk Management Risk Data Aggregation Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://careers-bocusa.icims.com/jobs/4326/job?mobile=true&needsRedirect=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "15fbcdd37d4f",
+   "company": "Bank of China USA",
+   "title": "Risk Data Aggregation Intern - Enterprise Risk Management Department",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://careers-bocusa.icims.com/jobs/4470/job?mobile=true&needsRedirect=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Fall 2026",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "aabb0d71e0a2",
    "company": "PGIM",
    "title": "Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group",
@@ -3693,6 +4582,80 @@
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "380fa17b13b0",
+   "company": "Bank of China USA",
+   "title": "Risk Analytics Model Intern - Credit Risk Management Department",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://careers-bocusa.icims.com/jobs/3599/job?mobile=true&needsRedirect=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Fall 2026",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "41a019578820",
+   "company": "Bank of China USA",
+   "title": "Risk Analytics Model Intern - Credit Risk Management Department",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://careers-bocusa.icims.com/jobs/4081/job?mobile=true&needsRedirect=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Fall 2026",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -3993,23 +4956,25 @@
    "deadline_passed": false
   },
   {
-   "id": "7074f3b0b893",
-   "company": "Montenson",
-   "title": "Sustainability Engineer Intern",
+   "id": "f72d4bbf2bbf",
+   "company": "AQR Capital Management",
+   "title": "Quantitative Prediction Markets Research Summer Analyst Intern",
    "locations": [
-    "Denver, CO"
+    "Greenwich, CT"
    ],
-   "url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23367",
+   "url": "https://careers.aqr.com/jobs?gh_jid=8122378&gh_jid=8122378",
    "sources": [
     "simplify"
    ],
-   "role": "SWE",
+   "role": "QR",
    "term": "Summer 2027",
    "degrees": [
-    "Bachelor's"
+    "Bachelor's",
+    "Master's",
+    "PhD"
    ],
    "level": "undergrad",
-   "date_posted": "2026-08-10",
+   "date_posted": "2026-08-11",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -4025,156 +4990,8 @@
    "sponsorship": "Other",
    "pay": null,
    "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "bb56e6ee933c",
-   "company": "Montenson",
-   "title": "Investment Analyst Intern",
-   "locations": [
-    "Minnesota"
-   ],
-   "url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23362",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "37d8b5a43b21",
-   "company": "Montenson",
-   "title": "System Administrator Intern",
-   "locations": [
-    "Minnesota"
-   ],
-   "url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23368",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "aa5fe4da2f69",
-   "company": "Montenson",
-   "title": "Data Analytics Intern - Insights",
-   "locations": [
-    "Minnesota"
-   ],
-   "url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23342",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "6ee6046cdf37",
-   "company": "Montenson",
-   "title": "Artificial Intelligence Intern",
-   "locations": [
-    "Minnesota"
-   ],
-   "url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -4541,6 +5358,111 @@
    "deadline_passed": false
   },
   {
+   "id": "ca17838a06d7",
+   "company": "NVIDIA",
+   "title": "Software Engineering Intern - Dynamo - Fall 2026",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3fd00ca130c5",
+   "company": "Belvedere Trading",
+   "title": "Software Engineer Intern - Summer 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$72/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "c7fb856700fc",
+   "company": "Belvedere Trading",
+   "title": "Quantitative Trading Intern - Winter Quarter 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$72/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "40b0abd1c833",
    "company": "Anthropic",
    "title": "Technical Program Manager, Silicon",
@@ -4691,111 +5613,6 @@
    "deadline_passed": false
   },
   {
-   "id": "ca17838a06d7",
-   "company": "NVIDIA",
-   "title": "Software Engineering Intern - Dynamo - Fall 2026",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "3fd00ca130c5",
-   "company": "Belvedere Trading",
-   "title": "Software Engineer Intern - Summer 2027",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$72/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "c7fb856700fc",
-   "company": "Belvedere Trading",
-   "title": "Quantitative Trading Intern - Winter Quarter 2027",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$72/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "7291a564845a",
    "company": "Anthropic",
    "title": "Technical Program Manager, Hardware Systems",
@@ -4937,7 +5754,7 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -4977,47 +5794,7 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "fbb26a5645f0",
-   "company": "Microsoft",
-   "title": "Software Engineer Security & Identity Intern",
-   "locations": [
-    "Redmond, WA",
-    "Washington, DC"
-   ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-   "sources": [
-    "simplify",
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Fall 2026",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-04",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$52/hr",
-   "note": null,
-   "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5057,7 +5834,7 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5097,7 +5874,7 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5398,52 +6175,6 @@
    "deadline_passed": false
   },
   {
-   "id": "8656dc479c3c",
-   "company": "JP Morgan Chase",
-   "title": "Software Engineer Intern - Software Engineer Program",
-   "locations": [
-    "Palo Alto, CA",
-    "Houston, TX",
-    "Tampa, FL",
-    "Plano, TX",
-    "Chicago, IL",
-    "Jersey City, NJ",
-    "Columbus, OH",
-    "NYC",
-    "Wilmington, DE"
-   ],
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-03",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "0bbce18e3196",
    "company": "JP Morgan Chase",
    "title": "Quantitative Research Summer Analyst Intern - Asset Management",
@@ -5518,41 +6249,6 @@
    "pay": "$52/hr",
    "note": null,
    "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "4dbd46d31103",
-   "company": "Susquehanna International Group",
-   "title": "Quantitative Trading and Quantitative Strategy Development",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://careers-sig.icims.com/jobs/11148/job?mobile=true&needsRedirect=false",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-03",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -6273,234 +6969,6 @@
    "deadline_passed": false
   },
   {
-   "id": "1d72e05bc501",
-   "company": "Akuna Capital",
-   "title": "Quantitative Development & Strategy Intern - Summer 2027",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481",
-   "sources": [
-    "nufintech",
-    "speedyapply:ai",
-    "vansh"
-   ],
-   "role": "QD",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": "$75/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "96192e3bacb8",
-   "company": "Akuna Capital",
-   "title": "Quantitative Research Intern - Summer 2027",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614",
-   "sources": [
-    "nufintech",
-    "speedyapply:ai",
-    "vansh"
-   ],
-   "role": "QR",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": "$75/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "3ea318246ab4",
-   "company": "Akuna Capital",
-   "title": "Software Engineer Intern - C++ - Summer 2027",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
-   "sources": [
-    "nufintech",
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": "$75/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "2398d0789cac",
-   "company": "Akuna Capital",
-   "title": "Software Engineer Intern - Python - Summer 2027",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853",
-   "sources": [
-    "nufintech",
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": "$75/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "03309a751c44",
-   "company": "Akuna Capital",
-   "title": "Software Engineer Intern - C# .NET Desktop - Summer 2027",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886",
-   "sources": [
-    "nufintech",
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$75/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "54965c54b14e",
-   "company": "Akuna Capital",
-   "title": "Software Engineer Intern - Full Stack Web - Summer 2027",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893",
-   "sources": [
-    "nufintech",
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": "$75/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "323536243c82",
    "company": "Akuna Capital",
    "title": "Platform Engineer Intern",
@@ -6532,84 +7000,6 @@
    "us": "US",
    "sponsorship": "U.S. Citizenship is Required",
    "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "38c9bbf5cd19",
-   "company": "Akuna Capital",
-   "title": "Hardware Engineer Intern",
-   "locations": [
-    "Chicago",
-    "Chicago, IL"
-   ],
-   "url": "https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880",
-   "sources": [
-    "nufintech",
-    "vansh"
-   ],
-   "role": "HW",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "24761b25b23d",
-   "company": "Five Rings",
-   "title": "Summer Intern 2027 - Software Developer",
-   "locations": [
-    "NYC",
-    "New York, NY",
-    "New York City, NY",
-    "New York"
-   ],
-   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
-   "sources": [
-    "greenhouse:fiveringsllc",
-    "nufintech",
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "U.S. Citizenship is Required",
-   "pay": "$144/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -6662,82 +7052,6 @@
     "NYC"
    ],
    "url": "https://www.trlm.com/apply/5076003007?gh_jid=5076003007",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "0522d89684a7",
-   "company": "Trillium",
-   "title": "Equity Trader Intern",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://www.trlm.com/apply/5076017007?gh_jid=5076017007",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-07-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "75bcf6793b9f",
-   "company": "Trillium",
-   "title": "Equity Trader Intern",
-   "locations": [
-    "Miami, FL"
-   ],
-   "url": "https://www.trlm.com/apply/5076067007?gh_jid=5076067007",
    "sources": [
     "simplify"
    ],
@@ -7021,6 +7335,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-25T17:33:54.942297+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "6bd4f5de0337",
+   "company": "Jane Street",
+   "title": "Sales and Trading Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://www.janestreet.com/join-jane-street/position/8347385002/",
+   "sources": [
+    "vansh"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-24",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Jane Street",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": "Offers Sponsorship",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -7422,41 +7771,6 @@
    "deadline_passed": false
   },
   {
-   "id": "2f55989b3941",
-   "company": "AQR Capital Management",
-   "title": "Trading Analyst Intern",
-   "locations": [
-    "Greenwich, CT"
-   ],
-   "url": "https://careers.aqr.com/jobs?gh_jid=8077110&gh_jid=8077110",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-21",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "65bab0efc1d2",
    "company": "Virtu Financial",
    "title": "Quantitative Trading Intern",
@@ -7538,24 +7852,20 @@
    "deadline_passed": false
   },
   {
-   "id": "7e8da1d1af21",
-   "company": "Castleton Commodities International",
-   "title": "Commodities Trading Analyst Internship",
+   "id": "eff809b8a495",
+   "company": "Ramiel Capital",
+   "title": "Trading Intern",
    "locations": [
-    "Houston, TX",
-    "Stamford, CT"
+    "NYC"
    ],
-   "url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Houston-TX/Commodities-Trading-Summer-Analyst-Internship-Program--Summer-2027-Internship-_R1333-1",
+   "url": "https://jobs.ashbyhq.com/ramielcapital/8c57222a-e723-49a6-b9f1-b4628c1da76f/application?embed=true",
    "sources": [
     "simplify"
    ],
    "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
    "date_posted": "2026-07-21",
    "deadline": null,
    "deadline_source": null,
@@ -7572,116 +7882,8 @@
    "sponsorship": "Other",
    "pay": null,
    "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "9e640bacd37e",
-   "company": "Chevron Corporation",
-   "title": "Supply & Trading TRIP Program Intern",
-   "locations": [
-    "Houston, TX"
-   ],
-   "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-1400-Smith-Street/XMLNAME-2026-2027-Supply---Trading-TAMU-TRIP-Program-Intern_R000072485",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "93e440704298",
-   "company": "Chevron Corporation",
-   "title": "Supply & Trading TAMU TRIP Program Intern",
-   "locations": [
-    "Houston, TX"
-   ],
-   "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-1400-Smith-Street/XMLNAME-2026-2027-Supply---Trading-TAMU-TRIP-Program-Intern_R000072487",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QT",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "a18a1efd3147",
-   "company": "Chevron Corporation",
-   "title": "Intern",
-   "locations": [
-    "Houston, TX"
-   ],
-   "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-1400-Smith-Street/XMLNAME-2026-2027-Supply---Trading-TAMU-TRIP-Program---Full-Time_R000072489",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Fall 2026",
-   "degrees": [
-    "Bachelor's",
-    "Certificate"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-07-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -7763,64 +7965,6 @@
    "deadline_passed": false
   },
   {
-   "id": "2b55f0b2bdd0",
-   "company": "Google",
-   "title": "Student Researcher",
-   "locations": [
-    "Toronto, ON, Canada",
-    "Kitchener, ON, Canada",
-    "Palo Alto, CA",
-    "Cambridge, MA",
-    "Madison, WI",
-    "Seattle, WA",
-    "Washington, DC",
-    "SF",
-    "Austin, TX",
-    "LA",
-    "Irvine, CA",
-    "San Bruno, CA",
-    "Ann Arbor, MI",
-    "Chicago, IL",
-    "Goleta, CA",
-    "Pittsburgh, PA",
-    "Kirkland, WA",
-    "NYC",
-    "Sunnyvale, CA",
-    "Mountain View, CA",
-    "Atlanta, GA"
-   ],
-   "url": "https://www.google.com/about/careers/applications/jobs/results/113855697199735494",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-07-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Google",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "f3ab41064974",
    "company": "Optiver",
    "title": "Trading Automation and Operations Intern",
@@ -7856,121 +8000,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-25T13:12:09.434027+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "8863883bc8da",
-   "company": "Chevron Corporation",
-   "title": "Software Engineer Intern - Information Technology - Software Engineer",
-   "locations": [
-    "Houston, TX"
-   ],
-   "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Fall 2026",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-07-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "404d0fd4b713",
-   "company": "Citadel Securities",
-   "title": "Quantitative Trader - Intern - US - Trading and Research",
-   "locations": [
-    "Chicago",
-    "NYC",
-    "Miami, FL"
-   ],
-   "url": "https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/",
-   "sources": [
-    "nufintech",
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-15",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$125/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "a47698125824",
-   "company": "Five Rings",
-   "title": "Summer Intern 2027 - Quantitative Trader",
-   "locations": [
-    "NYC",
-    "New York City, NY",
-    "New York"
-   ],
-   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
-   "sources": [
-    "greenhouse:fiveringsllc",
-    "nufintech",
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-15",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$144/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -8083,6 +8112,88 @@
    "us": "US",
    "sponsorship": null,
    "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "a47698125824",
+   "company": "Five Rings",
+   "title": "Summer Intern 2027 - Quantitative Trader",
+   "locations": [
+    "NYC",
+    "New York City, NY",
+    "New York"
+   ],
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
+   "sources": [
+    "greenhouse:fiveringsllc",
+    "nufintech",
+    "simplify",
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$144/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "24761b25b23d",
+   "company": "Five Rings",
+   "title": "Summer Intern 2027 - Software Developer",
+   "locations": [
+    "NYC",
+    "New York, NY",
+    "New York City, NY",
+    "New York"
+   ],
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
+   "sources": [
+    "greenhouse:fiveringsllc",
+    "nufintech",
+    "simplify",
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$144/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -8208,6 +8319,306 @@
    "deadline_passed": false
   },
   {
+   "id": "1d72e05bc501",
+   "company": "Akuna Capital",
+   "title": "Quantitative Development & Strategy Intern - Summer 2027",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:ai",
+    "vansh"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$75/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "96192e3bacb8",
+   "company": "Akuna Capital",
+   "title": "Quantitative Research Intern - Summer 2027",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:ai",
+    "vansh"
+   ],
+   "role": "QR",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$75/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3ea318246ab4",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - C++ - Summer 2027",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$75/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "2398d0789cac",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - Python - Summer 2027",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$75/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "03309a751c44",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - C# .NET Desktop - Summer 2027",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$75/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "54965c54b14e",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - Full Stack Web - Summer 2027",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$75/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "38c9bbf5cd19",
+   "company": "Akuna Capital",
+   "title": "Hardware Engineer Intern",
+   "locations": [
+    "Chicago",
+    "Chicago, IL"
+   ],
+   "url": "https://www.akunacapital.com/careers/job/8018880/?gh_jid=8018880",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "vansh"
+   ],
+   "role": "HW",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "b83fb448370a",
    "company": "Hudson River Trading",
    "title": "Algorithm Development (Quant Research & Trading) Internship – Summer 2027",
@@ -8305,41 +8716,6 @@
     "greenhouse:drweng"
    ],
    "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-13",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "2669228cabc8",
-   "company": "DRW",
-   "title": "Quantitative Research Intern",
-   "locations": [
-    "Chicago, New York City"
-   ],
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
-   "sources": [
-    "greenhouse:drweng"
-   ],
-   "role": "QR",
    "term": null,
    "degrees": [],
    "level": "unknown",
@@ -9310,9 +9686,52 @@
    "deadline_passed": false
   },
   {
+   "id": "404d0fd4b713",
+   "company": "Citadel Securities",
+   "title": "Quantitative Trader - Intern - US - Trading and Research",
+   "locations": [
+    "Chicago",
+    "NYC",
+    "Miami, FL"
+   ],
+   "url": "https://www.citadelsecurities.com/careers/details/quantitative-trader-intern-us/",
+   "sources": [
+    "nufintech",
+    "simplify",
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-07-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$125/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "2e764e8effcc",
    "company": "Citadel Securities",
-   "title": "Software Engineer - Intern - US",
+   "title": "Software Engineer – Intern (US) Miami, New York Apply Now",
    "locations": [
     "Chicago",
     "NYC",
@@ -9321,6 +9740,7 @@
    "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
    "sources": [
     "nufintech",
+    "page:Citadel Securities",
     "simplify",
     "speedyapply:swe"
    ],
@@ -9723,46 +10143,6 @@
    "deadline_passed": false
   },
   {
-   "id": "6bd4f5de0337",
-   "company": "Jane Street",
-   "title": "Sales and Trading",
-   "locations": [
-    "NYC",
-    "New York, NY"
-   ],
-   "url": "https://job-boards.greenhouse.io/janestreet/jobs/8347385002",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-07-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Jane Street",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "c967830b1a19",
    "company": "Jane Street",
    "title": "Machine Learning Engineer",
@@ -9992,6 +10372,41 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "5c65f2ceb009",
+   "company": "NVIDIA",
+   "title": "Applied Research Intern - NLP - Fall 2026",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": "Fall 2026",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-02",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -10476,41 +10891,6 @@
    "deadline_passed": false
   },
   {
-   "id": "5c65f2ceb009",
-   "company": "NVIDIA",
-   "title": "Applied Research Intern - NLP - Fall 2026",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": "Fall 2026",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-01",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "f5fe6c365e31",
    "company": "Susquehanna International Group",
    "title": "Quantitative Trader Intern",
@@ -10617,41 +10997,6 @@
    "watch_group": null,
    "us": "US",
    "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "797134ebafd1",
-   "company": "Anthropic",
-   "title": "Legal Program Manager, Contracts and Governance",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5274119008",
-   "sources": [
-    "greenhouse:anthropic"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-06-23",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Anthropic",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
@@ -11134,6 +11479,41 @@
    "deadline_passed": false
   },
   {
+   "id": "8b2ebd219568",
+   "company": "Apple",
+   "title": "Software Undergrad Engineering Internships",
+   "locations": [
+    "USA"
+   ],
+   "url": "https://jobs.apple.com/en-us/details/200664785-3810",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "undergrad",
+   "date_posted": "2026-05-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Apple",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$47/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "6b4f63774031",
    "company": "Susquehanna International Group",
    "title": "Trading System Engineering Intern",
@@ -11200,41 +11580,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-25T17:33:54.942297+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "8b2ebd219568",
-   "company": "Apple",
-   "title": "Software Undergrad Engineering Internships",
-   "locations": [
-    "USA"
-   ],
-   "url": "https://jobs.apple.com/en-us/details/200664785-3810",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "undergrad",
-   "date_posted": "2026-05-22",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Apple",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$47/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -11366,7 +11711,7 @@
    "term": "Summer 2027",
    "degrees": [],
    "level": "unknown",
-   "date_posted": "2026-05-07",
+   "date_posted": "2026-05-08",
    "deadline": null,
    "deadline_source": null,
    "kind": "internship",
@@ -13967,6 +14312,138 @@
    "deadline_passed": false
   },
   {
+   "id": "c4cba9171db9",
+   "company": "Citadel Securities",
+   "title": "Trading Fundamental Analyst – Intern (US) New York Apply Now",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/details/trading-fundamental-analyst-intern-us/",
+   "sources": [
+    "page:Citadel Securities"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "2c023b00c70c",
+   "company": "Citadel Securities",
+   "title": "Software Engineer – Intern (Australia) Sydney Apply Now",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-australia/",
+   "sources": [
+    "page:Citadel Securities"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "2a729819beab",
+   "company": "Citadel Securities",
+   "title": "Rates Trading – Intern (Europe) London, Paris Apply Now",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/details/rates-trading-intern-europe/",
+   "sources": [
+    "page:Citadel Securities"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "eb3f356ac06a",
+   "company": "Citadel Securities",
+   "title": "Software Engineer – Intern (Asia) Hong Kong, Singapore Apply Now",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-asia/",
+   "sources": [
+    "page:Citadel Securities"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "83bfe89b4f9f",
    "company": "Y Combinator",
    "title": "Engineering Intern",
@@ -14030,6 +14507,39 @@
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ba46693a0805",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern, ROBOTICS - 2027",
+   "locations": [],
+   "url": "https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027",
+   "sources": [
+    "amazon"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -14675,9 +15185,8 @@
    "company": "Citadel Securities",
    "title": "Ignite Women's Trading Program",
    "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/ignite-womens-trading-program/",
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
    "sources": [
-    "events:Citadel Securities",
     "events:seed"
    ],
    "role": "QT",
@@ -14696,7 +15205,7 @@
     "first/second-years",
     "women+"
    ],
-   "seeded": false,
+   "seeded": true,
    "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
@@ -14712,9 +15221,8 @@
    "company": "Citadel Securities",
    "title": "Discover Citadel Securities",
    "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/",
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/",
    "sources": [
-    "events:Citadel Securities",
     "events:seed"
    ],
    "role": "Other",
@@ -14732,7 +15240,7 @@
    "audience": [
     "first/second-years"
    ],
-   "seeded": false,
+   "seeded": true,
    "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
@@ -14844,6 +15352,41 @@
    "sponsorship": null,
    "pay": null,
    "note": "Build an app playground in Swift; winners get a year of Apple Developer Program membership and some are invited to WWDC. Submissions usually open in February.",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "308d26e696de",
+   "company": "Citadel Securities",
+   "title": "Trading Invitational",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-trading-invitational/",
+   "sources": [
+    "events:seed"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "competition",
+   "when": null,
+   "eligibility": "undergrads",
+   "audience": [
+    "any undergrad"
+   ],
+   "seeded": true,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": "Apply to compete.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -14961,7 +15504,6 @@
    "locations": [],
    "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-citadel-securities-quant-invitational/",
    "sources": [
-    "events:Citadel Securities",
     "events:seed"
    ],
    "role": "Other",
@@ -14979,7 +15521,7 @@
    "audience": [
     "first/second-years"
    ],
-   "seeded": false,
+   "seeded": true,
    "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
@@ -15089,6 +15631,41 @@
    "sponsorship": null,
    "pay": null,
    "note": "One-week virtual research exposure program listed on Google Research's student page.",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "aab70bb0290d",
+   "company": "Citadel Securities",
+   "title": "Datathons",
+   "locations": [],
+   "url": "https://www.citadelsecurities.com/careers/programs-and-events/datathons/",
+   "sources": [
+    "events:seed"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "datathon",
+   "when": null,
+   "eligibility": "undergrads at US/Canada universities graduating Dec 2026 – Jun 2028",
+   "audience": [
+    "any undergrad"
+   ],
+   "seeded": true,
+   "watch": "Citadel Securities",
+   "watch_group": "quant",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": "Same Correlation One series as Citadel's; compete for prizes and an interview.",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -15440,39 +16017,6 @@
    "deadline_passed": false
   },
   {
-   "id": "023b12d75821",
-   "company": "Microsoft",
-   "title": "\"Learn more about the Neurodiversity Hiring Program\"",
-   "locations": [],
-   "url": "https://\"https//careers.microsoft.com/v2/global/en/neurodiversity.html%22",
-   "sources": [
-    "events:Microsoft"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Leap At Microsoft, we know there are many pathways into the technology industry and into our organization. We're constantly looking for new ways to create unconventional entry points for talent and leverage the skills and experiences of talent from outside the traditional academi",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "ed627b96a19a",
    "company": "Microsoft",
    "title": "Image 20: Photo of Microsoft employee giving lecture",
@@ -15500,7 +16044,7 @@
    "us": "unknown",
    "sponsorship": null,
    "pay": null,
-   "note": "MSSA Microsoft Software and Systems Academy (MSSA) provides transitioning service members and veterans with critical technical and career skills required for today’s growing technology industry. https://\"https://military.microsoft.com/mssa/\" \"Learn more about MSSA\"",
+   "note": "MSSA Microsoft Software and Systems Academy (MSSA) provides transitioning service members and veterans with critical technical and career skills required for today’s growing technology industry. \"https://military.microsoft.com/mssa/\" \"Learn more about MSSA\" Student Veterans Micro",
    "first_seen": "2026-08-28T22:20:52.373702+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -15644,9 +16188,9 @@
    "deadline_passed": false
   },
   {
-   "id": "76e70ae0c7ed",
+   "id": "bab7e4789b09",
    "company": "Microsoft",
-   "title": "Image 33: Photo of students walking and talking",
+   "title": "Image 24: Photo of students walking and talking",
    "locations": [],
    "url": "https://careers.microsoft.com/content/dam/microsoftcareersvnext/en/images/clickablecards-3-1-/students/EIP__ImagineCup.png",
    "sources": [
@@ -15674,8 +16218,8 @@
    "sponsorship": null,
    "pay": null,
    "note": "Imagine Cup Compete in the premier global technology competition for student founders and tuen your innovative idea into a market-ready startup with Microsoft AI technologies. Gain access to network opportunities, global recognition, and expert coaching during the competition to ",
-   "first_seen": "2026-09-03T16:26:55.919989+00:00",
-   "is_new": true,
+   "first_seen": "2026-08-28T22:20:52.373702+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -15714,9 +16258,9 @@
    "deadline_passed": false
   },
   {
-   "id": "dfdb23f94e6b",
+   "id": "85e18c0d06cc",
    "company": "Microsoft",
-   "title": "Image 32: Photo of students working togehter",
+   "title": "Image 23: Photo of students working togehter",
    "locations": [],
    "url": "https://careers.microsoft.com/content/dam/microsoftcareersvnext/en/images/clickablecards-3-1-/students/EIP__StudentAmbassadors.png",
    "sources": [
@@ -15744,8 +16288,8 @@
    "sponsorship": null,
    "pay": null,
    "note": "Student Ambassador We are looking for student leaders with a passion for making a difference and sharing technology with their peers. !",
-   "first_seen": "2026-09-03T16:26:55.919989+00:00",
-   "is_new": true,
+   "first_seen": "2026-08-28T22:20:52.373702+00:00",
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -16094,7 +16638,7 @@
    "us": "unknown",
    "sponsorship": null,
    "pay": null,
-   "note": "Student Veterans Microsoft offers internships and onboarding programs for student veterans who are working toward a degree in a STEM field. https://\"https://careers.microsoft.com/v2/global/en/military/student-veterans\" \"Learn more about our student veterans\"",
+   "note": "Student Veterans Microsoft offers internships and onboarding programs for student veterans who are working toward a degree in a STEM field. \"https://careers.microsoft.com/v2/global/en/military/student-veterans\" \"Learn more about our student veterans\" Datacenter pathways HaaS data",
    "first_seen": "2026-08-28T22:20:52.373702+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -16232,72 +16776,6 @@
    "sponsorship": null,
    "pay": null,
    "note": "NYC, London & Singapore | Spring Explore HRT is a multi-day program for 2028 graduates who are interested in building a career in quantitative trading. Expect tech talks, 1:1 mentorship, and a look into the systems and people behind HRT’s global trading infrastructure.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "00a98da8040a",
-   "company": "Microsoft",
-   "title": "Learn more about Aspire",
-   "locations": [],
-   "url": "https://careers.microsoft.com/v2/global/en/recentgraduate",
-   "sources": [
-    "events:Microsoft"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "❯ Hiring programs ❮ Neurodiversity We built the Microsoft Neurodiversity Hiring Program on the belief that neurodivergent individuals strengthen a workforce with innovative thinking and creative solutions. Diverse teams positively impact our company culture, working environment a",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "d46bb0f7a35d",
-   "company": "Microsoft",
-   "title": "\"Learn more about MSSA\"",
-   "locations": [],
-   "url": "https://\"https//military.microsoft.com/mssa/%22",
-   "sources": [
-    "events:Microsoft"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Student Veterans Microsoft offers internships and onboarding programs for student veterans who are working toward a degree in a STEM field. https://careers.microsoft.com/v2/global/en/military/student-veterans Learn more about our student veterans",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -16547,42 +17025,6 @@
    "deadline_passed": false
   },
   {
-   "id": "308d26e696de",
-   "company": "Citadel Securities",
-   "title": "Trading Invitational",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/the-trading-invitational/",
-   "sources": [
-    "events:Citadel Securities",
-    "events:seed"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "competition",
-   "when": null,
-   "eligibility": "undergrads",
-   "audience": [
-    "any undergrad"
-   ],
-   "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Apply to compete.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "531b047e8af7",
    "company": "Jane Street",
    "title": "Jane Street Programs",
@@ -16681,39 +17123,6 @@
    "note": "Campus Talent Community If you’re a first or second year student interested in early student programs, or just want to share your resume with us, join our talent community so we can reach out to you when an opportunity arises!",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "115580a493f3",
-   "company": "Microsoft",
-   "title": "Image 28: Work site",
-   "locations": [],
-   "url": "https://careers.microsoft.com/content/dam/microsoftcareersvnext/en/images/job-list/Home.png",
-   "sources": [
-    "events:Microsoft"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "3 days / week in-office <b Overview</b <br <p The objective of the \"Ability Hiring Event\" is to build an inclusive hiring approach that recognizes and embraces the skills of candidates with all disabilities. The World Health Organization defines disability as arising from the int",
-   "first_seen": "2026-09-03T16:26:55.919989+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -17096,14 +17505,13 @@
    "deadline_passed": false
   },
   {
-   "id": "aab70bb0290d",
-   "company": "Citadel Securities",
-   "title": "Datathons",
+   "id": "553e2c79c4fc",
+   "company": "Microsoft",
+   "title": "See details",
    "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/datathons",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556962244?hl=en",
    "sources": [
-    "events:Citadel Securities",
-    "events:seed"
+    "events:Microsoft"
    ],
    "role": "Other",
    "term": null,
@@ -17114,20 +17522,18 @@
    "deadline_source": null,
    "kind": "event",
    "status": "open",
-   "event_type": "datathon",
+   "event_type": "insight",
    "when": null,
-   "eligibility": "undergrads at US/Canada universities graduating Dec 2026 – Jun 2028",
-   "audience": [
-    "any undergrad"
-   ],
+   "eligibility": null,
+   "audience": [],
    "seeded": false,
-   "watch": "Citadel Securities",
-   "watch_group": "quant",
+   "watch": "Microsoft",
+   "watch_group": "tech",
    "us": "unknown",
    "sponsorship": null,
    "pay": null,
-   "note": "Same Correlation One series as Citadel's; compete for prizes and an interview.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "note": "Digital Solution Area Specialists - PwD Opportunities 2026-08-18 Brazil, São Paulo, São Paulo 3 days / week in-office <b Overview</b <br <p The objective of the \"Ability Hiring Event\" is to build an inclusive hiring approach that recognizes and embraces the skills of candidates w",
+   "first_seen": "2026-08-28T22:20:52.373702+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -17190,39 +17596,6 @@
    "audience": [],
    "seeded": false,
    "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "4541cd632ba6",
-   "company": "Citadel Securities",
-   "title": "Terminal",
-   "locations": [],
-   "url": "https://www.citadelsecurities.com/careers/programs-and-events/terminal/",
-   "sources": [
-    "events:Citadel Securities"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel Securities",
    "watch_group": "quant",
    "us": "unknown",
    "sponsorship": null,
