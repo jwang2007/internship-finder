@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T06:48:08+00:00",
+ "generated_at": "2026-11-03T19:29:25+00:00",
  "source_links": {
   "nufintech": "https://github.com/northwesternfintech/2027QuantInternships",
   "simplify": "https://github.com/SimplifyJobs/Summer2027-Internships",
@@ -24,12 +24,12 @@
   "us_only": true
  },
  "counts": {
-  "total": 476,
+  "total": 489,
   "events": 167,
   "with_deadline": 14,
-  "new": 20,
-  "watchlist": 344,
-  "new_this_run": 9
+  "new": 18,
+  "watchlist": 342,
+  "new_this_run": 6
  },
  "first_run": false,
  "sources": {
@@ -37,31 +37,31 @@
    "ok": true,
    "count": 71,
    "error": null,
-   "secs": 0.3
+   "secs": 0.2
   },
   "simplify": {
    "ok": true,
-   "count": 761,
+   "count": 792,
    "error": null,
    "secs": 0.2
   },
   "vansh": {
    "ok": true,
-   "count": 134,
+   "count": 136,
    "error": null,
    "secs": 0.0
   },
   "speedyapply": {
    "ok": true,
-   "count": 168,
+   "count": 162,
    "error": null,
-   "secs": 1.2
+   "secs": 1.4
   },
   "greenhouse": {
    "ok": true,
    "count": 213,
    "error": null,
-   "secs": 2.7
+   "secs": 3.0
   },
   "janestreet": {
    "ok": null,
@@ -72,7 +72,7 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "secs": 30.3
+   "secs": 50.5
   },
   "lever": {
    "ok": null,
@@ -89,38 +89,38 @@
    "ok": true,
    "count": 219,
    "error": null,
-   "secs": 17.2
+   "secs": 19.9
   },
   "microsoft": {
    "ok": true,
    "count": 0,
    "error": "microsoft 'intern' p1: SSLError HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max ret; microsoft 'explore intern' p1: SSLError HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max ret; microsoft 'research intern' p1: SSLError HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max ret",
-   "secs": 0.1
+   "secs": 0.0
   },
   "pages": {
    "ok": true,
-   "count": 14,
-   "error": null,
-   "secs": 49.5
+   "count": 8,
+   "error": "Citadel: ConnectionError ('Connection aborted.', RemoteDisconnected('Remote end closed connection without; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab",
+   "secs": 37.2
   },
   "events": {
    "ok": true,
    "count": 96,
    "error": null,
-   "secs": 124.2
+   "secs": 113.7
   },
   "underclassmen": {
    "ok": true,
    "count": 58,
    "error": null,
-   "secs": 0.5
+   "secs": 0.4
   }
  },
  "watchlist": [
   {
    "name": "Citadel",
    "group": "quant",
-   "count": 7,
+   "count": 5,
    "events": 7,
    "website": "https://www.citadel.com/careers/open-opportunities/students/internships/",
    "note": "The hedge fund side of Ken Griffin's Citadel. The quants are mostly on the Global Quantitative Strategies team (GQS). Citadel tends to be fairly school-selective."
@@ -176,7 +176,7 @@
   {
    "name": "Meta",
    "group": "tech",
-   "count": 14,
+   "count": 12,
    "events": 4,
    "website": null,
    "note": null
@@ -192,7 +192,7 @@
   {
    "name": "Microsoft",
    "group": "tech",
-   "count": 27,
+   "count": 28,
    "events": 22,
    "website": null,
    "note": null
@@ -200,7 +200,7 @@
   {
    "name": "NVIDIA",
    "group": "tech",
-   "count": 61,
+   "count": 62,
    "events": 9,
    "website": null,
    "note": null
@@ -390,6 +390,41 @@
    "deadline_passed": false
   },
   {
+   "id": "37cd94854e67",
+   "company": "Meta",
+   "title": "Research Scientist Intern - FM Quality ML",
+   "locations": [
+    "Menlo Park, CA"
+   ],
+   "url": "https://www.metacareers.com/jobs/1125383989877928",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Meta",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-03T19:29:25.529028+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "6b678ea37a27",
    "company": "NVIDIA",
    "title": "Math Libraries Intern, cuEST",
@@ -456,6 +491,112 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-03T06:48:08.988629+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "bb86a9d83c7c",
+   "company": "Arrowstreet Capital",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Boston, MA"
+   ],
+   "url": "https://go.vansh.nyc/1dK",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-03T19:29:25.529028+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "beb7058a5cc7",
+   "company": "Microsoft",
+   "title": "Software Engineer Intern, Teamwork Experiences",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://go.vansh.nyc/1dY",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-03T19:29:25.529028+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "090eda4ff303",
+   "company": "Anthropic",
+   "title": "Customer Program Manager, Executive Briefings",
+   "locations": [
+    "London, UK",
+    "San Francisco, CA | New York City, NY"
+   ],
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5463187008",
+   "sources": [
+    "greenhouse:anthropic"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-03",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "event",
+   "status": "open",
+   "event_type": "program",
+   "when": null,
+   "eligibility": "senior",
+   "audience": [],
+   "seeded": false,
+   "watch": "Anthropic",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-03T19:29:25.529028+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -535,41 +676,6 @@
    "deadline_passed": false
   },
   {
-   "id": "5e25b6b0efa9",
-   "company": "Meta",
-   "title": "Research Scientist Intern - Robotic Control Policy",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://www.metacareers.com/jobs/1872420890835857",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Meta",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-03T06:48:08.988629+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
    "id": "54e04a6fbc58",
    "company": "Microsoft",
    "title": "Research Intern - Foundational Models & Agent",
@@ -595,41 +701,6 @@
    "audience": [],
    "seeded": false,
    "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-03T06:48:08.988629+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "94794c0b3e67",
-   "company": "Meta",
-   "title": "Research Scientist Intern - Interactive Physics Simulation for Robotics",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://www.metacareers.com/jobs/1143164681833409",
-   "sources": [
-    "simplify"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Meta",
    "watch_group": "tech",
    "us": "US",
    "sponsorship": "Other",
@@ -715,6 +786,45 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-03T06:48:08.988629+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "e4687186ce16",
+   "company": "NVIDIA",
+   "title": "AI Compiler and Kernel Intern",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/AI-Compiler-and-Kernel-Intern---Summer-2027_JR2029220-1",
+   "sources": [
+    "simplify"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-11-02",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-03T19:29:25.529028+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -820,6 +930,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-02T21:42:43.360429+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "a2eaae39f09b",
+   "company": "NVIDIA",
+   "title": "AI Compiler and Kernel Intern - Summer 2027",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-TX-Austin/AI-Compiler-and-Kernel-Intern---Summer-2027_JR2029220-1",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-02",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-11-03T19:29:25.529028+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -1033,111 +1178,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-30T05:50:22.477350+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "1baf62063599",
-   "company": "NVIDIA",
-   "title": "AI Systems Software Engineering Intern - Summer 2027",
-   "locations": [
-    "Austin, TX"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-30",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-10-30T18:00:24.384659+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "59d442ad1ac5",
-   "company": "NVIDIA",
-   "title": "Compiler Software Engineering Intern - Summer 2027",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-30",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-10-30T18:00:24.384659+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "7041a9361e52",
-   "company": "NVIDIA",
-   "title": "VLSI CAD Timing Intern - Applied AI - Summer 2027",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "phd",
-   "date_posted": "2026-10-30",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-10-30T18:00:24.384659+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -1408,6 +1448,111 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-29T18:28:44.180877+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "1baf62063599",
+   "company": "NVIDIA",
+   "title": "AI Systems Software Engineering Intern - Summer 2027",
+   "locations": [
+    "Austin, TX"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-29",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-10-30T18:00:24.384659+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "59d442ad1ac5",
+   "company": "NVIDIA",
+   "title": "Compiler Software Engineering Intern - Summer 2027",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-29",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-10-30T18:00:24.384659+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "7041a9361e52",
+   "company": "NVIDIA",
+   "title": "VLSI CAD Timing Intern - Applied AI - Summer 2027",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "phd",
+   "date_posted": "2026-10-29",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-10-30T18:00:24.384659+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -1885,111 +2030,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-29T18:28:44.180877+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "ac0f9b8168d9",
-   "company": "Meta",
-   "title": "Research Scientist Intern - Wearable Sensing & Human Motion Analysis",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://www.metacareers.com/jobs/1137225375529389",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Meta",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$50/hr",
-   "note": null,
-   "first_seen": "2026-10-24T04:37:39.786060+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "032821176e9a",
-   "company": "Microsoft",
-   "title": "Research Intern - Algorithms Group: Theory",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557045963",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$52/hr",
-   "note": null,
-   "first_seen": "2026-10-25T16:20:40.950174+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "9dfdd5d8d064",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://www.amazon.jobs/jobs/10587999/apply",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$53/hr",
-   "note": null,
-   "first_seen": "2026-10-25T16:20:40.950174+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -2539,17 +2579,17 @@
    "deadline_passed": false
   },
   {
-   "id": "20e7a8422b2f",
+   "id": "032821176e9a",
    "company": "Microsoft",
-   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge",
+   "title": "Research Intern - Algorithms Group: Theory",
    "locations": [
-    "Cambridge, MA"
+    "Redmond, WA"
    ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557045963",
    "sources": [
-    "speedyapply:swe"
+    "speedyapply:ai"
    ],
-   "role": "SWE",
+   "role": "QR",
    "term": null,
    "degrees": [],
    "level": "unknown",
@@ -2569,7 +2609,7 @@
    "sponsorship": null,
    "pay": "$52/hr",
    "note": null,
-   "first_seen": "2026-10-22T04:47:32.082288+00:00",
+   "first_seen": "2026-10-25T16:20:40.950174+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -2826,6 +2866,41 @@
    "deadline_passed": false
   },
   {
+   "id": "9dfdd5d8d064",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://www.amazon.jobs/jobs/10587999/apply",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-10-25T16:20:40.950174+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "55c90192b769",
    "company": "Stand Together",
    "title": "Data Analyst Intern - Open the Books",
@@ -2969,6 +3044,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-25T16:20:40.950174+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "20e7a8422b2f",
+   "company": "Microsoft",
+   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge",
+   "locations": [
+    "Cambridge, MA"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": null,
+   "first_seen": "2026-10-22T04:47:32.082288+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -3834,41 +3944,6 @@
    "deadline_passed": false
   },
   {
-   "id": "6e84409f862b",
-   "company": "Anthropic",
-   "title": "Customer Program Manager, Executive Briefings",
-   "locations": [
-    "San Francisco, CA | New York City, NY"
-   ],
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5449415008",
-   "sources": [
-    "greenhouse:anthropic"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": "senior",
-   "audience": [],
-   "seeded": false,
-   "watch": "Anthropic",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-10-17T04:27:26.810827+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "d618acfbc93a",
    "company": "State of Wisconsin Investment Board",
    "title": "Liquidity Optimization Intern",
@@ -4151,6 +4226,80 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-14T17:11:20.169489+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "6c13f96d633c",
+   "company": "LSEG",
+   "title": "Finance Engineer Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Finance-Engineer_R0124268",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-10-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-10-15T04:40:13.295602+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "dfbc46afd405",
+   "company": "LSEG",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-10-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-10-15T04:40:13.295602+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -5100,41 +5249,6 @@
    "deadline_passed": false
   },
   {
-   "id": "e05b26216efb",
-   "company": "Amazon",
-   "title": "Software Development Engineer - Embedded Systems Intern - Amazon Leo - Summer 2027 - USA",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://www.amazon.jobs/jobs/10571374/apply",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-07",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$53/hr",
-   "note": null,
-   "first_seen": "2026-10-07T18:57:13.163971+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "d65ae6eead3e",
    "company": "Tradeweb",
    "title": "Data Management Intern",
@@ -5248,41 +5362,6 @@
    "deadline_passed": false
   },
   {
-   "id": "1451712a3db2",
-   "company": "NVIDIA",
-   "title": "Research Intern - Efficient Deep Learning - 2027",
-   "locations": [
-    "Remote - Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Efficient-Deep-Learning---2027_JR2025478",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-10-06T18:22:37.808372+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "4c5c466cf5b2",
    "company": "DV Trading",
    "title": "Database Engineer Intern - Summer 2027",
@@ -5314,6 +5393,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-06T18:22:37.808372+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e05b26216efb",
+   "company": "Amazon",
+   "title": "Software Development Engineer - Embedded Systems Intern - Amazon Leo - Summer 2027 - USA",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://www.amazon.jobs/jobs/10571374/apply",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-10-07T18:57:13.163971+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -5468,6 +5582,41 @@
    "deadline_passed": false
   },
   {
+   "id": "1451712a3db2",
+   "company": "NVIDIA",
+   "title": "Research Intern - Efficient Deep Learning - 2027",
+   "locations": [
+    "Remote - Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Efficient-Deep-Learning---2027_JR2025478",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-05",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-10-06T18:22:37.808372+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "56c2100ac1c1",
    "company": "Google",
    "title": "Student Researcher Intern",
@@ -5536,7 +5685,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-01T17:55:59.017968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -5724,14 +5873,14 @@
    "deadline_passed": false
   },
   {
-   "id": "e57db69aa480",
+   "id": "54eab0bfde05",
    "company": "Databricks",
    "title": "Staff Technical Program Manager- Security",
    "locations": [
-    "Bellevue, Washington; Seattle, Washington",
-    "Mountain View, California; San Francisco, California"
+    "Mountain View, California; San Francisco, California",
+    "Bellevue, Washington; Seattle, Washington"
    ],
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8864285002",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8864290002",
    "sources": [
     "greenhouse:databricks"
    ],
@@ -5755,7 +5904,7 @@
    "sponsorship": null,
    "pay": null,
    "note": null,
-   "first_seen": "2026-10-04T16:51:03.736951+00:00",
+   "first_seen": "2026-10-03T05:19:30.476268+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -5913,41 +6062,6 @@
    "deadline_passed": false
   },
   {
-   "id": "27b67341ba50",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern - AWS Database - 2027 - US",
-   "locations": [
-    "Seattle, WA"
-   ],
-   "url": "https://www.amazon.jobs/jobs/10565667/apply",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-01",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$53/hr",
-   "note": null,
-   "first_seen": "2026-10-01T18:25:35.556913+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "00c63eb9c14c",
    "company": "Anthropic",
    "title": "Technical Program Manager, Life Sciences",
@@ -5979,6 +6093,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-02T05:38:19.602052+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "27b67341ba50",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern - AWS Database - 2027 - US",
+   "locations": [
+    "Seattle, WA"
+   ],
+   "url": "https://www.amazon.jobs/jobs/10565667/apply",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-30",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-10-01T18:25:35.556913+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -6841,14 +6990,14 @@
    "deadline_passed": false
   },
   {
-   "id": "b41ff2b6b721",
+   "id": "eaa9fae6776c",
    "company": "Databricks",
    "title": "Sr Staff Technical Program Manager- Security",
    "locations": [
-    "Bellevue, Washington; Seattle, Washington",
-    "Mountain View, California; San Francisco, California"
+    "Mountain View, California; San Francisco, California",
+    "Bellevue, Washington; Seattle, Washington"
    ],
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8818416002",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8818577002",
    "sources": [
     "greenhouse:databricks"
    ],
@@ -6872,7 +7021,7 @@
    "sponsorship": null,
    "pay": null,
    "note": null,
-   "first_seen": "2026-09-19T04:38:34.799202+00:00",
+   "first_seen": "2026-09-18T16:24:49.497122+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -6946,41 +7095,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-17T04:54:06.580508+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "8021f2562703",
-   "company": "NVIDIA",
-   "title": "Research Intern - Fundamental Generative AI - 2027",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-09-17T17:00:26.111558+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -7092,6 +7206,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-30T18:00:24.384659+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "8021f2562703",
+   "company": "NVIDIA",
+   "title": "Research Intern - Fundamental Generative AI - 2027",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-09-17T17:00:26.111558+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -7474,7 +7623,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-01T17:55:59.017968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7509,7 +7658,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-01T17:55:59.017968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7544,7 +7693,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-01T17:55:59.017968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -7696,41 +7845,6 @@
    "deadline_passed": false
   },
   {
-   "id": "4d53d660655b",
-   "company": "DV Trading",
-   "title": "Client Platforms Engineer Intern - Summer 2027",
-   "locations": [
-    "Chicago"
-   ],
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005",
-   "sources": [
-    "greenhouse:dvtrading"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-09-10T16:24:59.867527+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "9f669ec0499b",
    "company": "DV Trading",
    "title": "Client Platforms Engineer Intern - Summer 2027",
@@ -7766,15 +7880,15 @@
    "deadline_passed": false
   },
   {
-   "id": "847b440ffd64",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern - Summer 2027 - USA",
+   "id": "4d53d660655b",
+   "company": "DV Trading",
+   "title": "Client Platforms Engineer Intern - Summer 2027",
    "locations": [
-    "Seattle, WA"
+    "Chicago"
    ],
-   "url": "https://www.amazon.jobs/jobs/10552937/apply",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005",
    "sources": [
-    "speedyapply:swe"
+    "greenhouse:dvtrading"
    ],
    "role": "SWE",
    "term": "Summer 2027",
@@ -7790,13 +7904,13 @@
    "eligibility": null,
    "audience": [],
    "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
+   "watch": null,
+   "watch_group": null,
    "us": "US",
    "sponsorship": null,
-   "pay": "$53/hr",
+   "pay": null,
    "note": null,
-   "first_seen": "2026-09-18T16:24:49.497122+00:00",
+   "first_seen": "2026-09-10T16:24:59.867527+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -8187,6 +8301,41 @@
    "deadline_passed": false
   },
   {
+   "id": "847b440ffd64",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern - Summer 2027 - USA",
+   "locations": [
+    "Seattle, WA"
+   ],
+   "url": "https://www.amazon.jobs/jobs/10552937/apply",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-09",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-09-18T16:24:49.497122+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "db5f5395be23",
    "company": "Two Sigma",
    "title": "Software Engineering Intern - Summer 2027",
@@ -8476,41 +8625,6 @@
    "deadline_passed": false
   },
   {
-   "id": "c1d9ecadb29b",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern/Co-Op - ROBOTICS - 2027",
-   "locations": [
-    "North Reading, MA"
-   ],
-   "url": "https://www.amazon.jobs/jobs/10529525/apply",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$53/hr",
-   "note": null,
-   "first_seen": "2026-09-04T16:22:00.324850+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "0abd1edd21f7",
    "company": "Ernst & Young",
    "title": "Data and Technology Intern - Multiple Teams",
@@ -8786,6 +8900,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-26T18:40:57.116627+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "c1d9ecadb29b",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern/Co-Op - ROBOTICS - 2027",
+   "locations": [
+    "North Reading, MA"
+   ],
+   "url": "https://www.amazon.jobs/jobs/10529525/apply",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-04",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-09-04T16:22:00.324850+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -9143,7 +9292,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-01T17:55:59.017968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9219,7 +9368,7 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-01T17:55:59.017968+00:00",
-   "is_new": true,
+   "is_new": false,
    "deadline_passed": false
   },
   {
@@ -9773,111 +9922,6 @@
    "deadline_passed": false
   },
   {
-   "id": "3517a64b7c03",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e454f69805ec",
-   "company": "NVIDIA",
-   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e910eff8a97f",
-   "company": "NVIDIA",
-   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-20",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "85fec847e81f",
    "company": "Jane Street",
    "title": "NY FTTP 2027",
@@ -10063,6 +10107,111 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e454f69805ec",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e910eff8a97f",
+   "company": "NVIDIA",
+   "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3517a64b7c03",
+   "company": "NVIDIA",
+   "title": "NVIDIA 2027 Internships: Software Engineering",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-19",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -10329,6 +10478,453 @@
    "deadline_passed": false
   },
   {
+   "id": "acee8f7d8e6f",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Multiple Teams",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171563?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e1ef09816634",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
+   "locations": [
+    "West Palm Beach, FL"
+   ],
+   "url": "https://higher.gs.com/roles/181628?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "41219d857bc8",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171551?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "7bb41ed1a967",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171550?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "88ed4c214f34",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171548?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e9b59b47da38",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171532?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "9fc62544ec7b",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171534?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "eb68ff14fd7a",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171533?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "904d14ee3d51",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Engineering",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171565?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "513d86a433ab",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://higher.gs.com/roles/171547?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "428152c070c3",
+   "company": "Goldman Sachs",
+   "title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
+   "locations": [
+    "Salt Lake City, UT"
+   ],
+   "url": "https://higher.gs.com/roles/171549?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "QD",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "9c272410d2fe",
+   "company": "Goldman Sachs",
+   "title": "Summer Analyst Intern - Engineering",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://higher.gs.com/roles/171553?type=students",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-04T04:34:29.029230+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "f1d32f95c20f",
    "company": "DV Trading",
    "title": "Software Engineer Intern",
@@ -10530,7 +11126,6 @@
    ],
    "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
    "sources": [
-    "page:Citadel",
     "simplify",
     "speedyapply:ai"
    ],
@@ -10730,76 +11325,6 @@
    "us": "US",
    "sponsorship": null,
    "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "c7fb856700fc",
-   "company": "Belvedere Trading",
-   "title": "Quantitative Trading Intern - Winter Quarter 2027",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$72/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "10f1293af399",
-   "company": "Belvedere Trading",
-   "title": "Quantitative Trading Intern - Summer 2027",
-   "locations": [
-    "Chicago, IL"
-   ],
-   "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QT",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$72/hr",
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -11160,6 +11685,76 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-25T16:20:40.950174+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "10f1293af399",
+   "company": "Belvedere Trading",
+   "title": "Quantitative Trading Intern - Summer 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-04",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$72/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "c7fb856700fc",
+   "company": "Belvedere Trading",
+   "title": "Quantitative Trading Intern - Winter Quarter 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-04",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$72/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -11555,41 +12150,6 @@
    "deadline_passed": false
   },
   {
-   "id": "3ea3b6fad679",
-   "company": "Meta",
-   "title": "Data Engineer Intern - Product Analytics - Summer 2027",
-   "locations": [
-    "Menlo Park, CA"
-   ],
-   "url": "https://www.metacareers.com/jobs/1373603594867455",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-01",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Meta",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$50/hr",
-   "note": "2 more location(s) on the posting",
-   "first_seen": "2026-09-29T18:05:13.917628+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "3cd0c6b17b14",
    "company": "DRW",
    "title": "FPGA Intern",
@@ -11762,6 +12322,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-25T16:20:40.950174+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3ea3b6fad679",
+   "company": "Meta",
+   "title": "Data Engineer Intern - Product Analytics - Summer 2027",
+   "locations": [
+    "Menlo Park, CA"
+   ],
+   "url": "https://www.metacareers.com/jobs/1373603594867455",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-31",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Meta",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$50/hr",
+   "note": "2 more location(s) on the posting",
+   "first_seen": "2026-09-29T18:05:13.917628+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -13733,84 +14328,6 @@
    "deadline_passed": false
   },
   {
-   "id": "b83fb448370a",
-   "company": "Hudson River Trading",
-   "title": "Algorithm Development (Quant Research & Trading) Internship – Summer 2027",
-   "locations": [
-    "NYC",
-    "London, United Kingdom",
-    "London, United Kingdom; New York, NY, United States; Singapore"
-   ],
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062&gh_src=f4cuomjz1us",
-   "sources": [
-    "greenhouse:wehrtyou",
-    "nufintech",
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-14",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Hudson River Trading",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$145/hr",
-   "note": "2 more location(s) on the posting",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "c1c06e26d365",
-   "company": "Hudson River Trading",
-   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
-   "locations": [
-    "NYC",
-    "London, United Kingdom",
-    "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore"
-   ],
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&gh_src=f4cuomjz1us",
-   "sources": [
-    "greenhouse:wehrtyou",
-    "nufintech",
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-14",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Hudson River Trading",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$145/hr",
-   "note": "4 more location(s) on the posting",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "8ecd967f7eb3",
    "company": "Voloridge",
    "title": "Quantitative Developer Intern",
@@ -14042,6 +14559,84 @@
    "sponsorship": "Other",
    "pay": "$75/hr",
    "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "b83fb448370a",
+   "company": "Hudson River Trading",
+   "title": "Algorithm Development (Quant Research & Trading) Internship – Summer 2027",
+   "locations": [
+    "NYC",
+    "London, United Kingdom",
+    "London, United Kingdom; New York, NY, United States; Singapore"
+   ],
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062&gh_src=f4cuomjz1us",
+   "sources": [
+    "greenhouse:wehrtyou",
+    "nufintech",
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Hudson River Trading",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$145/hr",
+   "note": "2 more location(s) on the posting",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "c1c06e26d365",
+   "company": "Hudson River Trading",
+   "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+   "locations": [
+    "NYC",
+    "London, United Kingdom",
+    "Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore"
+   ],
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&gh_src=f4cuomjz1us",
+   "sources": [
+    "greenhouse:wehrtyou",
+    "nufintech",
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-13",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Hudson River Trading",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$145/hr",
+   "note": "4 more location(s) on the posting",
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -14865,7 +15460,7 @@
   {
    "id": "b7b4a5e780b2",
    "company": "Citadel",
-   "title": "Software Engineer – Intern (US) Greenwich, Houston, Miami, New York Apply Now",
+   "title": "Software Engineer - Intern - US",
    "locations": [
     "Chicago",
     "NYC",
@@ -14876,7 +15471,6 @@
    "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
    "sources": [
     "nufintech",
-    "page:Citadel",
     "simplify",
     "speedyapply:swe"
    ],
@@ -14911,16 +15505,14 @@
   {
    "id": "57705563a6b3",
    "company": "Jane Street",
-   "title": "Quantitative Trader Summer Internship",
+   "title": "Quantitative Trader Intern",
    "locations": [
-    "NYC",
-    "New York City, NY"
+    "NYC"
    ],
    "url": "https://www.janestreet.com/join-jane-street/position/8617344002/",
    "sources": [
     "nufintech",
-    "simplify",
-    "speedyapply:ai"
+    "simplify"
    ],
    "role": "QT",
    "term": "Summer 2027",
@@ -14940,7 +15532,7 @@
    "watch_group": "quant",
    "us": "US",
    "sponsorship": "Other",
-   "pay": "$120/hr",
+   "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -14949,16 +15541,14 @@
   {
    "id": "465a22f6b989",
    "company": "Jane Street",
-   "title": "Quantitative Researcher Summer Internship",
+   "title": "Quantitative Researcher Intern",
    "locations": [
-    "NYC",
-    "New York City, NY"
+    "NYC"
    ],
    "url": "https://www.janestreet.com/join-jane-street/position/8498547002/",
    "sources": [
     "nufintech",
-    "simplify",
-    "speedyapply:ai"
+    "simplify"
    ],
    "role": "QR",
    "term": "Summer 2027",
@@ -14978,7 +15568,7 @@
    "watch_group": "quant",
    "us": "US",
    "sponsorship": "Other",
-   "pay": "$120/hr",
+   "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -14987,16 +15577,14 @@
   {
    "id": "cd670c735169",
    "company": "Jane Street",
-   "title": "Machine Learning Researcher Summer Internship",
+   "title": "Quantitative Researcher Intern (ML)",
    "locations": [
-    "NYC",
-    "New York City, NY"
+    "NYC"
    ],
    "url": "https://www.janestreet.com/join-jane-street/position/8384490002/",
    "sources": [
     "nufintech",
-    "simplify",
-    "speedyapply:ai"
+    "simplify"
    ],
    "role": "QR",
    "term": "Summer 2027",
@@ -15018,7 +15606,7 @@
    "watch_group": "quant",
    "us": "US",
    "sponsorship": "Other",
-   "pay": "$120/hr",
+   "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -15027,16 +15615,14 @@
   {
    "id": "fd0e9a3431a5",
    "company": "Jane Street",
-   "title": "Software Engineer Summer Internship",
+   "title": "Software Engineer Intern",
    "locations": [
-    "NYC",
-    "New York City, NY"
+    "NYC"
    ],
    "url": "https://www.janestreet.com/join-jane-street/position/8599644002/",
    "sources": [
     "nufintech",
-    "simplify",
-    "speedyapply:swe"
+    "simplify"
    ],
    "role": "SWE",
    "term": "Summer 2027",
@@ -15056,7 +15642,7 @@
    "watch_group": "quant",
    "us": "US",
    "sponsorship": "Other",
-   "pay": "$120/hr",
+   "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -15067,13 +15653,11 @@
    "company": "Jane Street",
    "title": "Machine Learning Engineer",
    "locations": [
-    "NYC",
-    "New York City, NY"
+    "NYC"
    ],
    "url": "https://job-boards.greenhouse.io/janestreet/jobs/8611307002",
    "sources": [
-    "simplify",
-    "speedyapply:ai"
+    "simplify"
    ],
    "role": "ML",
    "term": null,
@@ -15096,7 +15680,7 @@
    "watch_group": "quant",
    "us": "US",
    "sponsorship": "Other",
-   "pay": "$120/hr",
+   "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
@@ -16570,14 +17154,14 @@
    "deadline_passed": false
   },
   {
-   "id": "a17ece8c3389",
+   "id": "05fccbd31ef8",
    "company": "Databricks",
    "title": "Sr. Staff Technical Program Manager - Reliability",
    "locations": [
-    "Mountain View, California; San Francisco, California",
-    "Bellevue, Washington; Seattle, Washington"
+    "Bellevue, Washington; Seattle, Washington",
+    "Mountain View, California; San Francisco, California"
    ],
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445428002",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445423002",
    "sources": [
     "greenhouse:databricks"
    ],
@@ -16601,7 +17185,7 @@
    "sponsorship": null,
    "pay": null,
    "note": null,
-   "first_seen": "2026-08-25T01:53:11.720622+00:00",
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -18634,41 +19218,6 @@
    "deadline_passed": false
   },
   {
-   "id": "bd16f5a66973",
-   "company": "NVIDIA",
-   "title": "Data Processing Developer Technology Intern - 2027",
-   "locations": [
-    "4 Locations"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Germany-Munich/Data-Processing-Developer-Technology-Intern---2027_JR2024708",
-   "sources": [
-    "workday:nvidia"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "phd",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-10-05T05:41:41.110540+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "853dd2be189f",
    "company": "NVIDIA",
    "title": "AI Developer Technology Engineering Intern - 2027",
@@ -19544,41 +20093,6 @@
    "deadline_passed": false
   },
   {
-   "id": "ba6e0ab9093c",
-   "company": "NVIDIA",
-   "title": "Go-to-Market Strategy Intern, NPN AI Consulting - Summer 2027",
-   "locations": [
-    "US, CA, Santa Clara"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
-   "sources": [
-    "workday:nvidia"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-10-27T05:06:12.513084+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "fa886cc1ed22",
    "company": "NVIDIA",
    "title": "Math Device Extension Libraries Intern - 2027",
@@ -19610,6 +20124,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-27T18:01:25.983486+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "18c32a4e38ca",
+   "company": "NVIDIA",
+   "title": "Performance Testing Engineering Intern - 2027",
+   "locations": [
+    "Armenia, Yerevan"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Armenia-Yerevan/Performance-Testing-Engineering-Intern---2027_JR2028481-1",
+   "sources": [
+    "workday:nvidia"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-10-31T17:14:53.304836+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -19680,72 +20229,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-30T05:50:22.477350+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e38931c35b4a",
-   "company": "Citadel",
-   "title": "Trader: Fixed Income & Macro Rotational Trader – Intern (US) Greenwich, Miami, New York Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/trader-fixed-income-macro-rotational-trader-intern-us/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-10-05T05:41:41.110540+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "05d1b83c56d8",
-   "company": "Citadel",
-   "title": "Software Engineer – Intern (Asia) Hong Kong, Singapore Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/software-engineer-intern-asia/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -19915,39 +20398,6 @@
    "deadline_passed": false
   },
   {
-   "id": "ac11bef4a789",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern, AWS Database - 2027 (US)",
-   "locations": [],
-   "url": "https://www.amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us",
-   "sources": [
-    "amazon"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-09-30T17:59:54.453772+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "24c8fb532c5c",
    "company": "Amazon",
    "title": "Software Development Engineer Intern/Co-Op, ROBOTICS - 2027",
@@ -19977,6 +20427,39 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-10T04:43:53.843136+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ac11bef4a789",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern, AWS Database - 2027 (US)",
+   "locations": [],
+   "url": "https://www.amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us",
+   "sources": [
+    "amazon"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-30T17:59:54.453772+00:00",
    "is_new": false,
    "deadline_passed": false
   },
