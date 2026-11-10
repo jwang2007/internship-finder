@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T02:53:43+00:00",
+ "generated_at": "2026-11-10T03:01:04+00:00",
  "source_links": {
   "nufintech": "https://github.com/northwesternfintech/2027QuantInternships",
   "simplify": "https://github.com/SimplifyJobs/Summer2027-Internships",
@@ -10,7 +10,8 @@
   "underclassmen": "https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities",
   "underclassmen:jgcl": "https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities",
   "underclassmen:luisae": "https://github.com/LuisaE/opportunities",
-  "underclassmen:zapply": "https://github.com/zapplyjobs/underclassmen-internships"
+  "underclassmen:zapply": "https://github.com/zapplyjobs/underclassmen-internships",
+  "agentreach": "https://github.com/Panniantong/Agent-Reach"
  },
  "schedule_hours": 12,
  "config": {
@@ -24,12 +25,12 @@
   "us_only": true
  },
  "counts": {
-  "total": 507,
-  "events": 163,
-  "with_deadline": 14,
-  "new": 6,
-  "watchlist": 334,
-  "new_this_run": 4
+  "total": 514,
+  "events": 156,
+  "with_deadline": 15,
+  "new": 12,
+  "watchlist": 327,
+  "new_this_run": 6
  },
  "first_run": false,
  "sources": {
@@ -43,13 +44,13 @@
    "ok": true,
    "count": 817,
    "error": null,
-   "secs": 1.2
+   "secs": 0.2
   },
   "vansh": {
    "ok": true,
    "count": 133,
    "error": null,
-   "secs": 0.6
+   "secs": 0.0
   },
   "speedyapply": {
    "ok": true,
@@ -61,7 +62,7 @@
    "ok": true,
    "count": 210,
    "error": null,
-   "secs": 3.1
+   "secs": 2.6
   },
   "janestreet": {
    "ok": null,
@@ -72,7 +73,7 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "secs": 29.3
+   "secs": 16.7
   },
   "lever": {
    "ok": null,
@@ -89,7 +90,7 @@
    "ok": true,
    "count": 221,
    "error": null,
-   "secs": 17.2
+   "secs": 18.6
   },
   "microsoft": {
    "ok": true,
@@ -101,19 +102,25 @@
    "ok": true,
    "count": 0,
    "error": "Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab",
-   "secs": 36.1
+   "secs": 30.9
   },
   "events": {
    "ok": true,
-   "count": 97,
-   "error": null,
-   "secs": 103.8
+   "count": 90,
+   "error": "NVIDIA events: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.nvidia.com/en",
+   "secs": 71.9
   },
   "underclassmen": {
    "ok": true,
    "count": 57,
    "error": null,
-   "secs": 1.3
+   "secs": 0.5
+  },
+  "agentreach": {
+   "ok": true,
+   "count": 30,
+   "error": null,
+   "secs": 15.9
   }
  },
  "watchlist": [
@@ -201,7 +208,7 @@
    "name": "NVIDIA",
    "group": "tech",
    "count": 60,
-   "events": 9,
+   "events": 2,
    "website": null,
    "note": null
   },
@@ -387,6 +394,41 @@
    "note": "The Undergraduate Architecture Mentoring (uArch) Workshop is designed to introduce undergraduate and early Master's students to research and career opportunities in the field of computer architecture in particular and graduate school lifestyle and survival skills in general.",
    "first_seen": "2026-08-25T17:06:19.115420+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e89cd5a7f152",
+   "company": "Castleton Commodities International",
+   "title": "Data Science Machine Learning Internship (Summer 2027)",
+   "locations": [
+    "Stamford, CT"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4441029275/",
+   "sources": [
+    "agentreach:linkedin"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": "2027-09-01",
+   "deadline_source": "posting",
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-10T03:01:04.009647+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -4172,6 +4214,7 @@
    ],
    "url": "https://boards.greenhouse.io/point72/jobs/7609197002",
    "sources": [
+    "agentreach:linkedin",
     "greenhouse:point72",
     "simplify"
    ],
@@ -8390,6 +8433,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4733133005",
    "sources": [
+    "agentreach:web",
     "greenhouse:dvtrading",
     "simplify"
    ],
@@ -8431,6 +8475,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4702083005",
    "sources": [
+    "agentreach:web",
     "greenhouse:dvtrading",
     "simplify"
    ],
@@ -8785,6 +8830,39 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-09-10T16:24:59.867527+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "2a061138bac4",
+   "company": "Geneva Trading",
+   "title": "Quantitative Trading Internship – Summer 2027",
+   "locations": [],
+   "url": "https://job-boards.greenhouse.io/genevatrading/jobs/5232641007",
+   "sources": [
+    "agentreach:web"
+   ],
+   "role": "QT",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-10",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-09-11T04:41:47.045250+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -9985,6 +10063,39 @@
    "deadline_passed": false
   },
   {
+   "id": "e6cb8cdbf7cd",
+   "company": "BlockTech",
+   "title": "Quantitative Researcher | Internship | Summer '27",
+   "locations": [],
+   "url": "https://jobs.ashbyhq.com/blocktech/b170f716-113b-4e6e-a883-473f3cabf062",
+   "sources": [
+    "agentreach:web"
+   ],
+   "role": "QR",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-28",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-10T03:01:04.009647+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "549201740349",
    "company": "IMC Trading",
    "title": "Performance Engineer Intern",
@@ -11137,6 +11248,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/xantium/jobs/4371217009",
    "sources": [
+    "agentreach:web",
     "simplify"
    ],
    "role": "QR",
@@ -12142,6 +12254,7 @@
    ],
    "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
    "sources": [
+    "agentreach:web",
     "speedyapply:ai"
    ],
    "role": "QT",
@@ -14236,6 +14349,7 @@
    ],
    "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96/application?embed=true",
    "sources": [
+    "agentreach:web",
     "simplify"
    ],
    "role": "QR",
@@ -14391,6 +14505,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
    "sources": [
+    "agentreach:web",
     "greenhouse:virtu",
     "simplify"
    ],
@@ -14505,6 +14620,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
    "sources": [
+    "agentreach:web",
     "simplify"
    ],
    "role": "QT",
@@ -14912,6 +15028,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
    "sources": [
+    "agentreach:web",
     "greenhouse:fiveringsllc",
     "nufintech",
     "simplify",
@@ -15062,13 +15179,14 @@
   {
    "id": "131d383fe20c",
    "company": "Voloridge",
-   "title": "Quantitative Research Intern",
+   "title": "Quantitative Research Intern 2027",
    "locations": [
     "Jupiter, Florida",
     "Jupiter, FL"
    ],
    "url": "https://www.voloridge.com/jobs/voloridgeinvestmentmanagement/4226247009",
    "sources": [
+    "agentreach:linkedin",
     "nufintech",
     "simplify"
    ],
@@ -15731,6 +15849,7 @@
    ],
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "sources": [
+    "agentreach:linkedin",
     "greenhouse:flowtraders",
     "simplify"
    ],
@@ -16563,7 +16682,7 @@
   {
    "id": "c79e21173cb5",
    "company": "IMC Trading",
-   "title": "Quantitative Research Intern (BS/MS) - Summer 2027",
+   "title": "Quantitative Research Intern Bs Ms Summer 2027",
    "locations": [
     "Chicago",
     "Chicago, IL",
@@ -16571,6 +16690,7 @@
    ],
    "url": "https://www.imc.com/us/careers/jobs/4907399101",
    "sources": [
+    "agentreach:linkedin",
     "greenhouse:imc",
     "nufintech",
     "simplify"
@@ -19369,12 +19489,13 @@
   {
    "id": "8ecd967f7eb3",
    "company": "Voloridge",
-   "title": "Quantitative Developer Intern",
+   "title": "Quantitative Developer Intern 2027",
    "locations": [
     "Jupiter, Florida"
    ],
    "url": "https://www.voloridge.com/jobs/voloridgeinvestmentmanagement/4224862009",
    "sources": [
+    "agentreach:linkedin",
     "nufintech"
    ],
    "role": "QD",
@@ -20805,6 +20926,144 @@
    "note": null,
    "first_seen": "2026-10-30T05:50:22.477350+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "195d25525799",
+   "company": "Maven Securities",
+   "title": "Trader Summer Internship Chicago 2027",
+   "locations": [
+    "Chicago, IL"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4449143496/",
+   "sources": [
+    "agentreach:linkedin"
+   ],
+   "role": "QT",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-10T03:01:04.009647+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "be277c7f741a",
+   "company": "Virtu Financial",
+   "title": "2027 Internship - Quant Research (Undergrad)",
+   "locations": [
+    "New York"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4434041274/",
+   "sources": [
+    "agentreach:linkedin"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "undergrad",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-10T03:01:04.009647+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "a63bd3e380cd",
+   "company": "Susquehanna International Group",
+   "title": "Macro Analyst Internship: Summer 2027",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4406733029/",
+   "sources": [
+    "agentreach:linkedin"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-10T03:01:04.009647+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "3e61891e8565",
+   "company": "D.A. Davidson",
+   "title": "Class of 2028 Equity Capital Markets Research Intern",
+   "locations": [],
+   "url": "https://jobs.lever.co/dadavidson/18eacdf7-ac6b-4111-a815-9d4afd5259e3/apply",
+   "sources": [
+    "agentreach:web"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": null,
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "unknown",
+   "sponsorship": null,
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-10T03:01:04.009647+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -22308,72 +22567,6 @@
    "deadline_passed": false
   },
   {
-   "id": "d9f2b9499e8f",
-   "company": "NVIDIA",
-   "title": "Overview Discover NVIDIA’s HPC solutions for AI, simulation, and accelerated computing",
-   "locations": [],
-   "url": "https://www.nvidia.com/en-us/high-performance-computing/",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "ML",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "insight",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "a04d24bd54f5",
-   "company": "NVIDIA",
-   "title": "NGC Catalog Discover GPU-optimized AI, HPC, and data science software",
-   "locations": [],
-   "url": "https://catalog.ngc.nvidia.com/",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "ML",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "insight",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "b6a608241a0e",
    "company": "Microsoft",
    "title": "Image 14: Photo of Microsoft employees having video meeting",
@@ -23092,39 +23285,6 @@
    "deadline_passed": false
   },
   {
-   "id": "36ddf3d2bba6",
-   "company": "NVIDIA",
-   "title": "Discover Our Academic Programs",
-   "locations": [],
-   "url": "https://developer.nvidia.com/higher-education-and-research",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "insight",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "! Image 11: NVIDIA Hiring Areas (blob:http://localhost/b9a31d3949b1882a09ed2f8508d538f3) Teams in Action Learn about the breakthroughs we’re making here and how NVIDIA is impacting businesses everywhere.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "a8767786fc07",
    "company": "Meta",
    "title": "Meta University (engineering)",
@@ -23395,41 +23555,6 @@
    "pay": null,
    "note": "Global programs !",
    "first_seen": "2026-10-23T04:50:22.633007+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "7613db7e0be5",
-   "company": "NVIDIA",
-   "title": "Explore NVIDIA Benefits",
-   "locations": [],
-   "url": "https://www.nvidia.com/en-us/benefits/",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "insight",
-   "when": null,
-   "eligibility": null,
-   "audience": [
-    "any undergrad"
-   ],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "! Image 10: NVIDIA Hiring Areas (blob:http://localhost/b9a31d3949b1882a09ed2f8508d538f3) Academic Programs Discover a hub of resources and news for researchers, educators, and students.",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -23882,39 +24007,6 @@
    "deadline_passed": false
   },
   {
-   "id": "59f90d3076b7",
-   "company": "NVIDIA",
-   "title": "Events Calendar",
-   "locations": [],
-   "url": "https://www.nvidia.com/en-us/events/",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "a07d668d062e",
    "company": "Major League Hacking",
    "title": "MLH Fellowship",
@@ -24054,39 +24146,6 @@
    "deadline_passed": false
   },
   {
-   "id": "ef415cf93560",
-   "company": "NVIDIA",
-   "title": "Stay Informed",
-   "locations": [],
-   "url": "https://www.nvidia.com/en-us/preferences/email-signup/",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": "Events",
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "985836c39f3b",
    "company": "Microsoft",
    "title": "Professions",
@@ -24212,39 +24271,6 @@
    "audience": [],
    "seeded": false,
    "watch": "Anthropic",
-   "watch_group": "tech",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "8ac94ac93826",
-   "company": "NVIDIA",
-   "title": "Events",
-   "locations": [],
-   "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/#",
-   "sources": [
-    "events:NVIDIA"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "event",
-   "status": "open",
-   "event_type": "program",
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
    "watch_group": "tech",
    "us": "unknown",
    "sponsorship": null,
