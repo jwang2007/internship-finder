@@ -1,7 +1,7 @@
 # Quant intern finder
 
-Searches every 12 hours for undergrad-eligible quant internships, sorts them by deadline,
-publishes a dashboard, and pings your phone when something new appears.
+Searches every 12 hours for undergrad-eligible quant internships — plus software engineering internships at any
+company (`include_all_swe`) — sorts them by deadline, publishes a dashboard, and pings your phone when something new appears.
 
 ```
 sources ──► normalize ──► merge/dedupe ──► filter (undergrad, current cycle)
@@ -13,9 +13,9 @@ sources ──► normalize ──► merge/dedupe ──► filter (undergrad, 
 | key | what | notes |
 |---|---|---|
 | `nufintech` | [northwesternfintech/2027QuantInternships](https://github.com/northwesternfintech/2027QuantInternships) YAML data | curated quant firms, role codes (QR/QT/QD/SWE/HW) |
-| `simplify` | [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) `listings.json` | "Quant" category + every watchlist company; has degree and term fields |
-| `vansh` | [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) (Vansh & Ouckah community list) `listings.json` | same schema and filtering as `simplify`; overlapping postings merge, unique ones add |
-| `speedyapply` | [speedyapply/2027-SWE-College-Jobs](https://github.com/speedyapply/2027-SWE-College-Jobs) and [2027-AI-College-Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) READMEs | updated daily; adds hourly pay and posting age. Only the Quant section plus watchlist / quant-firm rows are taken |
+| `simplify` | [SimplifyJobs/Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) `listings.json` | "Quant" and Software categories (`swe_categories`) + every watchlist company; has degree and term fields |
+| `vansh` | [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) (Vansh & Ouckah community list) `listings.json` | same schema as `simplify` but no categories, so software roles are picked by `swe_title_pattern`; overlapping postings merge, unique ones add |
+| `speedyapply` | [speedyapply/2027-SWE-College-Jobs](https://github.com/speedyapply/2027-SWE-College-Jobs) and [2027-AI-College-Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) READMEs | updated daily; adds hourly pay and posting age. Every row of the lists in `swe_lists` (the SWE list); from the AI list, the Quant section, watchlist / quant-firm rows and software titles |
 | `greenhouse` | public Greenhouse job-board API | Jane Street (incl. their hidden `jshiddenevents` programs board — BRIDGE, WiSE, … with stated deadlines), HRT, Anthropic, Point72, DRW, IMC, Optiver, … posting text is included, so deadlines get extracted |
 | `amazon` | amazon.jobs search API | US intern roles matching research / science / quant / SDE |
 | `pages` | JS-rendered career pages read through [Jina Reader](https://r.jina.ai) | Citadel, Citadel Securities, Google. This is the same free backend Agent Reach routes "read web page" through — used directly, no agent needed |
@@ -99,6 +99,11 @@ python app.py                    # the desktop app
 
 - `watchlist_groups.quant` / `.tech` — companies pinned at the top with counts (0 is shown too, so you can see when a firm has nothing open). Tech-group companies (Meta, Apple, Microsoft, NVIDIA, Netflix, OpenAI, Y Combinator, Palantir, Tesla, …) only show roles matching `tech_title_keywords` (software, ML, research, data, quant) minus `tech_exclude_patterns` (hardware, mechanical, sales, …), so a company that posts 200 internships doesn't bury the quant list.
 - `sources.lever` / `sources.ashby` / `sources.workday` / `sources.microsoft` — direct job-board APIs for Palantir, OpenAI, Cohere, NVIDIA and Microsoft. Add any Lever/Ashby company by its slug, any Workday site by host/tenant/site (look at the URL of its careers page).
+- `include_all_swe` — software internships from every company, not just quant firms and the watchlist: Simplify's
+  `swe_categories`, and titles matching `swe_title_pattern` (minus `swe_exclude_pattern`: hardware, chip, sales…) from
+  the lists without categories. Set it to `false` to go back to quant + watchlist only.
+- Changing what's tracked (any source, filter or watchlist setting) makes the next run record the rows it newly brings in
+  quietly — no wall of NEW badges and no notification for the backlog; genuinely new postings after that ping as usual.
 - `cycle_terms` — listings whose term is known and *not* in this list are dropped. Remove `Fall 2026` to hide off-cycle roles.
 - `undergrad_only` — drops titles/degree fields marked PhD, Master's, MBA. "BS/MS" counts as eligible. Unknown level is kept and shown as "not stated" in the popup.
 - `us_only` — drops listings whose every location is outside the US (London, Paris, Toronto, …). Listings with a US office among several are kept; listings with no location stated are kept and badged.
@@ -114,6 +119,16 @@ python app.py                    # the desktop app
   ```
 - `exclude_title_patterns`, `watch_title_keywords` — noise control for the big companies (Amazon/Google post hundreds of intern roles).
 - `enrich_limit_per_run` — how many postings without a deadline get their page fetched per run (results are cached in `data/cache.json`).
+- `exclude_event_patterns` — regexes for program/event titles to hide (curated seeds are never hidden). Ships with list
+  filler like "Jane Street Programs" and high-school-only programs.
+- `link_check` — links from community lists and scraped program pages are re-checked every `ttl_hours`; one that 404s or
+  now bounces to a generic careers page (a retired program page) drops its row, so a seeded program falls back to
+  "known program" instead of linking somewhere useless. Blocked or timed-out checks never drop anything. `--no-linkcheck` skips it.
+
+**What keeps the list clean:** the same posting arriving from several sources (board, Simplify, vansh short links,
+speedyapply, LinkedIn) is shown once, keyed by its job id where the URL has one and by company + title + term otherwise;
+board jobs like "Technical Program Manager" are never treated as student programs; and menu, breadcrumb, image and
+off-site links on scraped program pages are skipped.
 
 ## What "deadline" means here
 

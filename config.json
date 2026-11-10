@@ -15,6 +15,13 @@
     "ntfy_topic": "",
     "discord_webhook_url": ""
   },
+  "include_all_swe": true,
+  "swe_categories": [
+    "Software",
+    "Software Engineering"
+  ],
+  "swe_title_pattern": "\\b(software|swe|sde|developer|full[- ]?stack|front[- ]?end|back[- ]?end|web|mobile|ios|android|devops|site reliability|sre|cloud|platform engineer|infrastructure engineer|data engineer|machine learning engineer|ml engineer|ai engineer|computer science|programming|coding)\\b",
+  "swe_exclude_pattern": "hardware|mechanical|electrical|silicon|asic|\\brtl\\b|fpga|firmware|analog|circuit|physical design|manufactur|technician|sales|marketing|recruit|\\bhr\\b|legal|accounting|graphic design|social media|business development",
   "watchlist_groups": {
     "quant": [
       "Citadel",
@@ -267,6 +274,11 @@
     "\\btax\\b",
     "\\bsales\\b(?!.*trading)"
   ],
+  "exclude_event_patterns": [
+    "^yello$",
+    "amazon future engineer",
+    "^[\\w&.']+(?: [\\w&.']+){0,2} (?:programs|internships|careers|jobs|opportunities)$"
+  ],
   "collapse_by_title": [
     "Amazon",
     "Google"
@@ -292,7 +304,10 @@
       "lists": {
         "swe": "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md",
         "ai": "https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md"
-      }
+      },
+      "swe_lists": [
+        "swe"
+      ]
     },
     "greenhouse": {
       "enabled": true,
@@ -413,7 +428,7 @@
         {
           "company": "Google",
           "url": "https://research.google/programs-and-events/student-engagement/",
-          "link_pattern": "research\\.google/|google\\.com",
+          "link_pattern": "research\\.google/programs-and-events/(?!student-engagement)[a-z0-9-]+",
           "require_keyword": true
         },
         {
@@ -1073,5 +1088,10 @@
     "Jain Global",
     "AXQ Capital",
     "Xantium"
-  ]
+  ],
+  "link_check": {
+    "enabled": true,
+    "ttl_hours": 72,
+    "workers": 8
+  }
 }

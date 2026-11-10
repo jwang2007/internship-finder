@@ -31,6 +31,7 @@ import subprocess
 import sys
 import time
 import zipfile
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import parse_qsl, quote, urlencode, urlparse, urlunparse
 
 import requests
@@ -81,7 +82,14 @@ EVENT_TYPES = [  # first match wins
 ]
 NAV_NOISE = re.compile(r"^(overview|internships?|full[- ]time|positions? for (students|professionals)|open opportunities|client login|"
                        r"early careers|campus sponsorships|career perspectives|students?|phds? and postdocs|experienced|careers?|apply|learn more|"
-                       r"read more|home|about|news|contact|search|menu|back|next|previous|log ?in|sign ?up|jobs for grads|internships for students)$", re.I)
+                       r"read more|home|about|news|contact|search|menu|back|next|previous|log ?in|sign ?up|jobs for grads|internships for students|"
+                       r"blog|events?|programs?|research|jobs|conferences?(?: (?:&|and) events)?|(?:see|view) all(?: \w+){0,3}|all programs|"
+                       r"(?:search for )?similar jobs|professions|publications|people|teams|resources|press|newsroom|solutions?|small business|"
+                       r"enterprise|pricing|developers?|docs|documentation|support|security|privacy(?: policy)?|terms(?: of (?:use|service))?|"
+                       r"cookies?(?: settings| policy)?|accessibility|sitemap|subscribe|follow us|our (?:work|story|culture|values|teams)|"
+                       r"who we are|what we do|(?:working|life) at \w+|faqs?|add to preferred sources)$", re.I)
+JOB_STAFF_RE = re.compile(r"\b(manager|management|lead|director|head of|recruiter|recruiting|instructor|coordinator|specialist|counsel|"
+                          r"administrator|officer|principal|vp|vice president|executive|sr|senior|staff)\b", re.I)
 WHEN_RE = re.compile(r"\b((?:january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sept?|oct|nov|dec)\.?\s+\d{1,2}(?:\s*[-–]\s*\d{1,2})?,?\s+20\d{2}|"
                      r"(?:spring|summer|fall|autumn|winter)\s+20\d{2}|(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+20\d{2})\b", re.I)
 ELIG_RE = re.compile(r"\b(first[- ]and[- ]second[- ]year|first[- ]year|second[- ]year|sophomore|freshman|junior|senior|undergraduate|graduating (?:in|between) [^.;]{4,60}|expected graduation [^.;]{4,80}|phd|graduate students?|high school)\b", re.I)
@@ -328,6 +336,17 @@ def watch_name(company: str) -> str | None:
     return max(hits, key=len) if hits else None
 
 
+def swe_role(title: str, category: str = "") -> bool:
+    """Software internships any college student can apply for, at any company (on when include_all_swe is set):
+    Simplify's Software category, or a software-engineering title that isn't hardware or chip work."""
+    if not CFG.get("include_all_swe"):
+        return False
+    if category and category.lower() in {c.lower() for c in CFG.get("swe_categories", [])}:
+        return True
+    pat, bad = CFG.get("swe_title_pattern"), CFG.get("swe_exclude_pattern")
+    return bool(pat and re.search(pat, title, re.I)) and not (bad and re.search(bad, title, re.I))
+
+
 def listing(**kw) -> dict:
     company = canon_company(kw.get("company"))
     title = WS_RE.sub(" ", kw.get("title") or "").strip()
@@ -410,7 +429,8 @@ def src_simplify(cfg, ctx, name="simplify"):
     for x in rows:
         company = canon_company(x.get("company_name"))
         cat = x.get("category") or ""
-        if cat != quant_cat and not watch_name(company) and company.lower() not in firms:
+        if cat != quant_cat and not watch_name(company) and company.lower() not in firms \
+                and not swe_role(x.get("title") or "", cat):
             continue
         dp = x.get("date_posted")
         terms = [t for t in (x.get("terms") or []) if t and t != "N/A"]
@@ -439,7 +459,8 @@ def src_greenhouse(cfg, ctx):
         for j in jobs:
             title = j.get("title") or ""
             is_intern = not forced_event and bool(INTERN_RE.search(title))
-            is_event = forced_event or not is_intern and bool(re.search(r"\b(fellow|fellowship|program|challenge|invitational|datathon|hackathon|scholar|academy|bootcamp)\b", title, re.I))
+            is_event = forced_event or not is_intern and bool(re.search(r"\b(fellow|fellowship|program|challenge|invitational|datathon|hackathon|scholar|academy|bootcamp)\b", title, re.I)) \
+                and not JOB_STAFF_RE.search(title)  # "Technical Program Manager" is a job, not a program
             if not (is_intern or is_event):
                 continue
             posted = (j.get("first_published") or j.get("updated_at") or "")[:10] or None
@@ -666,7 +687,8 @@ def src_speedyapply(cfg, ctx):
             href = re.search(r'href="([^"]+)"', m.group("post"))
             if not company or not title or not href:
                 continue
-            if not (section == "quant" or watch_name(company) or company.lower() in firms):
+            if not (section == "quant" or watch_name(company) or company.lower() in firms
+                    or (CFG.get("include_all_swe") and name in cfg.get("swe_lists", [])) or swe_role(title)):
                 continue
             loc = strip_html(m.group("loc"))
             extra = re.search(r"\+(\d+)$", loc)
@@ -733,8 +755,27 @@ def _md_sections(md: str):
 
 
 def clean_title(text: str) -> str:
-    t = WS_RE.sub(" ", re.sub(r"[*_`#!\[\]]|!\[[^\]]*\]\([^)]*\)", " ", text)).strip(" -–·|")
-    return re.split(r"\s{2,}|\s[|•·]\s", t)[0].strip()
+    t = WS_RE.sub(" ", re.sub(r"[*_`#!\[\]]|!\[[^\]]*\]\([^)]*\)", " ", text)).strip(" -–·|\"'“”")
+    t = re.sub(r"^(?:learn|read|find out) more about\s+(?:the\s+)?", "", t, flags=re.I)  # "Learn more about the X program" -> "X program"
+    t = re.split(r"\s{2,}|\s[|•·]\s", t)[0].strip()
+    return t[:1].upper() + t[1:]
+
+
+IMG_MD_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+HOST_RE = re.compile(r"[a-z0-9-]+(?:\.[a-z0-9-]+)+(?::\d+)?")
+ASSET_RE = re.compile(r"\.(?:png|jpe?g|gif|svg|webp|ico|mp4|webm)$|/content/dam/", re.I)
+
+
+def nav_link(href: str, page_url: str) -> bool:
+    """Links that can't be a program: malformed, images/assets, or the scraped page itself, one of its parent
+    pages, or the site root (breadcrumbs and menus like research.google/programs-and-events/)."""
+    h, p = urlparse(href), urlparse(page_url)
+    host = h.netloc.lower()
+    if not HOST_RE.fullmatch(host) or ASSET_RE.search(h.path):
+        return True
+    path, page_path = h.path.rstrip("/").lower(), p.path.rstrip("/").lower()
+    same_site = re.sub(r"^www\.", "", host) == re.sub(r"^www\.", "", p.netloc.lower())
+    return same_site and (not path or path == page_path or page_path.startswith(path + "/"))
 
 
 def src_events(cfg, ctx):
@@ -765,9 +806,10 @@ def src_events(cfg, ctx):
             continue
         pat = re.compile(page["link_pattern"])
         seen = set()
-        for text, href, after in _md_sections(md):
-            if not pat.search(href):
-                continue
+        for text, href, after in _md_sections(IMG_MD_RE.sub(" ", md)):
+            u = urlparse(href)
+            if nav_link(href, page["url"]) or not pat.search(u.netloc.lower() + u.path):  # host + path: a query string
+                continue                                                               # mentioning the site doesn't count
             title = clean_title(text)
             if not (3 <= len(title) <= 120) or NAV_NOISE.match(title):
                 continue
@@ -911,7 +953,7 @@ def src_underclassmen(cfg, ctx):
                 continue
             if cfg.get("keep", "watchlist") != "all":
                 w = watch_name(company)
-                if not (w or company.lower() in qf):
+                if not (w or company.lower() in qf or (kind == "internship" and swe_role(title))):
                     continue
                 if WATCH_GROUP.get(w) == "tech":  # same discipline as tech-group internships: relevant roles only
                     kws = CFG.get("tech_title_keywords", [])
@@ -1111,47 +1153,97 @@ def merge_two(a: dict, b: dict) -> dict:
     return m
 
 
-def fold_agentreach(items: list[dict]) -> list[dict]:
-    """Agent Reach hits carry LinkedIn/search URLs, so the id merge can't match them to the same role from a
-    company board; fold them in by company + title instead (LinkedIn's one-copy-per-city postings fold together too)."""
-    firms = sorted({f.lower() for f in WATCH + CFG.get("quant_firms", []) + list(CFG.get("company_aliases", {}))},
-                   key=len, reverse=True)
+SOURCE_RANK = {"greenhouse": 0, "lever": 0, "ashby": 0, "workday": 0, "amazon": 0, "microsoft": 0, "janestreet": 0,
+               "page": 0, "simplify": 1, "nufintech": 1, "speedyapply": 2, "vansh": 3, "underclassmen": 3, "agentreach": 4}
+
+
+def source_rank(l: dict) -> int:
+    """0 = the company's own job board; higher = further from it (curated lists, short links, search hits)."""
+    return min((SOURCE_RANK.get(s.split(":")[0], 3) for s in l["sources"]), default=3)
+
+
+def posting_key(url: str) -> str | None:
+    """The same posting behind different URLs: Workday locale/site/case variants, amazon.jobs paths, iCIMS vs Jibe."""
+    m = re.search(r"//([^/]+)\.myworkdayjobs\.com/.*?/job/.*_([A-Za-z]{0,4}-?\d{3,})", url, re.I)
+    if m:
+        return f"wd:{m.group(1).lower()}:{m.group(2).upper()}"
+    m = re.search(r"amazon\.jobs/(?:[a-z]{2}(?:-[a-z]{2})?/)?jobs/(\d+)", url, re.I)
+    if m:
+        return f"amazon:{m.group(1)}"
+    m = re.search(r"//(?:careers-)?([a-z0-9-]+)\.(?:icims|jibeapply)\.com/jobs/(\d+)", url, re.I)
+    if m:
+        return f"icims:{m.group(1).lower()}:{m.group(2)}"
+    m = re.search(r"jobs\.(lever|ashbyhq)\.[a-z]+/([^/?#]+)/([0-9a-f]{8}-[0-9a-f-]{27})", url, re.I)  # ".../apply" too
+    return f"{m.group(1).lower()}:{m.group(2).lower()}:{m.group(3).lower()}" if m else None
+
+
+def fold_duplicates(items: list[dict], seen: dict) -> list[dict]:
+    """One row per internship. The same posting reaches us through several sources: the board and a list with
+    different URL spellings (merged by posting id), and copies whose link isn't the posting itself (vansh short links,
+    community lists, LinkedIn/search hits). A copy folds into the row with the same company + title + term, unless
+    the two are in different countries; postings a board or Simplify lists separately stay separate (a PhD and an
+    undergrad version share titles). Where rows merge, the one already seen keeps its id, so NEW badges and your
+    marks stay put."""
+    names = {f.lower(): f for f in WATCH + CFG.get("quant_firms", []) + list(CFG.get("company_aliases", {}))}
+    firms = sorted(names, key=len, reverse=True)
+    cycle, us_only = set(CFG.get("cycle_terms") or []), bool(CFG.get("us_only"))
+    pref = lambda l: (l["id"] not in seen, us_only and l["us"] == "non-US", l["level"] in ("phd", "masters", "mba"), source_rank(l))
 
     def key(l):
         c = l["company"].lower()
         c = next((f for f in firms if c == f or c.startswith(f + " ")), c)
         t = re.sub(r"\binternships?\b", "intern", re.sub(r"\bquantitative\b", "quant", TERM_RE.sub(" ", l["title"].lower())))
-        return l["kind"], c, " ".join(re.sub(r"\b20\d\d\b|[^a-z0-9]+", " ", t).split())
+        return c, " ".join(re.sub(r"\b20\d\d\b|[^a-z0-9]+", " ", t).split())
 
-    only_ar = lambda l: all(s.startswith("agentreach:") for s in l["sources"])
-    out, at = [], {}
-    for l in items:
-        if not only_ar(l):
-            at.setdefault(key(l), len(out))
-            out.append(l)
-    for l in items:
-        if not only_ar(l):
-            continue
-        k = key(l)
-        if k not in at:
-            at[k] = len(out)
-            out.append(l)
-            continue
-        prev = out[at[k]]
-        out[at[k]] = merge_two(prev, l)
-        if prev["locations"] and not only_ar(prev):  # keep the board's location wording, not LinkedIn's
-            out[at[k]]["locations"], out[at[k]]["us"] = prev["locations"], prev["us"]
+    rows, by_post = [], {}
+    for l in sorted((l for l in items if l["kind"] == "internship"), key=pref):
+        k = posting_key(l.get("url") or "")
+        if k and k in by_post:
+            by_post[k].update(merge_two(by_post[k], l))
+        else:
+            rows.append(l)
+            if k:
+                by_post[k] = l
+    groups: dict = {}
+    for l in rows:
+        groups.setdefault(key(l), []).append(l)
+    out = [l for l in items if l["kind"] != "internship"]
+    for (firm, _), grp in groups.items():
+        terms = {l["term"] for l in grp if l.get("term")}
+        only = next(iter(terms)) if len(terms) == 1 else None
+        join = only if only and (not cycle or only in cycle) else None  # never pull an unstated term into a past cycle
+        by_term: dict = {}
+        for l in grp:
+            by_term.setdefault(l.get("term") or join, []).append(l)
+        for same in by_term.values():
+            kept = [l for l in same if source_rank(l) <= 2]
+            for c in (l for l in same if source_rank(l) > 2):
+                i = next((i for i, a in enumerate(kept) if {a["us"], c["us"]} != {"US", "non-US"}), None)
+                if i is None:
+                    kept.append(c)  # somewhere else entirely, so a different posting
+                    continue
+                locs, us, a_id = kept[i]["locations"], kept[i]["us"], kept[i]["id"]
+                kept[i] = merge_two(kept[i], c)
+                if locs:  # keep the posting's own location wording, not a list's or LinkedIn's
+                    kept[i]["locations"], kept[i]["us"] = locs, us
+                if a_id not in seen and c["id"] in seen:
+                    kept[i]["id"] = c["id"]
+            for m in kept:
+                if firm in names and m["company"] != names[firm]:  # "Akuna Capital University" -> "Akuna Capital"
+                    m["company"], m["watch"] = names[firm], watch_name(names[firm])
+                    m["watch_group"] = WATCH_GROUP.get(m["watch"] or "", None)
+                out.append(m)
     return out
 
 
-def merge_all(items: list[dict]) -> list[dict]:
+def merge_all(items: list[dict], seen: dict | None = None) -> list[dict]:
     by: dict[str, dict] = {}
     for l in items:
         by[l["id"]] = merge_two(by[l["id"]], l) if l["id"] in by else l
     # collapse per-location duplicates (Amazon posts one listing per city)
     collapse = set(c.lower() for c in CFG.get("collapse_by_title", []))
     out, by_title = [], {}
-    for l in fold_agentreach(list(by.values())):
+    for l in fold_duplicates(list(by.values()), seen or {}):
         if l["company"].lower() in collapse:
             k = (l["company"].lower(), l["title"].lower())
             if k in by_title:
@@ -1207,6 +1299,8 @@ def passes(l: dict) -> bool:
             return False
         if CFG.get("us_only") and l.get("us") == "non-US":
             return False
+        if "events:seed" not in l["sources"] and any(re.search(p, t, re.I) for p in CFG.get("exclude_event_patterns", [])):
+            return False  # curated seeds are never excluded
         return True
     if not any(s in l["sources"] for s in LIST_SOURCES) and not INTERN_RE.search(t):
         return False
@@ -1291,6 +1385,62 @@ def enrich(items: list[dict], cache: dict, limit: int):
     return done
 
 
+HUB_SEGMENTS = {"careers", "career", "jobs", "students", "student", "student-opportunities", "university",
+                "university-recruiting", "early-careers", "earlycareers", "programs", "our-programs", "programs-and-events",
+                "internships", "interns", "opportunities", "applications", "search", "join-us", "join"}
+
+
+def is_hub(url: str) -> bool:
+    """A generic landing page (careers home, programs index, bare careers site), not one posting or program."""
+    p = urlparse(url)
+    segs = [s for s in p.path.lower().split("/") if s and not re.fullmatch(r"[a-z]{2}(?:[-_][a-z]{2})?", s)]
+    if segs:
+        return segs[-1] in HUB_SEGMENTS
+    host = re.sub(r"^www\.", "", p.netloc.lower())
+    return host.count(".") == 1 or host.split(".")[0] in ("careers", "jobs", "apply")
+
+
+def link_status(url: str) -> tuple[str, str | None]:
+    """'dead' (404/410, a closed Greenhouse job, or a redirect that lands on a generic careers page instead of the
+    program), 'ok', or 'unknown' (blocked, rate-limited, timed out: never treated as dead)."""
+    try:
+        r = requests.get(url, headers={**SESSION.headers, "Accept": "text/html,*/*"}, timeout=15, allow_redirects=True,
+                         stream=True)
+        r.close()
+    except Exception:
+        return "unknown", None
+    if r.status_code in (404, 410):
+        return "dead", r.url
+    if r.status_code >= 400:
+        return "unknown", r.url
+    if r.history:
+        last = ([s for s in urlparse(url).path.lower().split("/") if s] or [""])[-1]
+        if "error=true" in urlparse(r.url).query or (is_hub(r.url) and not is_hub(url) and last not in r.url.lower()):
+            return "dead", r.url
+    return "ok", r.url
+
+
+def drop_dead_links(raw: list[dict], cache: dict, cfg: dict) -> list[dict]:
+    """Community lists and scraped pages go stale. A row whose link now 404s or bounces to a generic careers page
+    (Google's retired STEP page, say) is dropped, so it disappears or falls back to its curated seed instead."""
+    check = lambda l: bool(l.get("url")) and l["sources"][0].split(":")[0] in ("underclassmen", "events") \
+        and l["sources"][0] != "events:seed"
+    ttl = dt.timedelta(hours=int(cfg.get("ttl_hours", 72)))
+    urls = sorted({l["url"] for l in raw if check(l)})
+    todo = [u for u in urls if not (cache.get("link:" + u)
+                                    and NOW - dt.datetime.fromisoformat(cache["link:" + u]["checked"]) < ttl)]
+    if todo:
+        log(f"checking {len(todo)} list/page links …")
+        with ThreadPoolExecutor(max_workers=int(cfg.get("workers", 8))) as ex:
+            for u, (st, final) in zip(todo, ex.map(link_status, todo)):
+                if st != "unknown":
+                    cache["link:" + u] = {"checked": NOW.isoformat(), "status": st, "final": final}
+    dead = {u for u in urls if (cache.get("link:" + u) or {}).get("status") == "dead"}
+    for u in sorted(dead):
+        vlog(f"  dead link: {u} -> {cache['link:' + u].get('final')}")
+    return [l for l in raw if not (check(l) and l["url"] in dead)]
+
+
 def load_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
@@ -1314,7 +1464,7 @@ def notify(new: list[dict], dashboard_url: str):
     if len(new) > 12:
         lines.append(f"…and {len(new) - 12} more")
     body = "\n".join(lines)
-    title = f"{len(new)} new quant internship{'s' if len(new) != 1 else ''}"
+    title = f"{len(new)} new internship{'s' if len(new) != 1 else ''}"
     topic = os.environ.get("NTFY_TOPIC")
     if topic:
         try:
@@ -1347,6 +1497,7 @@ def main():
     ap.add_argument("--sources", help="comma-separated subset, e.g. simplify,nufintech")
     ap.add_argument("--no-notify", action="store_true")
     ap.add_argument("--no-enrich", action="store_true")
+    ap.add_argument("--no-linkcheck", action="store_true")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
     VERBOSE = args.verbose
@@ -1390,11 +1541,24 @@ def main():
     run("underclassmen", src_underclassmen)
     run("agentreach", src_agentreach)  # last: board/ctx data from the other sources helps name and fold its hits
 
-    merged = merge_all(raw)
+    cache = load_json(CACHE_PATH, {})
+    # what's tracked = the config minus app/schedule settings; when it changes (a new board, include_all_swe, a watchlist
+    # edit), the rows it newly brings in are recorded quietly instead of arriving as one giant NEW batch and notification
+    scope_cfg = {k: v for k, v in CFG.items() if k not in ("app", "manual_deadlines", "enrich_limit_per_run", "new_window_hours", "link_check")}
+    scope = hashlib.sha1(json.dumps(scope_cfg, sort_keys=True).encode()).hexdigest()[:12]
+    rescoped = (cache.get("__scope__") or {}).get("sig") != scope
+    if rescoped:
+        cache["__scope__"] = {"sig": scope, "since": NOW.isoformat()}
+    lc = CFG.get("link_check", {})
+    if lc.get("enabled", True) and not args.no_linkcheck:
+        n = len(raw)
+        raw = drop_dead_links(raw, cache, lc)
+        log(f"link check: dropped {n - len(raw)} rows whose link is dead")
+    seen = load_json(SEEN_PATH, {})
+    merged = merge_all(raw, seen)
     kept = [l for l in merged if passes(l)]
     log(f"merged {len(merged)} -> kept {len(kept)} after filters")
 
-    cache = load_json(CACHE_PATH, {})
     if not args.no_enrich:
         n = enrich(kept, cache, int(CFG.get("enrich_limit_per_run", 15)))
         log(f"enriched {n} postings for deadlines")
@@ -1404,17 +1568,21 @@ def main():
             d = parse_date_str(l["deadline"])
             if d:
                 l["deadline"] = d.isoformat()
+    cache = {k: v for k, v in cache.items()  # link-check results expire; keep the file from growing forever
+             if not k.startswith("link:") or (NOW - dt.datetime.fromisoformat(v["checked"])).days < 30}
     save_json(CACHE_PATH, cache)
 
-    seen = load_json(SEEN_PATH, {})
     first_run = not seen
     window = dt.timedelta(hours=int(CFG.get("new_window_hours", 48)))
+    quiet = first_run or rescoped
+    if rescoped and not first_run:
+        log("tracking settings changed: rows first seen this run are recorded without NEW badges or a notification")
     new_now = []
     for l in kept:
         fs = seen.get(l["id"])
-        if not fs:
-            fs = seen[l["id"]] = NOW.isoformat()
-            if l.get("status") != "closed":  # expected-to-return rows are context, not news
+        if not fs:  # a quiet run backdates first-seen by the NEW window, so the batch doesn't turn NEW next run either
+            fs = seen[l["id"]] = (NOW - window if quiet else NOW).isoformat()
+            if l.get("status") != "closed" and not quiet:  # expected-to-return rows are context, not news
                 new_now.append(l)
         l["first_seen"] = fs
         l["is_new"] = (not first_run) and (NOW - dt.datetime.fromisoformat(fs)) < window
