@@ -18,11 +18,24 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # the push token goes only to the commit step, never to the search tools
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Install Agent Reach
+        continue-on-error: true  # if this fails, the agentreach source shows "failed" and everything else still runs
+        env:
+          AGENT_REACH_VERSION: v1.6.1
+          AGENT_REACH_SHA256: 51443d733bcb26064262442083a8f8abf6ba5e3e7df54beebafe98c88be04a60
+        run: |
+          pip install uv
+          curl -fsSL -o "$RUNNER_TEMP/agent-reach.zip" "https://github.com/Panniantong/Agent-Reach/releases/download/$AGENT_REACH_VERSION/agent-reach.zip"
+          echo "$AGENT_REACH_SHA256  $RUNNER_TEMP/agent-reach.zip" | sha256sum -c -
+          uv tool install "$RUNNER_TEMP/agent-reach.zip"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
       - name: Search
         run: python finder.py -v
         env:
@@ -31,9 +44,12 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
       - name: Commit results
+        env:
+          PUSH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "finder-bot"
           git config user.email "finder-bot@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git add data docs
           if git diff --cached --quiet; then
             echo "no changes"
