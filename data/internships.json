@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T07:29:35+00:00",
+ "generated_at": "2026-11-18T20:31:43+00:00",
  "source_links": {
   "nufintech": "https://github.com/northwesternfintech/2027QuantInternships",
   "simplify": "https://github.com/SimplifyJobs/Summer2027-Internships",
@@ -25,12 +25,12 @@
   "us_only": true
  },
  "counts": {
-  "total": 2105,
+  "total": 2077,
   "events": 96,
   "with_deadline": 17,
-  "new": 80,
-  "watchlist": 200,
-  "new_this_run": 27
+  "new": 85,
+  "watchlist": 195,
+  "new_this_run": 9
  },
  "first_run": false,
  "sources": {
@@ -38,31 +38,31 @@
    "ok": true,
    "count": 71,
    "error": null,
-   "secs": 0.2
+   "secs": 0.3
   },
   "simplify": {
    "ok": true,
-   "count": 2736,
+   "count": 2700,
    "error": null,
-   "secs": 0.4
+   "secs": 0.6
   },
   "vansh": {
    "ok": true,
-   "count": 1291,
+   "count": 1279,
    "error": null,
    "secs": 0.1
   },
   "speedyapply": {
    "ok": true,
-   "count": 331,
+   "count": 330,
    "error": null,
-   "secs": 1.3
+   "secs": 2.2
   },
   "greenhouse": {
    "ok": true,
-   "count": 149,
+   "count": 147,
    "error": null,
-   "secs": 2.1
+   "secs": 6.9
   },
   "janestreet": {
    "ok": null,
@@ -73,7 +73,7 @@
    "ok": true,
    "count": 12,
    "error": null,
-   "secs": 28.2
+   "secs": 29.8
   },
   "lever": {
    "ok": null,
@@ -84,50 +84,50 @@
    "ok": true,
    "count": 0,
    "error": null,
-   "secs": 0.6
+   "secs": 0.5
   },
   "workday": {
    "ok": true,
    "count": 0,
    "error": "NVIDIA 'intern': HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.co; NVIDIA 'Ignite': HTTPError 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.co",
-   "secs": 0.2
+   "secs": 0.1
   },
   "microsoft": {
    "ok": true,
    "count": 0,
    "error": "microsoft 'intern' p1: SSLError HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max ret; microsoft 'explore intern' p1: SSLError HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max ret; microsoft 'research intern' p1: SSLError HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max ret",
-   "secs": 0.0
+   "secs": 0.1
   },
   "pages": {
    "ok": true,
-   "count": 10,
+   "count": 0,
    "error": "Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab; Google: HTTPError 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.google.com/ab",
-   "secs": 51.7
+   "secs": 36.2
   },
   "events": {
    "ok": true,
    "count": 90,
    "error": null,
-   "secs": 122.4
+   "secs": 126.8
   },
   "underclassmen": {
    "ok": true,
    "count": 60,
    "error": null,
-   "secs": 0.5
+   "secs": 1.3
   },
   "agentreach": {
    "ok": true,
    "count": 30,
    "error": null,
-   "secs": 15.7
+   "secs": 15.6
   }
  },
  "watchlist": [
   {
    "name": "Citadel",
    "group": "quant",
-   "count": 9,
+   "count": 5,
    "events": 8,
    "website": "https://www.citadel.com/careers/open-opportunities/students/internships/",
    "note": "The hedge fund side of Ken Griffin's Citadel. The quants are mostly on the Global Quantitative Strategies team (GQS). Citadel tends to be fairly school-selective."
@@ -207,7 +207,7 @@
   {
    "name": "NVIDIA",
    "group": "tech",
-   "count": 13,
+   "count": 12,
    "events": 7,
    "website": null,
    "note": null
@@ -497,6 +497,82 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "f293a3e340bb",
+   "company": "Airbnb",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "SF",
+    "San Francisco, CA"
+   ],
+   "url": "https://careers.airbnb.com/positions/8360478?gh_jid=8360478",
+   "sources": [
+    "simplify",
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-11-18",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$49/hr",
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "c8b779ed7fcd",
+   "company": "DriveWealth",
+   "title": "AI Consulting Associate Program People Analytics Intern",
+   "locations": [
+    "Chicago, IL",
+    "NYC"
+   ],
+   "url": "https://jobs.ashbyhq.com/drivewealth/85147395-3dfa-4c16-880f-8c7522a538ec/application?embed=true",
+   "sources": [
+    "simplify"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-18",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -874,293 +950,6 @@
    "deadline_passed": false
   },
   {
-   "id": "cd6ad4cc23bd",
-   "company": "NVIDIA",
-   "title": "Applied Research Scientist Intern - Agentic Biology - Summer 2027",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Scientist-Intern--Agentic-Biology---Summer-2027_JR2029307",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-11-17T20:55:53.707102+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "83dbccbeba88",
-   "company": "Clera",
-   "title": "Full-Stack Software Engineering Intern",
-   "locations": [
-    "New York, NY"
-   ],
-   "url": "https://go.vansh.nyc/1AN",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T07:55:29.593865+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "c10cbbd0cc78",
-   "company": "Analog Devices",
-   "title": "Software Engineering Intern, Medical Device & Healthcare Integration",
-   "locations": [
-    "Wilmington, MA"
-   ],
-   "url": "https://go.vansh.nyc/1AV",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T07:55:29.593865+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "477d5d1d7c1f",
-   "company": "Sedaro",
-   "title": "DevOps Intern",
-   "locations": [
-    "Arlington, VA"
-   ],
-   "url": "https://go.vansh.nyc/1Be",
-   "sources": [
-    "vansh"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T20:55:53.707102+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "1b7214eb802d",
-   "company": "Prometheus Group",
-   "title": "Web Development Intern",
-   "locations": [
-    "Raleigh, NC"
-   ],
-   "url": "https://go.vansh.nyc/1Bh",
-   "sources": [
-    "vansh"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T20:55:53.707102+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "0a95c1774393",
-   "company": "Falcomm",
-   "title": "AI/ML Software Engineer Undergraduate Intern - AI/CAD Integration",
-   "locations": [
-    "Atlanta, GA"
-   ],
-   "url": "https://apply.workable.com/falcomm/j/64D0E86EFE/apply",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "ML",
-   "term": "Spring 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T20:55:53.707102+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "b3dcaad4c7b6",
-   "company": "Anduril",
-   "title": "Machine Learning Engineer Intern",
-   "locations": [
-    "Santa Ana, CA"
-   ],
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5274037007",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T20:55:53.707102+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "c76d2c27ed50",
-   "company": "Garmin",
-   "title": "Software Engineer Intern, Real Time Aviation Data",
-   "locations": [
-    "Chanhassen, MN"
-   ],
-   "url": "https://go.vansh.nyc/1Bs",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-17",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
    "id": "e8c3618a628e",
    "company": "APEX Analytix",
    "title": "Product Management Intern - DevOps",
@@ -1527,6 +1316,258 @@
    "deadline_passed": false
   },
   {
+   "id": "83dbccbeba88",
+   "company": "Clera",
+   "title": "Full-Stack Software Engineering Intern",
+   "locations": [
+    "New York, NY"
+   ],
+   "url": "https://go.vansh.nyc/1AN",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-17T07:55:29.593865+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "c10cbbd0cc78",
+   "company": "Analog Devices",
+   "title": "Software Engineering Intern, Medical Device & Healthcare Integration",
+   "locations": [
+    "Wilmington, MA"
+   ],
+   "url": "https://go.vansh.nyc/1AV",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-17T07:55:29.593865+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "477d5d1d7c1f",
+   "company": "Sedaro",
+   "title": "DevOps Intern",
+   "locations": [
+    "Arlington, VA"
+   ],
+   "url": "https://go.vansh.nyc/1Be",
+   "sources": [
+    "vansh"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-17T20:55:53.707102+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "1b7214eb802d",
+   "company": "Prometheus Group",
+   "title": "Web Development Intern",
+   "locations": [
+    "Raleigh, NC"
+   ],
+   "url": "https://go.vansh.nyc/1Bh",
+   "sources": [
+    "vansh"
+   ],
+   "role": "Other",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-17T20:55:53.707102+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "0a95c1774393",
+   "company": "Falcomm",
+   "title": "AI/ML Software Engineer Undergraduate Intern - AI/CAD Integration",
+   "locations": [
+    "Atlanta, GA"
+   ],
+   "url": "https://apply.workable.com/falcomm/j/64D0E86EFE/apply",
+   "sources": [
+    "simplify",
+    "vansh"
+   ],
+   "role": "ML",
+   "term": "Spring 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-17T20:55:53.707102+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "b3dcaad4c7b6",
+   "company": "Anduril",
+   "title": "Machine Learning Engineer Intern",
+   "locations": [
+    "Santa Ana, CA"
+   ],
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5274037007",
+   "sources": [
+    "simplify",
+    "vansh"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-17T20:55:53.707102+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "c76d2c27ed50",
+   "company": "Garmin",
+   "title": "Software Engineer Intern, Real Time Aviation Data",
+   "locations": [
+    "Chanhassen, MN"
+   ],
+   "url": "https://go.vansh.nyc/1Bs",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "750543478ab6",
    "company": "State Street",
    "title": "Full Stack Development Intern",
@@ -1698,6 +1739,42 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "558fe788c67f",
+   "company": "Motorola Solutions",
+   "title": "Software Engineer Co-op",
+   "locations": [
+    "Remote",
+    "United States"
+   ],
+   "url": "https://go.vansh.nyc/1Cj",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-17",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -2117,6 +2194,41 @@
    "deadline_passed": false
   },
   {
+   "id": "cd6ad4cc23bd",
+   "company": "NVIDIA",
+   "title": "Applied Research Scientist Intern - Agentic Biology - Summer 2027",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Research-Scientist-Intern--Agentic-Biology---Summer-2027_JR2029307",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-16",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "NVIDIA",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$62/hr",
+   "note": null,
+   "first_seen": "2026-11-17T20:55:53.707102+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "384244efbd2c",
    "company": "Schonfeld",
    "title": "Cybersecurity Operations Intern",
@@ -2439,6 +2551,81 @@
    "deadline_passed": false
   },
   {
+   "id": "1d67e9ab91b2",
+   "company": "General Dynamics Information Technology",
+   "title": "Engineering Intern",
+   "locations": [
+    "Falls Church, VA",
+    "Gaithersburg, MD"
+   ],
+   "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Engineering--General--Internship_RQ232323",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "Associate's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-11-16",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "df214bb180a7",
+   "company": "RTX",
+   "title": "Software Engineering Intern",
+   "locations": [
+    "El Segundo, CA"
+   ],
+   "url": "https://go.vansh.nyc/1A3",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-16",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "U.S. Citizenship is Required",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "ed6edfa05dac",
    "company": "Viavi Solutions",
    "title": "Software Engineering Co-op",
@@ -2545,6 +2732,41 @@
    "note": null,
    "first_seen": "2026-11-14T18:02:09.451459+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "303c4585490a",
+   "company": "Syntax",
+   "title": "Index Analyst Intern",
+   "locations": [
+    "NYC"
+   ],
+   "url": "https://jobs.lever.co/syntax/75c16db8-4cfd-4d7c-98b0-c9153e2034fe/apply",
+   "sources": [
+    "simplify"
+   ],
+   "role": "Other",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-14",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -2810,41 +3032,6 @@
    "note": null,
    "first_seen": "2026-11-14T18:02:09.451459+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "303c4585490a",
-   "company": "Syntax",
-   "title": "Index Analyst Intern",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://jobs.lever.co/syntax/75c16db8-4cfd-4d7c-98b0-c9153e2034fe/apply",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-14",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -5810,44 +5997,6 @@
    "deadline_passed": false
   },
   {
-   "id": "f5df089f6e41",
-   "company": "RTX",
-   "title": "Software Engineering Intern",
-   "locations": [
-    "Cedar Rapids, IA"
-   ],
-   "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01888146",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-11-11",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-12T07:11:40.485587+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "5bf9cc1f074a",
    "company": "Arcesium",
    "title": "Technology Operations Intern",
@@ -6947,43 +7096,6 @@
    ],
    "role": "SWE",
    "term": "Winter 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-11-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-10T19:44:12.059571+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "5c2c1694e22a",
-   "company": "Veolia",
-   "title": "Manufacturing Software Engineer Intern",
-   "locations": [
-    "Boulder, CO"
-   ],
-   "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000160896184",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": null,
    "degrees": [
     "Bachelor's"
    ],
@@ -8315,41 +8427,6 @@
    "deadline_passed": false
   },
   {
-   "id": "6b51da51a912",
-   "company": "SRC, Inc",
-   "title": "Machine Learning Engineer Intern",
-   "locations": [
-    "United States"
-   ],
-   "url": "https://go.vansh.nyc/1rU",
-   "sources": [
-    "vansh"
-   ],
-   "role": "ML",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-10T19:44:12.059571+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "1daf81d0f5d5",
    "company": "Addepar",
    "title": "Software Engineering Intern",
@@ -9010,43 +9087,6 @@
    "deadline_passed": false
   },
   {
-   "id": "3063f32d0867",
-   "company": "Warner Bros.",
-   "title": "Software Engineer Co-op",
-   "locations": [
-    "Needham, MA"
-   ],
-   "url": "https://warnerbros.wd5.myworkdayjobs.com/global/job/MA-Needham-117-Kendrick-St/WB-Games-Engineering-Co-op--Needham--MA---January-May-2027_R000109901",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-11-09",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "cbbc5139b022",
    "company": "Uhaul",
    "title": "Software Development Intern",
@@ -9081,44 +9121,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "40bd1ee0ba28",
-   "company": "Ryan",
-   "title": "Application Development Intern - Application Development",
-   "locations": [
-    "Burlington, VT"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Burlington/Summer-2027-Intern--Application-Development_R0020810-1",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-11-09",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-15T06:33:27.652613+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -10000,41 +10002,6 @@
    "deadline_passed": false
   },
   {
-   "id": "6ec829efc132",
-   "company": "Microsoft",
-   "title": "Research Intern - AI & Human Systems",
-   "locations": [
-    "New York City, NY"
-   ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557056017",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-08",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$52/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T17:55:57.883646+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "5f6125bc0d62",
    "company": "UMG Contingent Worker Company",
    "title": "Data Engineer Co-op",
@@ -10143,6 +10110,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "6ec829efc132",
+   "company": "Microsoft",
+   "title": "Research Intern - AI & Human Systems",
+   "locations": [
+    "New York City, NY"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557056017",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-07",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-11-08T17:55:57.883646+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -10564,41 +10566,6 @@
    "deadline_passed": false
   },
   {
-   "id": "224dfc94cf08",
-   "company": "The New York Times",
-   "title": "Interactive News Engineer Intern",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751790005",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "f91bb7e1090d",
    "company": "CACI",
    "title": "Software Engineering Co-op",
@@ -10839,76 +10806,6 @@
     "Master's"
    ],
    "level": "undergrad",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "1137218de1da",
-   "company": "The New York Times",
-   "title": "Android Engineer Intern",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "bedaecbf452d",
-   "company": "The New York Times",
-   "title": "iOS Engineer Intern",
-   "locations": [
-    "NYC"
-   ],
-   "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
    "date_posted": "2026-11-06",
    "deadline": null,
    "deadline_source": null,
@@ -11296,76 +11193,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-10T19:44:12.059571+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "fbb26a5645f0",
-   "company": "Microsoft",
-   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$52/hr",
-   "note": null,
-   "first_seen": "2026-09-01T16:40:49.508096+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "96ce86037c30",
-   "company": "NVIDIA",
-   "title": "Technical Learning Content Development Intern - Physical AI — Summer 2027",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Technical-Learning-Content-Development-Intern--Physical-AI---Summer-2027_JR2028148",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "NVIDIA",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$62/hr",
-   "note": null,
-   "first_seen": "2026-11-06T19:24:50.247823+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -11904,76 +11731,6 @@
     "New York, NY"
    ],
    "url": "https://go.vansh.nyc/1kQ",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "a51220a93868",
-   "company": "The New York Times",
-   "title": "Android Engineering Intern",
-   "locations": [
-    "New York, NY"
-   ],
-   "url": "https://go.vansh.nyc/1l6",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e18ae56ffecd",
-   "company": "The New York Times",
-   "title": "iOS Engineering Intern",
-   "locations": [
-    "New York, NY"
-   ],
-   "url": "https://go.vansh.nyc/1l8",
    "sources": [
     "vansh"
    ],
@@ -12863,6 +12620,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-06T06:47:22.278175+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "fbb26a5645f0",
+   "company": "Microsoft",
+   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-05",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": null,
+   "first_seen": "2026-09-01T16:40:49.508096+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -16855,6 +16647,41 @@
    "deadline_passed": false
   },
   {
+   "id": "139674b72cd1",
+   "company": "Tesla",
+   "title": "Software Engineer Intern, Data Transformations",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://go.vansh.nyc/1al",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-11-02",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "e40b24a4a224",
    "company": "Tesla",
    "title": "Supercharger SIL Test Infrastructure Software Engineer Intern, Energy Engineering",
@@ -17727,41 +17554,6 @@
    "note": null,
    "first_seen": "2026-11-13T06:46:14.556235+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "139674b72cd1",
-   "company": "Tesla",
-   "title": "Software Engineer Intern, Data Transformations",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://go.vansh.nyc/1al",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -18822,41 +18614,6 @@
     "San Jose, CA"
    ],
    "url": "https://go.vansh.nyc/18m",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-11-01",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "aa86ce4336dc",
-   "company": "TikTok",
-   "title": "Software Engineer Intern, Search Data Infra",
-   "locations": [
-    "San Jose, CA"
-   ],
-   "url": "https://go.vansh.nyc/18n",
    "sources": [
     "vansh"
    ],
@@ -21125,82 +20882,6 @@
    "deadline_passed": false
   },
   {
-   "id": "09a670560758",
-   "company": "Philips",
-   "title": "Data Engineer Co-op - Biocompatibility",
-   "locations": [
-    "Murrysville, PA"
-   ],
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Co-op---Data-Engineer--Biocompatibility----Murrysville--PA---January-to-June-2027_591730",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Winter 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-29",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "5682016657b5",
-   "company": "Great American Insurance Company",
-   "title": "Content Publishing Developer Intern",
-   "locations": [
-    "Cincinnati, OH"
-   ],
-   "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-29",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "a901296ce84e",
    "company": "PTC",
    "title": "Arena Engineering Intern",
@@ -21428,18 +21109,14 @@
    "locations": [
     "Arden Hills, MN"
    ],
-   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813862687",
+   "url": "https://go.vansh.nyc/YD",
    "sources": [
-    "simplify",
     "vansh"
    ],
    "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
    "date_posted": "2026-10-29",
    "deadline": null,
    "deadline_source": null,
@@ -22022,6 +21699,41 @@
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ef5172181cc8",
+   "company": "Philips",
+   "title": "Data Engineer Co-op, Biocompatibility",
+   "locations": [
+    "Murrysville, PA"
+   ],
+   "url": "https://go.vansh.nyc/ZZ",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-29",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -23733,43 +23445,6 @@
    "degrees": [
     "Bachelor's",
     "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-27",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "9f9893e64ff4",
-   "company": "Micron Technology",
-   "title": "Product Yield Enhancement Software Engineer Intern",
-   "locations": [
-    "Boise, ID"
-   ],
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [
-    "Bachelor's"
    ],
    "level": "undergrad",
    "date_posted": "2026-10-27",
@@ -25622,181 +25297,6 @@
    "deadline_passed": false
   },
   {
-   "id": "5e5828c5b475",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Connected Systems - Summer 2027",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/62e45b20-cbdc-4d16-9466-00bc158b7a7f",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "871ba082ba51",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Applications - Summer 2027",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/7cc3dd48-631f-45ec-ae95-46c7cf05b160",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "b94ad5bf96ef",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Vehicle Controls - Summer 2027",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "687d05e92c1d",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Embedded Platforms - Summer 2027",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/30c3af69-2dfc-4224-9abc-b2d9c0c41048",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "2 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "032821176e9a",
-   "company": "Microsoft",
-   "title": "Research Intern - Algorithms Group: Theory",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557045963",
-   "sources": [
-    "speedyapply:ai"
-   ],
-   "role": "QR",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Microsoft",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$52/hr",
-   "note": null,
-   "first_seen": "2026-10-25T16:20:40.950174+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "f8837f2fad4b",
    "company": "ASML",
    "title": "Platform Software Engineer In Test Intern",
@@ -25863,46 +25363,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "ba2d752066d8",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "url": "https://www.amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa",
-   "sources": [
-    "amazon",
-    "simplify",
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$53/hr",
-   "note": null,
-   "first_seen": "2026-10-24T04:37:39.786060+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -27155,17 +26615,157 @@
    "deadline_passed": false
   },
   {
-   "id": "20e7a8422b2f",
-   "company": "Microsoft",
-   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge",
+   "id": "5e5828c5b475",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Connected Systems - Summer 2027",
    "locations": [
-    "Cambridge, MA"
+    "Palo Alto, CA"
    ],
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/62e45b20-cbdc-4d16-9466-00bc158b7a7f",
    "sources": [
     "speedyapply:swe"
    ],
    "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "b94ad5bf96ef",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Vehicle Controls - Summer 2027",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "871ba082ba51",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Applications - Summer 2027",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/7cc3dd48-631f-45ec-ae95-46c7cf05b160",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "687d05e92c1d",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Embedded Platforms - Summer 2027",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/30c3af69-2dfc-4224-9abc-b2d9c0c41048",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "2 more location(s) on the posting",
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "032821176e9a",
+   "company": "Microsoft",
+   "title": "Research Intern - Algorithms Group: Theory",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557045963",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "QR",
    "term": null,
    "degrees": [],
    "level": "unknown",
@@ -27185,7 +26785,7 @@
    "sponsorship": null,
    "pay": "$52/hr",
    "note": null,
-   "first_seen": "2026-10-22T04:47:32.082288+00:00",
+   "first_seen": "2026-10-25T16:20:40.950174+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -27546,6 +27146,46 @@
    "deadline_passed": false
   },
   {
+   "id": "ba2d752066d8",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA)",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "url": "https://www.amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa",
+   "sources": [
+    "amazon",
+    "simplify",
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-10-23",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-10-24T04:37:39.786060+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "98f0f1f2dde7",
    "company": "Amazon",
    "title": "Frontier AI & Robotics Intern - Undergraduate",
@@ -27652,6 +27292,44 @@
    "note": null,
    "first_seen": "2026-10-25T16:20:40.950174+00:00",
    "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "929e0c2aab92",
+   "company": "Crusoe",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "SF"
+   ],
+   "url": "https://jobs.ashbyhq.com/crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5/application?embed=true",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-10-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -28222,42 +27900,6 @@
    "deadline_passed": false
   },
   {
-   "id": "002a5805f570",
-   "company": "Ixian Robotics",
-   "title": "Software Intern",
-   "locations": [
-    "SF"
-   ],
-   "url": "https://jobs.ashbyhq.com/ixianrobotics/23738c13-3881-402e-9919-85683052d233/application?embed=true",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-22",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "d31e03bb222c",
    "company": "Crystal Dynamics",
    "title": "Gameplay Engineer Intern",
@@ -28440,6 +28082,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-05T19:57:17.010125+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "20e7a8422b2f",
+   "company": "Microsoft",
+   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge",
+   "locations": [
+    "Cambridge, MA"
+   ],
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Microsoft",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$52/hr",
+   "note": null,
+   "first_seen": "2026-10-22T04:47:32.082288+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -28689,44 +28366,6 @@
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "929e0c2aab92",
-   "company": "Crusoe",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "SF"
-   ],
-   "url": "https://jobs.ashbyhq.com/crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5/application?embed=true",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-22",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -29303,46 +28942,6 @@
    "deadline_passed": false
   },
   {
-   "id": "c5a552b535dc",
-   "company": "Zillow",
-   "title": "Software Development Engineer Intern",
-   "locations": [
-    "Seattle, WA",
-    "Remote in USA"
-   ],
-   "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-21",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "ecb4fc4446ee",
    "company": "Sycamore",
    "title": "Engineer Intern",
@@ -29561,6 +29160,42 @@
    "deadline_passed": false
   },
   {
+   "id": "2073671b3a75",
+   "company": "Zillow",
+   "title": "Software Development Engineer Intern",
+   "locations": [
+    "Seattle, WA",
+    "Remote in USA"
+   ],
+   "url": "https://go.vansh.nyc/dP",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-21",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "352d9e84a9c2",
    "company": "Keysight Technologies",
    "title": "R&D Software Engineer Intern",
@@ -29685,8 +29320,7 @@
    ],
    "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019103",
    "sources": [
-    "simplify",
-    "vansh"
+    "simplify"
    ],
    "role": "SWE",
    "term": null,
@@ -32687,44 +32321,6 @@
    "deadline_passed": false
   },
   {
-   "id": "822b5a4a624b",
-   "company": "Ryan",
-   "title": "Application Development Intern",
-   "locations": [
-    "Plano, TX"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Application-Development_R0020820-1",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-15T06:33:27.652613+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "36dc2b659458",
    "company": "Ryan",
    "title": "Software Engineer Intern",
@@ -32798,41 +32394,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "3854078b2090",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Machine Learning Research - Perception - Spring 2027 Co-Op",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33801/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "QR",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -33161,44 +32722,6 @@
    "deadline_passed": false
   },
   {
-   "id": "e2e8fda7ad48",
-   "company": "Axiom Space",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "Houston, TX"
-   ],
-   "url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-15",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "7def3741b942",
    "company": "Engramme",
    "title": "Full-Stack Software Engineer Co-op Intern",
@@ -33338,6 +32861,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-05T19:57:17.010125+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3854078b2090",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Machine Learning Research - Perception - Spring 2027 Co-Op",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33801/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "QR",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -33514,6 +33072,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-17T07:55:29.593865+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
+   "id": "234f60ec5454",
+   "company": "Axiom Space",
+   "title": "Software Engineer Intern",
+   "locations": [
+    "Houston, TX"
+   ],
+   "url": "https://go.vansh.nyc/CF",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-15",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
    "is_new": true,
    "deadline_passed": false
   },
@@ -35078,44 +34671,6 @@
    "deadline_passed": false
   },
   {
-   "id": "a6f77dd95f07",
-   "company": "Medpace",
-   "title": "Python Developer Intern",
-   "locations": [
-    "Cincinnati, OH"
-   ],
-   "url": "https://careers.medpace.com/jobs/13059?icims=1",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-13",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "d43118a22648",
    "company": "ServiceNow",
    "title": "AI Engineering Associate Software Engineer Intern",
@@ -35669,8 +35224,7 @@
    ],
    "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115",
    "sources": [
-    "simplify",
-    "vansh"
+    "simplify"
    ],
    "role": "SWE",
    "term": "Summer 2027",
@@ -36250,41 +35804,6 @@
    "deadline_passed": false
   },
   {
-   "id": "3b2a76d105da",
-   "company": "Rivian",
-   "title": "Electrical & Software Systems - Summer 2027 Internships",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/34308/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "HW",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "8090cc2cb1d4",
    "company": "TransMarket Group",
    "title": "Junior Data Center/Desktop Engineer Intern",
@@ -36316,114 +35835,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-25T16:20:40.950174+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "bd1c3af1e408",
-   "company": "Rivian",
-   "title": "Controls - Automation & Embedded Software - Summer 2027 Internships",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/34310/job",
-   "sources": [
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Does Not Offer Sponsorship",
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "f62bf5ecc5d4",
-   "company": "Rivian",
-   "title": "Software Engineering - Summer 2027 Internships",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/34303/job",
-   "sources": [
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Does Not Offer Sponsorship",
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "d301be6b35b6",
-   "company": "Rivian",
-   "title": "Computer Vision Software - Summer 2027 Internships",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/34315/job",
-   "sources": [
-    "speedyapply:swe",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -37110,7 +36521,8 @@
    ],
    "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812",
    "sources": [
-    "simplify"
+    "simplify",
+    "vansh"
    ],
    "role": "ML",
    "term": "Summer 2027",
@@ -37136,41 +36548,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "fe9122157058",
-   "company": "Workday",
-   "title": "Machine Learning Engineer Intern",
-   "locations": [
-    "Pleasanton, CA"
-   ],
-   "url": "https://go.vansh.nyc/Gs",
-   "sources": [
-    "vansh"
-   ],
-   "role": "ML",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-09",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-15T18:51:37.728459+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -37328,6 +36705,41 @@
    "deadline_passed": false
   },
   {
+   "id": "3b2a76d105da",
+   "company": "Rivian",
+   "title": "Electrical & Software Systems - Summer 2027 Internships",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/34308/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "HW",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-09",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "6140e88005e9",
    "company": "Arcesium",
    "title": "Infrastructure Engineer Intern",
@@ -37427,6 +36839,114 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "bd1c3af1e408",
+   "company": "Rivian",
+   "title": "Controls - Automation & Embedded Software - Summer 2027 Internships",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/34310/job",
+   "sources": [
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-09",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Does Not Offer Sponsorship",
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "f62bf5ecc5d4",
+   "company": "Rivian",
+   "title": "Software Engineering - Summer 2027 Internships",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/34303/job",
+   "sources": [
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-09",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Does Not Offer Sponsorship",
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "d301be6b35b6",
+   "company": "Rivian",
+   "title": "Computer Vision Software - Summer 2027 Internships",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/34315/job",
+   "sources": [
+    "speedyapply:swe",
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-09",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$51/hr",
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
@@ -38686,41 +38206,6 @@
    "deadline_passed": false
   },
   {
-   "id": "e12bf6c6db20",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Embedded Software - Spring 2027 Co-op",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33832/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-07",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "504bc697e485",
    "company": "Tenstorrent",
    "title": "AI Software Intern, Cloud, Infrastructure & Data Centre Deployment",
@@ -38864,41 +38349,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-10-25T16:20:40.950174+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "4c5c466cf5b2",
-   "company": "DV Trading",
-   "title": "Database Engineer Intern - Summer 2027",
-   "locations": [
-    "Chicago"
-   ],
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4741016005",
-   "sources": [
-    "greenhouse:dvtrading"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-10-06T18:22:37.808372+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -39584,6 +39034,41 @@
    "deadline_passed": false
   },
   {
+   "id": "e12bf6c6db20",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Embedded Software - Spring 2027 Co-op",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33832/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "b5117def190f",
    "company": "Ergotron",
    "title": "Software Engineer Intern",
@@ -39897,45 +39382,6 @@
    "degrees": [
     "Bachelor's",
     "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-10-05",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "f24e7975bfac",
-   "company": "Midland States Bank",
-   "title": "AI Solutions Engineer Intern",
-   "locations": [
-    "Rockford, IL",
-    "St. Louis, MO",
-    "Effingham, IL"
-   ],
-   "url": "https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---AI-Solutions-Engineer_JR1461",
-   "sources": [
-    "simplify"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
    ],
    "level": "undergrad",
    "date_posted": "2026-10-05",
@@ -41227,41 +40673,6 @@
    "deadline_passed": false
   },
   {
-   "id": "a2975b75f62e",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Applied AI - Spring 2027 Co-Op",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33984/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "ML",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-10-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "dcda5d1b3abe",
    "company": "Election Systems & Software",
    "title": "Information Systems Software Developer Intern",
@@ -41957,6 +41368,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-14T06:23:36.511629+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "a2975b75f62e",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Applied AI - Spring 2027 Co-Op",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33984/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "ML",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-10-01",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -42662,49 +42108,6 @@
    "deadline_passed": false
   },
   {
-   "id": "e19aec1c9520",
-   "company": "Amazon",
-   "title": "Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA)",
-   "locations": [
-    "Seattle, WA",
-    "United States"
-   ],
-   "url": "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa",
-   "sources": [
-    "amazon",
-    "simplify",
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "MBA",
-    "PhD"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-09-30",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Amazon",
-   "watch_group": "tech",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$53/hr",
-   "note": null,
-   "first_seen": "2026-10-02T17:52:39.023704+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "296aff90f163",
    "company": "CACI",
    "title": "Software Engineer Intern",
@@ -43304,6 +42707,49 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e19aec1c9520",
+   "company": "Amazon",
+   "title": "Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA)",
+   "locations": [
+    "Seattle, WA",
+    "United States"
+   ],
+   "url": "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa",
+   "sources": [
+    "amazon",
+    "simplify",
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "MBA",
+    "PhD"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-09-29",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Amazon",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$53/hr",
+   "note": null,
+   "first_seen": "2026-10-02T17:52:39.023704+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -45604,181 +45050,6 @@
    "deadline_passed": false
   },
   {
-   "id": "e14adec56ed6",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Enterprise Applications - Spring 2027 Co-Op",
-   "locations": [
-    "Normal, IL"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33803/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-23",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "09bf42c78eab",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Enterprise Applications - Spring 2027 Co-Op",
-   "locations": [
-    "Plymouth, MI"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33804/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-23",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "23aa22260f6b",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Design Automation - Spring 2027 Co-Op",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33748/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-23",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "eb5f564c216c",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Product Lifecycle Management - Spring 2027 Co-Op",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33746/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-23",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e7863c230b24",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Product Development Portal - Spring Co-Op",
-   "locations": [
-    "Palo Alto, CA"
-   ],
-   "url": "https://us-careers-rivian.icims.com/jobs/33745/job",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-23",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": null,
-   "first_seen": "2026-11-11T19:36:32.575505+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "0ad7313271f2",
    "company": "Insulet Corporation",
    "title": "DevOps Engineer Intern",
@@ -46219,44 +45490,6 @@
    "deadline_passed": false
   },
   {
-   "id": "6db4ee9bfd16",
-   "company": "GuideStone",
-   "title": "Software Developer Intern - Software Development",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://guidestone.wd1.myworkdayjobs.com/guidestone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-09-22",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "4d24a6cad991",
    "company": "Udig",
    "title": "Software Engineer Intern",
@@ -46529,6 +45762,181 @@
    "deadline_passed": false
   },
   {
+   "id": "e7863c230b24",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Product Development Portal - Spring Co-Op",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33745/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "23aa22260f6b",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Design Automation - Spring 2027 Co-Op",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33748/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "e14adec56ed6",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Enterprise Applications - Spring 2027 Co-Op",
+   "locations": [
+    "Normal, IL"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33803/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "09bf42c78eab",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Enterprise Applications - Spring 2027 Co-Op",
+   "locations": [
+    "Plymouth, MI"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33804/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "eb5f564c216c",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Product Lifecycle Management - Spring 2027 Co-Op",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "url": "https://us-careers-rivian.icims.com/jobs/33746/job",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": "Spring 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": null,
+   "first_seen": "2026-11-11T19:36:32.575505+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "3a7ca8ea222c",
    "company": "Rivian",
    "title": "Software Engineer Co-op, Design Automation",
@@ -46704,6 +46112,41 @@
    "deadline_passed": false
   },
   {
+   "id": "e36368920e26",
+   "company": "GuideStone",
+   "title": "Software Developer Intern, Software Development",
+   "locations": [
+    "Dallas, TX"
+   ],
+   "url": "https://go.vansh.nyc/J6",
+   "sources": [
+    "vansh"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-22",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T20:31:43.760483+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "de80f1d7958f",
    "company": "Amazon",
    "title": "Security Engineer Intern",
@@ -46772,6 +46215,45 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "83c071fff55c",
+   "company": "Tyler Technologies",
+   "title": "Software Development Intern - Summer 2027",
+   "locations": [
+    "Yarmouth, ME",
+    "Orono, ME",
+    "Falmouth, ME"
+   ],
+   "url": "https://jobs.jobvite.com/tylertech/job/oxAPAfwg?nl=1&nl=1&fr=false",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-09-21",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-15T18:51:37.728459+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -47107,76 +46589,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "7cd3936f09ac",
-   "company": "Conifer Health Solutions",
-   "title": "BI Developer Intern",
-   "locations": [
-    "Dallas, TX"
-   ],
-   "url": "https://go.vansh.nyc/1mE",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-21",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e7d2e1b09a20",
-   "company": "Epic Games",
-   "title": "Tools Programmer Intern",
-   "locations": [
-    "Cary, NC"
-   ],
-   "url": "https://epicgames.com/careers/jobs/6200355004?gh_jid=6200355004",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-19",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-12T07:11:40.485587+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -47533,41 +46945,6 @@
    ],
    "role": "ML",
    "term": "Spring 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-18",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "e8c64088d4d2",
-   "company": "MegazoneCloud",
-   "title": "Cloud Operations Co-op",
-   "locations": [
-    "Rochester, NY"
-   ],
-   "url": "https://go.vansh.nyc/1eN",
-   "sources": [
-    "vansh"
-   ],
-   "role": "Other",
-   "term": null,
    "degrees": [],
    "level": "unknown",
    "date_posted": "2026-09-18",
@@ -48111,43 +47488,6 @@
    "deadline_passed": false
   },
   {
-   "id": "285d41071ac8",
-   "company": "Antares Nuclear",
-   "title": "Software Engineer Intern",
-   "locations": [
-    "Torrance, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/Antares/419ef2df-f0aa-4b68-994a-077e08a959e3/application?embed=true",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-09-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "ec457ffbcfb4",
    "company": "Enterprise Holdings",
    "title": "Software Engineer Intern - Summer 2027",
@@ -48578,41 +47918,6 @@
     "Bachelor's"
    ],
    "level": "undergrad",
-   "date_posted": "2026-09-16",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "d58a0bd9367a",
-   "company": "Antares",
-   "title": "Reactor Software Engineering Intern",
-   "locations": [
-    "Los Angeles, CA"
-   ],
-   "url": "https://go.vansh.nyc/17z",
-   "sources": [
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
    "date_posted": "2026-09-16",
    "deadline": null,
    "deadline_source": null,
@@ -50020,45 +49325,6 @@
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "418340ca97be",
-   "company": "Waymo",
-   "title": "Software Engineering Intern - Commercialization",
-   "locations": [
-    "SF",
-    "Mountain View, CA"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8198218",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-09-14",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -52959,41 +52225,6 @@
    "deadline_passed": false
   },
   {
-   "id": "4651d102ca04",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Vehicle Controls - January - August 2027",
-   "locations": [
-    "Irvine, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-09",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "c98fbe238f84",
    "company": "Dick's Sporting Goods",
    "title": "Software Engineer Intern - Corporate Internship",
@@ -53444,45 +52675,6 @@
    "deadline_passed": false
   },
   {
-   "id": "2ef961a931b5",
-   "company": "Revel",
-   "title": "Embedded Software Engineer Intern",
-   "locations": [
-    "SF",
-    "LA"
-   ],
-   "url": "https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889/application?embed=true",
-   "sources": [
-    "simplify",
-    "vansh"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-09-08",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "275f295a5428",
    "company": "Talos",
    "title": "Software Engineer Intern - RFQ",
@@ -53903,6 +53095,41 @@
    "deadline_passed": false
   },
   {
+   "id": "4651d102ca04",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Vehicle Controls - January - August 2027",
+   "locations": [
+    "Irvine, CA"
+   ],
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/f5aa59d9-4fdc-42d5-931d-efd9e6d96f2f",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-08",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
    "id": "ccdae4d9884d",
    "company": "Ernst & Young",
    "title": "Data and Intelligence Delivery Intern - Assurance",
@@ -54118,76 +53345,6 @@
    "deadline_passed": false
   },
   {
-   "id": "4d6970bc021f",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Applications - Infotainment & Mobile - January - August 2027",
-   "locations": [
-    "Irvine, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "f2bbf742a8c1",
-   "company": "Rivian",
-   "title": "Software Engineering Intern - Connected Systems - January - August 2027",
-   "locations": [
-    "Irvine, CA"
-   ],
-   "url": "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-09-06",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$51/hr",
-   "note": "1 more location(s) on the posting",
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "2cefb4d07ef6",
    "company": "Tesla",
    "title": "Software Engineer Intern - Code Hardening & Framework Resilience - Robotaxi",
@@ -54294,6 +53451,76 @@
    "sponsorship": "Other",
    "pay": null,
    "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "4d6970bc021f",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Applications - Infotainment & Mobile - January - August 2027",
+   "locations": [
+    "Irvine, CA"
+   ],
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/c5c0f2e3-ae78-4ca6-94f8-b6940d3cdb69",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-05",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "1 more location(s) on the posting",
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "f2bbf742a8c1",
+   "company": "Rivian",
+   "title": "Software Engineering Intern - Connected Systems - January - August 2027",
+   "locations": [
+    "Irvine, CA"
+   ],
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/13eeb795-a5dd-4b5a-9b98-808e5ec357c2",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-09-05",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$51/hr",
+   "note": "1 more location(s) on the posting",
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
    "deadline_passed": false
@@ -56624,6 +55851,43 @@
    "deadline_passed": false
   },
   {
+   "id": "1175bbbae3a6",
+   "company": "Textron",
+   "title": "Software Engineer Intern - Electronic Systems",
+   "locations": [
+    "Hunt Valley, Cockeysville, MD"
+   ],
+   "url": "https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342688",
+   "sources": [
+    "simplify"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-09-01",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": null,
+   "note": null,
+   "first_seen": "2026-11-18T07:29:35.078039+00:00",
+   "is_new": true,
+   "deadline_passed": false
+  },
+  {
    "id": "3b27d242a212",
    "company": "Textron",
    "title": "Software Engineer Intern - Crewed Land",
@@ -57944,43 +57208,6 @@
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "1175bbbae3a6",
-   "company": "Textron",
-   "title": "Software Engineer Intern - Electronic Systems",
-   "locations": [
-    "Hunt Valley, Cockeysville, MD"
-   ],
-   "url": "https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=342688",
-   "sources": [
-    "simplify"
-   ],
-   "role": "SWE",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-09-01",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
@@ -59325,43 +58552,6 @@
    ],
    "role": "SWE",
    "term": "Winter 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-28",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "b8214f2ac309",
-   "company": "Analog Devices",
-   "title": "AI/ML Engineer Intern",
-   "locations": [
-    "Wilmington, MA"
-   ],
-   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579",
-   "sources": [
-    "simplify"
-   ],
-   "role": "ML",
-   "term": "Fall 2026",
    "degrees": [
     "Bachelor's"
    ],
@@ -61682,43 +60872,6 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-25T01:53:11.720622+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "71e896aa1662",
-   "company": "Medpace",
-   "title": "Python Intern - Summer 2027",
-   "locations": [
-    "Cincinnati, OH"
-   ],
-   "url": "https://careers.medpace.com/jobs/12962?icims=1",
-   "sources": [
-    "simplify"
-   ],
-   "role": "Other",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-24",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -65072,46 +64225,6 @@
    "deadline_passed": false
   },
   {
-   "id": "b05c18d2f356",
-   "company": "Citadel",
-   "title": "Sector Data Scientist Intern",
-   "locations": [
-    "NYC",
-    "New York City, NY"
-   ],
-   "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
-   "sources": [
-    "page:Citadel",
-    "simplify",
-    "speedyapply:ai"
-   ],
-   "role": "ML",
-   "term": "Summer 2027",
-   "degrees": [
-    "Bachelor's"
-   ],
-   "level": "undergrad",
-   "date_posted": "2026-08-10",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "US",
-   "sponsorship": "Other",
-   "pay": "$125/hr",
-   "note": null,
-   "first_seen": "2026-08-24T00:29:38.503968+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "104b6dc12984",
    "company": "TikTok",
    "title": "Data Engineer Intern - Monetization Data",
@@ -65451,6 +64564,45 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "b05c18d2f356",
+   "company": "Citadel",
+   "title": "Sector Data Scientist Intern",
+   "locations": [
+    "NYC",
+    "New York City, NY"
+   ],
+   "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
+   "sources": [
+    "simplify",
+    "speedyapply:ai"
+   ],
+   "role": "ML",
+   "term": "Summer 2027",
+   "degrees": [
+    "Bachelor's"
+   ],
+   "level": "undergrad",
+   "date_posted": "2026-08-10",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Citadel",
+   "watch_group": "quant",
+   "us": "US",
+   "sponsorship": "Other",
+   "pay": "$125/hr",
+   "note": null,
+   "first_seen": "2026-08-24T00:29:38.503968+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -66063,41 +65215,6 @@
    "deadline_passed": false
   },
   {
-   "id": "852c851b5ddf",
-   "company": "TikTok",
-   "title": "Site Reliability Engineer Intern - Global SRE - 2027 Summer",
-   "locations": [
-    "San Jose, CA"
-   ],
-   "url": "https://lifeattiktok.com/search/7670874691332212997",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-07",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$60/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "1205b5f84993",
    "company": "TikTok",
    "title": "Software Engineer Intern - Media Engine",
@@ -66248,6 +65365,41 @@
    "us": "US",
    "sponsorship": "Other",
    "pay": null,
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "852c851b5ddf",
+   "company": "TikTok",
+   "title": "Site Reliability Engineer Intern - Global SRE - 2027 Summer",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "url": "https://lifeattiktok.com/search/7670874691332212997",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-06",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$60/hr",
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
@@ -69685,76 +68837,6 @@
    "deadline_passed": false
   },
   {
-   "id": "bd1797077bca",
-   "company": "TikTok",
-   "title": "Software Development Engineer Intern - Global E-Commerce-Quality Platform & AI Test Automation - 2027 Summer",
-   "locations": [
-    "Seattle, WA"
-   ],
-   "url": "https://lifeattiktok.com/search/7668837276597127477",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "ML",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$60/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "ae970f887659",
-   "company": "TikTok",
-   "title": "Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer",
-   "locations": [
-    "San Jose, CA"
-   ],
-   "url": "https://lifeattiktok.com/search/7668837275459324213",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "ML",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-08-02",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$60/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "1b8e02e46344",
    "company": "HPR (Hyannis Port Research)",
    "title": "Software Engineer Intern",
@@ -69793,18 +68875,18 @@
    "deadline_passed": false
   },
   {
-   "id": "3ea3b6fad679",
-   "company": "Meta",
-   "title": "Data Engineer Intern - Product Analytics - Summer 2027",
+   "id": "bd1797077bca",
+   "company": "TikTok",
+   "title": "Software Development Engineer Intern - Global E-Commerce-Quality Platform & AI Test Automation - 2027 Summer",
    "locations": [
-    "Menlo Park, CA"
+    "Seattle, WA"
    ],
-   "url": "https://www.metacareers.com/jobs/1373603594867455",
+   "url": "https://lifeattiktok.com/search/7668837276597127477",
    "sources": [
-    "speedyapply:ai"
+    "speedyapply:swe"
    ],
-   "role": "SWE",
-   "term": "Summer 2027",
+   "role": "ML",
+   "term": null,
    "degrees": [],
    "level": "unknown",
    "date_posted": "2026-08-01",
@@ -69817,13 +68899,48 @@
    "eligibility": null,
    "audience": [],
    "seeded": false,
-   "watch": "Meta",
-   "watch_group": "tech",
+   "watch": null,
+   "watch_group": null,
    "us": "US",
    "sponsorship": null,
-   "pay": "$50/hr",
-   "note": "2 more location(s) on the posting",
-   "first_seen": "2026-09-29T18:05:13.917628+00:00",
+   "pay": "$60/hr",
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "ae970f887659",
+   "company": "TikTok",
+   "title": "Software Development Engineer Intern - Global E-Commerce - Quality Platform & AI Test Automation - 2027 Summer",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "url": "https://lifeattiktok.com/search/7668837275459324213",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "ML",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-08-01",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$60/hr",
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -69930,6 +69047,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-11-08T04:02:57.244407+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "3ea3b6fad679",
+   "company": "Meta",
+   "title": "Data Engineer Intern - Product Analytics - Summer 2027",
+   "locations": [
+    "Menlo Park, CA"
+   ],
+   "url": "https://www.metacareers.com/jobs/1373603594867455",
+   "sources": [
+    "speedyapply:ai"
+   ],
+   "role": "SWE",
+   "term": "Summer 2027",
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-31",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": "Meta",
+   "watch_group": "tech",
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$50/hr",
+   "note": "2 more location(s) on the posting",
+   "first_seen": "2026-09-29T18:05:13.917628+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -70186,41 +69338,6 @@
    "deadline_passed": false
   },
   {
-   "id": "deeb58adf719",
-   "company": "TikTok",
-   "title": "Software Development Engineer in Test Intern（TikTok-Testing）- 2027 Summer",
-   "locations": [
-    "San Jose, CA"
-   ],
-   "url": "https://lifeattiktok.com/search/7667934759481526581",
-   "sources": [
-    "speedyapply:swe"
-   ],
-   "role": "SWE",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": "2026-07-30",
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "US",
-   "sponsorship": null,
-   "pay": "$60/hr",
-   "note": null,
-   "first_seen": "2026-11-08T04:02:57.244407+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "1cd6ca74aa30",
    "company": "Virtu Financial",
    "title": "Frontend Developer Internship",
@@ -70256,6 +69373,41 @@
    "pay": null,
    "note": null,
    "first_seen": "2026-08-24T00:29:38.503968+00:00",
+   "is_new": false,
+   "deadline_passed": false
+  },
+  {
+   "id": "deeb58adf719",
+   "company": "TikTok",
+   "title": "Software Development Engineer in Test Intern（TikTok-Testing）- 2027 Summer",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "url": "https://lifeattiktok.com/search/7667934759481526581",
+   "sources": [
+    "speedyapply:swe"
+   ],
+   "role": "SWE",
+   "term": null,
+   "degrees": [],
+   "level": "unknown",
+   "date_posted": "2026-07-29",
+   "deadline": null,
+   "deadline_source": null,
+   "kind": "internship",
+   "status": "open",
+   "event_type": null,
+   "when": null,
+   "eligibility": null,
+   "audience": [],
+   "seeded": false,
+   "watch": null,
+   "watch_group": null,
+   "us": "US",
+   "sponsorship": null,
+   "pay": "$60/hr",
+   "note": null,
+   "first_seen": "2026-11-08T04:02:57.244407+00:00",
    "is_new": false,
    "deadline_passed": false
   },
@@ -77337,138 +76489,6 @@
    "deadline_passed": false
   },
   {
-   "id": "1cfac5c3c5dd",
-   "company": "Citadel",
-   "title": "Operations Analyst - Intern (US) Greenwich, New York Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/operations-analyst-intern-us/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T07:55:29.593865+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "2394ef31656d",
-   "company": "Citadel",
-   "title": "Investment & Trading - Intern (Europe) Amsterdam, London, Paris Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/investment-trading-intern-europe/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-17T07:55:29.593865+00:00",
-   "is_new": true,
-   "deadline_passed": false
-  },
-  {
-   "id": "e38931c35b4a",
-   "company": "Citadel",
-   "title": "Trader: Fixed Income & Macro Rotational Trader - Intern (US) Greenwich, Miami, New York Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/trader-fixed-income-macro-rotational-trader-intern-us/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "QT",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-10-05T05:41:41.110540+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "f4ee4c6076d3",
-   "company": "Citadel",
-   "title": "Sector Data Analyst - Intern (Europe) London Apply Now",
-   "locations": [],
-   "url": "https://www.citadel.com/careers/details/sector-data-analyst-intern-europe/",
-   "sources": [
-    "page:Citadel"
-   ],
-   "role": "Other",
-   "term": null,
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": "Citadel",
-   "watch_group": "quant",
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-01T06:06:04.031929+00:00",
-   "is_new": false,
-   "deadline_passed": false
-  },
-  {
    "id": "1d72e05bc501",
    "company": "Akuna Capital",
    "title": "Quantitative Developer Intern",
@@ -78710,39 +77730,6 @@
    "note": null,
    "first_seen": "2026-11-13T06:46:14.556235+00:00",
    "is_new": false,
-   "deadline_passed": false
-  },
-  {
-   "id": "fc36ee61a4a0",
-   "company": "Wincent",
-   "title": "Quantitative Research Internship - Quant Research/Trading - starting Summer 2027",
-   "locations": [],
-   "url": "https://jobs.ashbyhq.com/wincent/984bf12c-8d80-431f-9789-04a9739cfc99/application",
-   "sources": [
-    "agentreach:web"
-   ],
-   "role": "QR",
-   "term": "Summer 2027",
-   "degrees": [],
-   "level": "unknown",
-   "date_posted": null,
-   "deadline": null,
-   "deadline_source": null,
-   "kind": "internship",
-   "status": "open",
-   "event_type": null,
-   "when": null,
-   "eligibility": null,
-   "audience": [],
-   "seeded": false,
-   "watch": null,
-   "watch_group": null,
-   "us": "unknown",
-   "sponsorship": null,
-   "pay": null,
-   "note": null,
-   "first_seen": "2026-11-18T07:29:35.078039+00:00",
-   "is_new": true,
    "deadline_passed": false
   },
   {
